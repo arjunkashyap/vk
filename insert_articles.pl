@@ -21,8 +21,8 @@ featid varchar(10),
 page varchar(10), 
 page_end varchar(10), 
 volume varchar(3),
-part varchar(5),
-year int(4), 
+part varchar(10),
+year varchar(10), 
 month varchar(2),
 titleid varchar(30), primary key(titleid)) ENGINE=MyISAM");
 $sth11r->execute();

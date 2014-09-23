@@ -15,12 +15,12 @@ authid varchar(200),
 authorname varchar(1000),
 featid varchar(10),
 text varchar(5000),
-page varchar(6),
-page_end varchar(5),
-cur_page varchar(5),
+page varchar(10),
+page_end varchar(10),
+cur_page varchar(10),
 volume varchar(3),
-part varchar(3),
-year int(4),
+part varchar(10),
+year varchar(10),
 month varchar(2),
 titleid varchar(30)) ENGINE=MyISAM");
 $sth11->execute();
@@ -47,7 +47,7 @@ while($ref=$sth1->fetchrow_hashref())
 	$title =~ s/'/\\'/g;
 	$authorname =~ s/'/\\'/g;
 		
-	$sth2=$dbh->prepare("select * from testocr where volume='$volume' and issue='$part' and cur_page between '$page' and '$page_end'");
+	$sth2=$dbh->prepare("select * from testocr where volume='$volume' and part='$part' and cur_page between '$page' and '$page_end'");
 	$sth2->execute();
 	
 	while($ref2=$sth2->fetchrow_hashref())

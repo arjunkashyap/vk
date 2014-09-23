@@ -10,7 +10,7 @@ use DBI();
 my $dbh=DBI->connect("DBI:mysql:database=$db;host=$host","$usr","$pwd");
 
 $sth11=$dbh->prepare("CREATE TABLE testocr(volume varchar(3),
-issue varchar(6),
+part varchar(10),
 cur_page varchar(10),
 text varchar(5000)) ENGINE=MyISAM");
 
