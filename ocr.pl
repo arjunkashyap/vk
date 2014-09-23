@@ -20,7 +20,7 @@ $sth11->finish();
 
 for($i1=0;$i1<@volumes;$i1++)
 {
-	#~ print $volumes[$i1];
+	print $volumes[$i1];
 	chop($volumes[$i1]);
 	
 	@issues = `ls Text/$volumes[$i1]/`;

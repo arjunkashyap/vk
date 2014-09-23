@@ -1905,7 +1905,7 @@
 				<allauthors/>
 			</entry>
 		</part>
-		<part pnum="11_12" month="03_04" year="1917">
+		<part pnum="11-12" month="03-04" year="1917">
 			<entry>
 				<title>Study in Mantra Shastra, A</title>
 				<feature></feature>
@@ -2031,7 +2031,7 @@
 				<allauthors/>
 			</entry>
 		</part>
-		<part pnum="02_03" month="06_07" year="1917">
+		<part pnum="02-03" month="06-07" year="1917">
 			<entry>
 				<title>Gospel of Sri Ramakrishna</title>
 				<feature></feature>
@@ -2375,7 +2375,7 @@
 				<allauthors/>
 			</entry>
 		</part>
-		<part pnum="10_11" month="02_03" year="1918">
+		<part pnum="10-11" month="02-03" year="1918">
 			<entry>
 				<title>Hinduism and Sri Ramakrishna</title>
 				<feature></feature>
@@ -2815,7 +2815,7 @@
 				<allauthors/>
 			</entry>
 		</part>
-		<part pnum="07_08" month="11_12" year="1918">
+		<part pnum="07-08" month="11-12" year="1918">
 			<entry>
 				<title>Meditation</title>
 				<feature></feature>
@@ -2971,7 +2971,7 @@
 				<allauthors/>
 			</entry>
 		</part>
-		<part pnum="11_12" month="03_04" year="1919">
+		<part pnum="11-12" month="03-04" year="1919">
 			<entry>
 				<title>A Study in Mantra Shastra (Vak)</title>
 				<feature></feature>
@@ -3487,7 +3487,7 @@
 				<allauthors/>
 			</entry>
 		</part>
-		<part pnum="09_10" month="01_02" year="1920">
+		<part pnum="09-10" month="01-02" year="1920">
 			<entry>
 				<title>Ramakrishna the Great Master, Sri</title>
 				<feature></feature>
@@ -3753,7 +3753,7 @@
 				<allauthors/>
 			</entry>
 		</part>
-		<part pnum="02_03" month="06_07" year="1920">
+		<part pnum="02-03" month="06-07" year="1920">
 			<entry>
 				<title>Sri Ramakrishna the Great Master</title>
 				<feature></feature>
@@ -5279,7 +5279,7 @@
 				<allauthors/>
 			</entry>
 		</part>
-		<part pnum="06_07" month="10_11" year="1922">
+		<part pnum="06-07" month="10-11" year="1922">
 			<entry>
 				<title>Sri Ramakrishna, The Great Master</title>
 				<feature></feature>
@@ -5431,7 +5431,7 @@
 				<allauthors/>
 			</entry>
 		</part>
-		<part pnum="09_10" month="01_02" year="1923">
+		<part pnum="09-10" month="01-02" year="1923">
 			<entry>
 				<title>The Swami Vivekananda</title>
 				<feature></feature>
@@ -5556,9 +5556,10 @@
 				<title>Reviews</title>
 				<feature></feature>
 				<page>0471-0474</page>				
-				</allauthors>
+				<allauthors/>
 			</entry>
 		</part>
+    </volume>
 	<volume vnum="010">
 		<part pnum="01" month="05" year="1923">
 			<entry>
@@ -5790,7 +5791,7 @@
 			<entry>
 				<title>News and Reports</title>
 				<feature>1006</feature>
-				<page>0629-636</page>
+				<page>0629-0636</page>
 				<allauthors/>
 			</entry>
 		</part>
@@ -7436,7 +7437,7 @@
 				<allauthors/>
 			</entry>
 		</part>
-		<part pnum="09_10" month="01_02" year="1926">
+		<part pnum="09-10" month="01-02" year="1926">
 			<entry>
 				<title>Prayer</title>
 				<feature>1007</feature>
@@ -8000,7 +8001,7 @@
 				<allauthors/>
 			</entry>
 		</part>
-		<part pnum="06_07" month="10_11" year="1926">
+		<part pnum="06-07" month="10-11" year="1926">
 			<entry>
 				<title>Prayer</title>
 				<feature>1007</feature>
@@ -17394,7 +17395,7 @@
 				<allauthors/>
 			</entry>
 		</part>
-		<part pnum="10_11" month="02_03" year="1936">
+		<part pnum="10-11" month="02-03" year="1936">
 			<entry>
 				<title>To The Infant Ramakrishna</title>
 				<feature></feature>
@@ -35568,953 +35569,7 @@
 				<allauthors/>
 			</entry>
 		</part>
-		<part pnum="03" month="08" year="1954">
-			<entry>
-				<title>Saving Succour of the Holy Mother</title>
-				<feature></feature>
-				<page>0081-0082</page>
-				<allauthors/>
-			</entry>
-			<entry>
-				<title>Root-wonders in Ramakrishna-Sarada Mutuality</title>
-				<feature>1008</feature>
-				<page>0082-0085</page>
-				<allauthors>
-					<author>Budhananda, Swami</author>
-				</allauthors>
-			</entry>
-			<entry>
-				<title>Reminiscences of Swami Ramakrishnananda</title>
-				<feature>1005</feature>
-				<page>0085-0090</page>
-				<allauthors>
-					<author>Ramalinga Sastry, P.</author>
-				</allauthors>
-			</entry>
-			<entry>
-				<title>Swami Vivekananda, My Master</title>
-				<feature></feature>
-				<page>0090-0093</page>
-				<allauthors>
-					<author>Sadasivananda, Swami</author>
-				</allauthors>
-			</entry>
-			<entry>
-				<title>Womankind Through the eyes of Sri Ramakrishna - II</title>
-				<feature></feature>
-				<page>0093-0098</page>
-				<allauthors>
-					<author>Vimalananda, Swami</author>
-				</allauthors>
-			</entry>
-			<entry>
-				<title>Great Women in the History of Sanskrit and Prakrit Classical Literature</title>
-				<feature></feature>
-				<page>0098-0102</page>
-				<allauthors>
-					<author>Raghavan, V.</author>
-				</allauthors>
-			</entry>
-			<entry>
-				<title>The Conception of Sakti in Indian Philosophy - II</title>
-				<feature></feature>
-				<page>0102-0106</page>
-				<allauthors>
-					<author>Roma Chaudhuri, Dr.</author>
-				</allauthors>
-			</entry>
-			<entry>
-				<title>Women Saints of Christendom</title>
-				<feature></feature>
-				<page>0106-0109</page>
-				<allauthors>
-					<author>Chenchiah, P.</author>
-				</allauthors>
-			</entry>
-			<entry>
-				<title>Sri Sarada Devi, the Ideal for Work-a-Day Life</title>
-				<feature></feature>
-				<page>0109-0111</page>
-				<allauthors>
-					<author>Premeshananda, Swami</author>
-				</allauthors>
-			</entry>
-			<entry>
-				<title>Mental Runways (Charaiveti)</title>
-				<feature></feature>
-				<page>0111-0113</page>
-				<allauthors>
-					<author>Subandhu</author>
-				</allauthors>
-			</entry>
-			<entry>
-				<title>Pandit Nehru, This Unique Idea of</title>
-				<feature></feature>
-				<page>0113-0114</page>
-				<allauthors/>
-			</entry>
-			<entry>
-				<title>A Fundamental Work of International Cultural Importance</title>
-				<feature></feature>
-				<page>0114-0116</page>
-				<allauthors/>
-			</entry>
-			<entry>
-				<title>Reviews and Notices</title>
-				<feature>1002</feature>
-				<page>0116-0118</page>
-				<allauthors/>
-			</entry>
-			<entry>
-				<title>News and Reports</title>
-				<feature>1006</feature>
-				<page>0118-0120</page>
-				<allauthors/>
-			</entry>
-			<entry>
-				<title>Reminiscences of Swami Ramakrishnananda</title>
-				<feature>1005</feature>
-				<page>0120-0120</page>
-				<allauthors>
-					<author>Rajam Iyer, S.</author>
-				</allauthors>
-			</entry>
-		</part>
-		<part pnum="04" month="09" year="1954">
-			<entry>
-				<title>Saving Succour of the Holy Mother</title>
-				<feature></feature>
-				<page>0121-0122</page>
-				<allauthors/>
-			</entry>
-			<entry>
-				<title>The Ideal of Service in the Life and Teachings of Gautama the Buddha</title>
-				<feature>1008</feature>
-				<page>0122-0126</page>
-				<allauthors>
-					<author>Budhananda, Swami</author>
-				</allauthors>
-			</entry>
-			<entry>
-				<title>Swami Vivekananda, My Master</title>
-				<feature></feature>
-				<page>0126-0128</page>
-				<allauthors>
-					<author>Sadasivananda, Swami</author>
-				</allauthors>
-			</entry>
-			<entry>
-				<title>The Memory of a Day</title>
-				<feature></feature>
-				<page>0128-0130</page>
-				<allauthors>
-					<author>Kuntalini Dasgupta</author>
-				</allauthors>
-			</entry>
-			<entry>
-				<title>Awareness, Cosmic and Individual</title>
-				<feature></feature>
-				<page>0130-0135</page>
-				<allauthors>
-					<author>Kurt F. Leidecker</author>
-				</allauthors>
-			</entry>
-			<entry>
-				<title>Great Women in the History of Sanskrit and Prakrit Classical Literature</title>
-				<feature></feature>
-				<page>0135-0140</page>
-				<allauthors>
-					<author>Raghavan, V.</author>
-				</allauthors>
-			</entry>
-			<entry>
-				<title>Women Saints of Christendom</title>
-				<feature></feature>
-				<page>0140-0143</page>
-				<allauthors>
-					<author>Chenchiah, P.</author>
-				</allauthors>
-			</entry>
-			<entry>
-				<title>Born to Believe, We are</title>
-				<feature></feature>
-				<page>0143-0146</page>
-				<allauthors>
-					<author>Arthur Kline, M.</author>
-				</allauthors>
-			</entry>
-			<entry>
-				<title>Charaiveti - Cause and Purpose</title>
-				<feature></feature>
-				<page>0146-0148</page>
-				<allauthors>
-					<author>Subandhu</author>
-				</allauthors>
-			</entry>
-			<entry>
-				<title>Notes and Comments</title>
-				<feature></feature>
-				<page>0148-0149</page>
-				<allauthors/>
-			</entry>
-			<entry>
-				<title>On Secularity</title>
-				<feature></feature>
-				<page>0149-0150</page>
-				<allauthors/>
-			</entry>
-			<entry>
-				<title>Reviews and Notices</title>
-				<feature>1002</feature>
-				<page>0150-0153</page>
-				<allauthors/>
-			</entry>
-			<entry>
-				<title>News and Reports</title>
-				<feature>1006</feature>
-				<page>0153-0160</page>
-				<allauthors/>
-			</entry>
-		</part>
-		<part pnum="05" month="10" year="1954">
-			<entry>
-				<title>The Salutation to Divine Mother</title>
-				<feature></feature>
-				<page>0161-0162</page>
-				<allauthors/>
-			</entry>
-			<entry>
-				<title>The Ideal of Service in the Life and Teachings of Gautama the Buddha</title>
-				<feature>1008</feature>
-				<page>0162-0165</page>
-				<allauthors>
-					<author>Budhananda, Swami</author>
-				</allauthors>
-			</entry>
-			<entry>
-				<title>The Conception of Sakti in Indian Philosophy - III</title>
-				<feature></feature>
-				<page>0165-0169</page>
-				<allauthors>
-					<author>Roma Chaudhuri, Dr.</author>
-				</allauthors>
-			</entry>
-			<entry>
-				<title>The Holy Mother - The Key to Her Personality</title>
-				<feature></feature>
-				<page>0169-0172</page>
-				<allauthors>
-					<author>Raghava Sastri, T.R.</author>
-				</allauthors>
-			</entry>
-			<entry>
-				<title>Swami Vivekananda, My Master</title>
-				<feature></feature>
-				<page>0172-0173</page>
-				<allauthors>
-					<author>Sadasivananda, Swami</author>
-				</allauthors>
-			</entry>
-			<entry>
-				<title>Gandhian God in a Godless World</title>
-				<feature></feature>
-				<page>0173-0176</page>
-				<allauthors>
-					<author>Anthony Elenjimittam</author>
-				</allauthors>
-			</entry>
-			<entry>
-				<title>Women Saints of Christendom</title>
-				<feature></feature>
-				<page>0176-0177</page>
-				<allauthors>
-					<author>Chenchiah, P.</author>
-				</allauthors>
-			</entry>
-			<entry>
-				<title>Philosphical Basis for Educational Guidance</title>
-				<feature></feature>
-				<page>0177-0184</page>
-				<allauthors>
-					<author>Raju, P.T.</author>
-				</allauthors>
-			</entry>
-			<entry>
-				<title>Vedanta Movement in America</title>
-				<feature></feature>
-				<page>0184-0187</page>
-				<allauthors>
-					<author>Pavitrananda, Swami</author>
-				</allauthors>
-			</entry>
-			<entry>
-				<title>Charaiveti - Humble Learner Tourist</title>
-				<feature></feature>
-				<page>0187-0191</page>
-				<allauthors>
-					<author>Subandhu</author>
-				</allauthors>
-			</entry>
-			<entry>
-				<title>Making Politics of Problems</title>
-				<feature></feature>
-				<page>0191-0192</page>
-				<allauthors/>
-			</entry>
-			<entry>
-				<title>Reviews and Notices</title>
-				<feature>1002</feature>
-				<page>0192-0195</page>
-				<allauthors/>
-			</entry>
-			<entry>
-				<title>News and Reports</title>
-				<feature>1006</feature>
-				<page>0195-0200</page>
-				<allauthors/>
-			</entry>
-		</part>
-		<part pnum="06" month="11" year="1954">
-			<entry>
-				<title>Saving Succour of the Holy Mother</title>
-				<feature></feature>
-				<page>0201-0202</page>
-				<allauthors/>
-			</entry>
-			<entry>
-				<title>The Ideal of Service in the Life and Teachings of Gautama the Buddha</title>
-				<feature>1008</feature>
-				<page>0202-0204</page>
-				<allauthors>
-					<author>Budhananda, Swami</author>
-				</allauthors>
-			</entry>
-			<entry>
-				<title>Contagion of the Holy</title>
-				<feature></feature>
-				<page>0204-0213</page>
-				<allauthors>
-					<author>Dilip Kumar Roy</author>
-				</allauthors>
-			</entry>
-			<entry>
-				<title>Swami Vivekananda, My Master</title>
-				<feature></feature>
-				<page>0213-0215</page>
-				<allauthors>
-					<author>Sadasivananda, Swami</author>
-				</allauthors>
-			</entry>
-			<entry>
-				<title>Personality of Sri Sarada Devi</title>
-				<feature></feature>
-				<page>0215-0221</page>
-				<allauthors>
-					<author>Rukmini, M.A.</author>
-				</allauthors>
-			</entry>
-			<entry>
-				<title>Life Here and Hereafter</title>
-				<feature></feature>
-				<page>0221-0229</page>
-				<allauthors>
-					<author>Satprakashananda, Swami</author>
-				</allauthors>
-			</entry>
-			<entry>
-				<title>On Ramakrishna's Mission Work</title>
-				<feature></feature>
-				<page>0229-0230</page>
-				<allauthors>
-					<author>Rajendra Prasad, Dr.</author>
-				</allauthors>
-			</entry>
-			<entry>
-				<title>Charaiveti - Respectful Approach</title>
-				<feature></feature>
-				<page>0230-0232</page>
-				<allauthors>
-					<author>Subandhu</author>
-				</allauthors>
-			</entry>
-			<entry>
-				<title>Notes and Comments</title>
-				<feature></feature>
-				<page>0232-0233</page>
-				<allauthors/>
-			</entry>
-			<entry>
-				<title>The Passing Away of a Great Sannyasin</title>
-				<feature></feature>
-				<page>0233-0234</page>
-				<allauthors/>
-			</entry>
-			<entry>
-				<title>Learning Religion at Home</title>
-				<feature></feature>
-				<page>0234-0234</page>
-				<allauthors/>
-			</entry>
-			<entry>
-				<title>Reviews and Notices</title>
-				<feature>1002</feature>
-				<page>0234-0236</page>
-				<allauthors/>
-			</entry>
-			<entry>
-				<title>News and Reports</title>
-				<feature>1006</feature>
-				<page>0236-0240</page>
-				<allauthors/>
-			</entry>
-		</part>
-		<part pnum="07" month="12" year="1954">
-			<entry>
-				<title>Hymn to Sri Sarada Devi</title>
-				<feature></feature>
-				<page>0241-0242</page>
-				<allauthors/>
-			</entry>
-			<entry>
-				<title>The Spiritual Ministration of the Holy Mother</title>
-				<feature>1008</feature>
-				<page>0242-0250</page>
-				<allauthors>
-					<author>Budhananda, Swami</author>
-				</allauthors>
-			</entry>
-			<entry>
-				<title>In Memory of Mother Saradamani (Poem)</title>
-				<feature>1001</feature>
-				<page>0250-0251</page>
-				<allauthors>
-					<author>Dilip Kumar Roy</author>
-				</allauthors>
-			</entry>
-			<entry>
-				<title>Reminiscences of Sri Sarada Devi</title>
-				<feature>1005</feature>
-				<page>0251-0253</page>
-				<allauthors>
-					<author>Sadasivananda, Swami</author>
-				</allauthors>
-			</entry>
-			<entry>
-				<title>Sarada-Ideals of Women's Education</title>
-				<feature></feature>
-				<page>0253-0260</page>
-				<allauthors>
-					<author>Naidu, Prof. P.S.</author>
-				</allauthors>
-			</entry>
-			<entry>
-				<title>Two Women Saints of South India</title>
-				<feature></feature>
-				<page>0260-0266</page>
-				<allauthors>
-					<author>Sankaranarayanan, P.</author>
-				</allauthors>
-			</entry>
-			<entry>
-				<title>Contagion of the Holy</title>
-				<feature></feature>
-				<page>0266-0271</page>
-				<allauthors>
-					<author>Dilip Kumar Roy</author>
-				</allauthors>
-			</entry>
-			<entry>
-				<title>Women Characters in the Mahabharata</title>
-				<feature></feature>
-				<page>0271-0273</page>
-				<allauthors>
-					<author>Suniti Bala Gupta</author>
-				</allauthors>
-			</entry>
-			<entry>
-				<title>Charaiveti - Reactions from Deeper Levels</title>
-				<feature></feature>
-				<page>0273-0275</page>
-				<allauthors>
-					<author>Subandhu</author>
-				</allauthors>
-			</entry>
-			<entry>
-				<title>Notes and Comments</title>
-				<feature></feature>
-				<page>0275-0276</page>
-				<allauthors/>
-			</entry>
-			<entry>
-				<title>Orienting an Orientation</title>
-				<feature></feature>
-				<page>0276-0277</page>
-				<allauthors/>
-			</entry>
-			<entry>
-				<title>Reviews and Notices</title>
-				<feature>1002</feature>
-				<page>0277-0279</page>
-				<allauthors/>
-			</entry>
-			<entry>
-				<title>News and Reports</title>
-				<feature>1006</feature>
-				<page>0279-0280</page>
-				<allauthors/>
-			</entry>
-		</part>
-		<part pnum="08" month="01" year="1955">
-			<entry>
-				<title>Saving Succour of the Holy Mother</title>
-				<feature></feature>
-				<page>0281-0282</page>
-				<allauthors/>
-			</entry>
-			<entry>
-				<title>Vivekananda (Poem)</title>
-				<feature>1001</feature>
-				<page>0282-0283</page>
-				<allauthors>
-					<author>Emily J. Cook</author>
-				</allauthors>
-			</entry>
-			<entry>
-				<title>The Ideal of Service in the Religion of Zarathustra</title>
-				<feature>1008</feature>
-				<page>0283-0289</page>
-				<allauthors>
-					<author>Budhananda, Swami</author>
-				</allauthors>
-			</entry>
-			<entry>
-				<title>Seeing Brahman with Open Eyes</title>
-				<feature></feature>
-				<page>0289-0302</page>
-				<allauthors>
-					<author>Siddheswarananda, Swami</author>
-				</allauthors>
-			</entry>
-			<entry>
-				<title>The Sanctifying love of Saradamani Devi</title>
-				<feature></feature>
-				<page>0302-0306</page>
-				<allauthors>
-					<author>Chari, C.T.K.</author>
-				</allauthors>
-			</entry>
-			<entry>
-				<title>Contagion of the Holy</title>
-				<feature></feature>
-				<page>0306-0310</page>
-				<allauthors>
-					<author>Dilip Kumar Roy</author>
-				</allauthors>
-			</entry>
-			<entry>
-				<title>Women Characters in the Mahabharata</title>
-				<feature></feature>
-				<page>0310-0313</page>
-				<allauthors>
-					<author>Suniti Bala Gupta</author>
-				</allauthors>
-			</entry>
-			<entry>
-				<title>Charaiveti - Concept of Rebirth</title>
-				<feature></feature>
-				<page>0313-0315</page>
-				<allauthors>
-					<author>Subandhu</author>
-				</allauthors>
-			</entry>
-			<entry>
-				<title>A Call for a Plunge in Wisdom</title>
-				<feature></feature>
-				<page>0315-0316</page>
-				<allauthors/>
-			</entry>
-			<entry>
-				<title>Making Religion of Politics</title>
-				<feature></feature>
-				<page>0316-0317</page>
-				<allauthors/>
-			</entry>
-			<entry>
-				<title>Reviews and Notices</title>
-				<feature>1002</feature>
-				<page>0317-0319</page>
-				<allauthors/>
-			</entry>
-			<entry>
-				<title>News and Reports</title>
-				<feature>1006</feature>
-				<page>0319-0320</page>
-				<allauthors/>
-			</entry>
-		</part>
-		<part pnum="09" month="02" year="1955">
-			<entry>
-				<title>Saving Succour of the Holy Mother</title>
-				<feature></feature>
-				<page>0321-0322</page>
-				<allauthors/>
-			</entry>
-			<entry>
-				<title>To Ramakrishna (Poem)</title>
-				<feature>1001</feature>
-				<page>0322-0323</page>
-				<allauthors>
-					<author>Emily J. Cook</author>
-				</allauthors>
-			</entry>
-			<entry>
-				<title>The Ideal of Service in Taoism</title>
-				<feature>1008</feature>
-				<page>0323-0329</page>
-				<allauthors>
-					<author>Budhananda, Swami</author>
-				</allauthors>
-			</entry>
-			<entry>
-				<title>Concentration</title>
-				<feature></feature>
-				<page>0329-0334</page>
-				<allauthors>
-					<author>Vivekananda, Swami</author>
-				</allauthors>
-			</entry>
-			<entry>
-				<title>Swami Vivekananda's Ideal of Patriotism</title>
-				<feature></feature>
-				<page>0334-0336</page>
-				<allauthors>
-					<author>Tejasananda, Swami</author>
-				</allauthors>
-			</entry>
-			<entry>
-				<title>The Approach to Sri Ramakrishna from the Point of View of Indian Philosophy</title>
-				<feature></feature>
-				<page>0336-0340</page>
-				<allauthors>
-					<author>Thiagarajan, V.A.</author>
-				</allauthors>
-			</entry>
-			<entry>
-				<title>Contagion of the Holy</title>
-				<feature></feature>
-				<page>0340-0344</page>
-				<allauthors>
-					<author>Dilip Kumar Roy</author>
-				</allauthors>
-			</entry>
-			<entry>
-				<title>Some Leading Ideas of Hindu Thought</title>
-				<feature></feature>
-				<page>0344-0349</page>
-				<allauthors>
-					<author>Raghavan, V.</author>
-				</allauthors>
-			</entry>
-			<entry>
-				<title>Charaiveti - Priests and Diviners</title>
-				<feature></feature>
-				<page>0349-0351</page>
-				<allauthors>
-					<author>Subandhu</author>
-				</allauthors>
-			</entry>
-			<entry>
-				<title>Notes and Comments</title>
-				<feature></feature>
-				<page>0351-0352</page>
-				<allauthors/>
-			</entry>
-			<entry>
-				<title>Depoliticalize Education</title>
-				<feature></feature>
-				<page>0352-0355</page>
-				<allauthors/>
-			</entry>
-			<entry>
-				<title>Reviews and Notices</title>
-				<feature>1002</feature>
-				<page>0355-0357</page>
-				<allauthors/>
-			</entry>
-			<entry>
-				<title>News and Reports</title>
-				<feature>1006</feature>
-				<page>0357-0361</page>
-				<allauthors/>
-			</entry>
-			<entry>
-				<title>Holy Mother Birth Centenary Celebrations in Madras</title>
-				<feature></feature>
-				<page>0361-0380</page>
-				<allauthors/>
-			</entry>
-		</part>
-		<part pnum="10" month="03" year="1955">
-			<entry>
-				<title>Saving Succour of the Holy Mother</title>
-				<feature></feature>
-				<page>0383-0384</page>
-				<allauthors/>
-			</entry>
-			<entry>
-				<title>Planning for the Entire Man, We Require</title>
-				<feature>1008</feature>
-				<page>0384-0387</page>
-				<allauthors>
-					<author>Budhananda, Swami</author>
-				</allauthors>
-			</entry>
-			<entry>
-				<title>Sri Ramakrishna's Spiritual Experiences</title>
-				<feature></feature>
-				<page>0387-0393</page>
-				<allauthors>
-					<author>Nikhilananda, Swami</author>
-				</allauthors>
-			</entry>
-			<entry>
-				<title>Varieties of Vedantic Experiences</title>
-				<feature></feature>
-				<page>0393-0400</page>
-				<allauthors>
-					<author>Srinivasachari, P.N.</author>
-				</allauthors>
-			</entry>
-			<entry>
-				<title>Sri Sarada Devi - A Mother by Nature</title>
-				<feature></feature>
-				<page>0400-0402</page>
-				<allauthors>
-					<author>Satprakashananda, Swami</author>
-				</allauthors>
-			</entry>
-			<entry>
-				<title>Reason and Faith in this Atomic Age</title>
-				<feature></feature>
-				<page>0402-0405</page>
-				<allauthors>
-					<author>Anthony Elenjimittam</author>
-				</allauthors>
-			</entry>
-			<entry>
-				<title>Women Characters in the Mahabharata</title>
-				<feature></feature>
-				<page>0405-0407</page>
-				<allauthors>
-					<author>Suniti Bala Gupta</author>
-				</allauthors>
-			</entry>
-			<entry>
-				<title>A Review of the Twenty-Ninth Indian Philosophical Congress</title>
-				<feature></feature>
-				<page>0407-0411</page>
-				<allauthors>
-					<author>Saraswati Chennakesavan</author>
-				</allauthors>
-			</entry>
-			<entry>
-				<title>Charaiveti - Aids for Reverence</title>
-				<feature></feature>
-				<page>0411-0413</page>
-				<allauthors>
-					<author>Subandhu</author>
-				</allauthors>
-			</entry>
-			<entry>
-				<title>Notes and Comments</title>
-				<feature></feature>
-				<page>0413-0414</page>
-				<allauthors/>
-			</entry>
-			<entry>
-				<title>Reclamation of Waste Humanity in India</title>
-				<feature></feature>
-				<page>0414-0415</page>
-				<allauthors/>
-			</entry>
-			<entry>
-				<title>A Rebuke to Acharya Vinoba</title>
-				<feature></feature>
-				<page>0415-0416</page>
-				<allauthors/>
-			</entry>
-			<entry>
-				<title>Reviews and Notices</title>
-				<feature>1002</feature>
-				<page>0416-0418</page>
-				<allauthors/>
-			</entry>
-			<entry>
-				<title>News and Reports</title>
-				<feature>1006</feature>
-				<page>0418-0423</page>
-				<allauthors/>
-			</entry>
-		</part>
-		<part pnum="11" month="04" year="1955">
-			<entry>
-				<title>Saving Succour of the Holy Mother</title>
-				<feature></feature>
-				<page>0423-0424</page>
-				<allauthors/>
-			</entry>
-			<entry>
-				<title>Wanted a World-saving Satyagraha of the Scientists World over</title>
-				<feature>1008</feature>
-				<page>0424-0433</page>
-				<allauthors>
-					<author>Budhananda, Swami</author>
-				</allauthors>
-			</entry>
-			<entry>
-				<title>Indian Way of Life Lived by The Holy Mother</title>
-				<feature></feature>
-				<page>0433-0434</page>
-				<allauthors>
-					<author>Chandra kumari Handoo</author>
-				</allauthors>
-			</entry>
-			<entry>
-				<title>The Place of Tradition in Sankara's Philosophy</title>
-				<feature></feature>
-				<page>0434-0441</page>
-				<allauthors>
-					<author>Ganananda, Swami</author>
-				</allauthors>
-			</entry>
-			<entry>
-				<title>Women Characters in the Mahabharata</title>
-				<feature></feature>
-				<page>0441-0445</page>
-				<allauthors>
-					<author>Suniti Bala Gupta</author>
-				</allauthors>
-			</entry>
-			<entry>
-				<title>Reason and Faith in this Atomic Age</title>
-				<feature></feature>
-				<page>0445-0451</page>
-				<allauthors>
-					<author>Anthony Elenjimittam</author>
-				</allauthors>
-			</entry>
-			<entry>
-				<title>Navaratri Lectures, Reporting - The Ideal of Womanhood</title>
-				<feature></feature>
-				<page>0451-0451</page>
-				<allauthors>
-					<author>Varadachari, S.</author>
-				</allauthors>
-			</entry>
-			<entry>
-				<title>Navaratri Lectures, Reporting - Woman in the Vedas and Upanishads</title>
-				<feature></feature>
-				<page>0451-0452</page>
-				<allauthors>
-					<author>Murty, M.K.</author>
-				</allauthors>
-			</entry>
-			<entry>
-				<title>Navaratri Lectures, Reporting - Woman in the Ramayana</title>
-				<feature></feature>
-				<page>0452-0452</page>
-				<allauthors>
-					<author>Savitri Ammal</author>
-				</allauthors>
-			</entry>
-			<entry>
-				<title>Navaratri Lectures, Reporting - Woman in the Mahabharata</title>
-				<feature></feature>
-				<page>0452-0453</page>
-				<allauthors>
-					<author>Balasubramania Iyer, K.</author>
-				</allauthors>
-			</entry>
-			<entry>
-				<title>Navaratri Lectures, Reporting - Woman in the Srimad Bhagavata</title>
-				<feature></feature>
-				<page>0453-0453</page>
-				<allauthors>
-					<author>Raghunatha Iyer, N.</author>
-				</allauthors>
-			</entry>
-			<entry>
-				<title>Navaratri Lectures, Reporting - Woman in Sanskrit Literature</title>
-				<feature></feature>
-				<page>0453-0454</page>
-				<allauthors>
-					<author>Venkataraghavachari, V.S.</author>
-				</allauthors>
-			</entry>
-			<entry>
-				<title>Navaratri Lectures, Reporting - Woman Mystics of North India</title>
-				<feature></feature>
-				<page>0454-0455</page>
-				<allauthors>
-					<author>Davey, S.N.</author>
-				</allauthors>
-			</entry>
-			<entry>
-				<title>Navaratri Lectures, Reporting - Woman Mystics of South India</title>
-				<feature></feature>
-				<page>0455-0455</page>
-				<allauthors>
-					<author>Acharya, Sri P.</author>
-				</allauthors>
-			</entry>
-			<entry>
-				<title>Navaratri Lectures, Reporting - The Ideal Woman of Modern India: The Holy Mother</title>
-				<feature></feature>
-				<page>0455-0456</page>
-				<allauthors>
-					<author>Siddhatmananda, Swami</author>
-				</allauthors>
-			</entry>
-			<entry>
-				<title>Charaiveti - Rites and Ceremonies</title>
-				<feature></feature>
-				<page>0456-0458</page>
-				<allauthors>
-					<author>Subandhu</author>
-				</allauthors>
-			</entry>
-			<entry>
-				<title>Notes and Comments</title>
-				<feature></feature>
-				<page>0458-0459</page>
-				<allauthors/>
-			</entry>
-			<entry>
-				<title>For Young Builders of New India</title>
-				<feature></feature>
-				<page>0459-0460</page>
-				<allauthors/>
-			</entry>
-			<entry>
-				<title>The Passing and Coming Years of the Vedanta Kesari</title>
-				<feature></feature>
-				<page>0460-0461</page>
-				<allauthors/>
-			</entry>
-			<entry>
-				<title>Reviews and Notices</title>
-				<feature>1002</feature>
-				<page>0461-0462</page>
-				<allauthors/>
-			</entry>
-			<entry>
-				<title>News and Reports</title>
-				<feature>1006</feature>
-				<page>0462-0470</page>
-				<allauthors/>
-			</entry>
-		</part>
-		<part pnum="12" month="07" year="1954">
+        <part pnum="03" month="07" year="1954">
 			<entry>
 				<title>Invocation to the Motherhood of God</title>
 				<feature></feature>
@@ -37030,7 +36085,954 @@
 			<entry>
 				<title>News and Reports</title>
 				<feature>1006</feature>
-				<page>0198-0000</page>
+				<page>0198-0200</page>
+				<allauthors/>
+			</entry>
+		</part>
+		<part pnum="04" month="08" year="1954">
+			<entry>
+				<title>Saving Succour of the Holy Mother</title>
+				<feature></feature>
+				<page>0081-0082</page>
+				<allauthors/>
+			</entry>
+			<entry>
+				<title>Root-wonders in Ramakrishna-Sarada Mutuality</title>
+				<feature>1008</feature>
+				<page>0082-0085</page>
+				<allauthors>
+					<author>Budhananda, Swami</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Reminiscences of Swami Ramakrishnananda</title>
+				<feature>1005</feature>
+				<page>0085-0090</page>
+				<allauthors>
+					<author>Ramalinga Sastry, P.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Swami Vivekananda, My Master</title>
+				<feature></feature>
+				<page>0090-0093</page>
+				<allauthors>
+					<author>Sadasivananda, Swami</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Womankind Through the eyes of Sri Ramakrishna - II</title>
+				<feature></feature>
+				<page>0093-0098</page>
+				<allauthors>
+					<author>Vimalananda, Swami</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Great Women in the History of Sanskrit and Prakrit Classical Literature</title>
+				<feature></feature>
+				<page>0098-0102</page>
+				<allauthors>
+					<author>Raghavan, V.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>The Conception of Sakti in Indian Philosophy - II</title>
+				<feature></feature>
+				<page>0102-0106</page>
+				<allauthors>
+					<author>Roma Chaudhuri, Dr.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Women Saints of Christendom</title>
+				<feature></feature>
+				<page>0106-0109</page>
+				<allauthors>
+					<author>Chenchiah, P.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Sri Sarada Devi, the Ideal for Work-a-Day Life</title>
+				<feature></feature>
+				<page>0109-0111</page>
+				<allauthors>
+					<author>Premeshananda, Swami</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Mental Runways (Charaiveti)</title>
+				<feature></feature>
+				<page>0111-0113</page>
+				<allauthors>
+					<author>Subandhu</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Pandit Nehru, This Unique Idea of</title>
+				<feature></feature>
+				<page>0113-0114</page>
+				<allauthors/>
+			</entry>
+			<entry>
+				<title>A Fundamental Work of International Cultural Importance</title>
+				<feature></feature>
+				<page>0114-0116</page>
+				<allauthors/>
+			</entry>
+			<entry>
+				<title>Reviews and Notices</title>
+				<feature>1002</feature>
+				<page>0116-0118</page>
+				<allauthors/>
+			</entry>
+			<entry>
+				<title>News and Reports</title>
+				<feature>1006</feature>
+				<page>0118-0120</page>
+				<allauthors/>
+			</entry>
+			<entry>
+				<title>Reminiscences of Swami Ramakrishnananda</title>
+				<feature>1005</feature>
+				<page>0120-0120</page>
+				<allauthors>
+					<author>Rajam Iyer, S.</author>
+				</allauthors>
+			</entry>
+		</part>
+
+		<part pnum="05" month="09" year="1954">
+			<entry>
+				<title>Saving Succour of the Holy Mother</title>
+				<feature></feature>
+				<page>0121-0122</page>
+				<allauthors/>
+			</entry>
+			<entry>
+				<title>The Ideal of Service in the Life and Teachings of Gautama the Buddha</title>
+				<feature>1008</feature>
+				<page>0122-0126</page>
+				<allauthors>
+					<author>Budhananda, Swami</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Swami Vivekananda, My Master</title>
+				<feature></feature>
+				<page>0126-0128</page>
+				<allauthors>
+					<author>Sadasivananda, Swami</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>The Memory of a Day</title>
+				<feature></feature>
+				<page>0128-0130</page>
+				<allauthors>
+					<author>Kuntalini Dasgupta</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Awareness, Cosmic and Individual</title>
+				<feature></feature>
+				<page>0130-0135</page>
+				<allauthors>
+					<author>Kurt F. Leidecker</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Great Women in the History of Sanskrit and Prakrit Classical Literature</title>
+				<feature></feature>
+				<page>0135-0140</page>
+				<allauthors>
+					<author>Raghavan, V.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Women Saints of Christendom</title>
+				<feature></feature>
+				<page>0140-0143</page>
+				<allauthors>
+					<author>Chenchiah, P.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Born to Believe, We are</title>
+				<feature></feature>
+				<page>0143-0146</page>
+				<allauthors>
+					<author>Arthur Kline, M.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Charaiveti - Cause and Purpose</title>
+				<feature></feature>
+				<page>0146-0148</page>
+				<allauthors>
+					<author>Subandhu</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Notes and Comments</title>
+				<feature></feature>
+				<page>0148-0149</page>
+				<allauthors/>
+			</entry>
+			<entry>
+				<title>On Secularity</title>
+				<feature></feature>
+				<page>0149-0150</page>
+				<allauthors/>
+			</entry>
+			<entry>
+				<title>Reviews and Notices</title>
+				<feature>1002</feature>
+				<page>0150-0153</page>
+				<allauthors/>
+			</entry>
+			<entry>
+				<title>News and Reports</title>
+				<feature>1006</feature>
+				<page>0153-0160</page>
+				<allauthors/>
+			</entry>
+		</part>
+		<part pnum="06" month="10" year="1954">
+			<entry>
+				<title>The Salutation to Divine Mother</title>
+				<feature></feature>
+				<page>0161-0162</page>
+				<allauthors/>
+			</entry>
+			<entry>
+				<title>The Ideal of Service in the Life and Teachings of Gautama the Buddha</title>
+				<feature>1008</feature>
+				<page>0162-0165</page>
+				<allauthors>
+					<author>Budhananda, Swami</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>The Conception of Sakti in Indian Philosophy - III</title>
+				<feature></feature>
+				<page>0165-0169</page>
+				<allauthors>
+					<author>Roma Chaudhuri, Dr.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>The Holy Mother - The Key to Her Personality</title>
+				<feature></feature>
+				<page>0169-0172</page>
+				<allauthors>
+					<author>Raghava Sastri, T.R.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Swami Vivekananda, My Master</title>
+				<feature></feature>
+				<page>0172-0173</page>
+				<allauthors>
+					<author>Sadasivananda, Swami</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Gandhian God in a Godless World</title>
+				<feature></feature>
+				<page>0173-0176</page>
+				<allauthors>
+					<author>Anthony Elenjimittam</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Women Saints of Christendom</title>
+				<feature></feature>
+				<page>0176-0177</page>
+				<allauthors>
+					<author>Chenchiah, P.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Philosphical Basis for Educational Guidance</title>
+				<feature></feature>
+				<page>0177-0184</page>
+				<allauthors>
+					<author>Raju, P.T.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Vedanta Movement in America</title>
+				<feature></feature>
+				<page>0184-0187</page>
+				<allauthors>
+					<author>Pavitrananda, Swami</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Charaiveti - Humble Learner Tourist</title>
+				<feature></feature>
+				<page>0187-0191</page>
+				<allauthors>
+					<author>Subandhu</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Making Politics of Problems</title>
+				<feature></feature>
+				<page>0191-0192</page>
+				<allauthors/>
+			</entry>
+			<entry>
+				<title>Reviews and Notices</title>
+				<feature>1002</feature>
+				<page>0192-0195</page>
+				<allauthors/>
+			</entry>
+			<entry>
+				<title>News and Reports</title>
+				<feature>1006</feature>
+				<page>0195-0200</page>
+				<allauthors/>
+			</entry>
+		</part>
+		<part pnum="07" month="11" year="1954">
+			<entry>
+				<title>Saving Succour of the Holy Mother</title>
+				<feature></feature>
+				<page>0201-0202</page>
+				<allauthors/>
+			</entry>
+			<entry>
+				<title>The Ideal of Service in the Life and Teachings of Gautama the Buddha</title>
+				<feature>1008</feature>
+				<page>0202-0204</page>
+				<allauthors>
+					<author>Budhananda, Swami</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Contagion of the Holy</title>
+				<feature></feature>
+				<page>0204-0213</page>
+				<allauthors>
+					<author>Dilip Kumar Roy</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Swami Vivekananda, My Master</title>
+				<feature></feature>
+				<page>0213-0215</page>
+				<allauthors>
+					<author>Sadasivananda, Swami</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Personality of Sri Sarada Devi</title>
+				<feature></feature>
+				<page>0215-0221</page>
+				<allauthors>
+					<author>Rukmini, M.A.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Life Here and Hereafter</title>
+				<feature></feature>
+				<page>0221-0229</page>
+				<allauthors>
+					<author>Satprakashananda, Swami</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>On Ramakrishna's Mission Work</title>
+				<feature></feature>
+				<page>0229-0230</page>
+				<allauthors>
+					<author>Rajendra Prasad, Dr.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Charaiveti - Respectful Approach</title>
+				<feature></feature>
+				<page>0230-0232</page>
+				<allauthors>
+					<author>Subandhu</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Notes and Comments</title>
+				<feature></feature>
+				<page>0232-0233</page>
+				<allauthors/>
+			</entry>
+			<entry>
+				<title>The Passing Away of a Great Sannyasin</title>
+				<feature></feature>
+				<page>0233-0234</page>
+				<allauthors/>
+			</entry>
+			<entry>
+				<title>Learning Religion at Home</title>
+				<feature></feature>
+				<page>0234-0234</page>
+				<allauthors/>
+			</entry>
+			<entry>
+				<title>Reviews and Notices</title>
+				<feature>1002</feature>
+				<page>0234-0236</page>
+				<allauthors/>
+			</entry>
+			<entry>
+				<title>News and Reports</title>
+				<feature>1006</feature>
+				<page>0236-0240</page>
+				<allauthors/>
+			</entry>
+		</part>
+		<part pnum="08" month="12" year="1954">
+			<entry>
+				<title>Hymn to Sri Sarada Devi</title>
+				<feature></feature>
+				<page>0241-0242</page>
+				<allauthors/>
+			</entry>
+			<entry>
+				<title>The Spiritual Ministration of the Holy Mother</title>
+				<feature>1008</feature>
+				<page>0242-0250</page>
+				<allauthors>
+					<author>Budhananda, Swami</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>In Memory of Mother Saradamani (Poem)</title>
+				<feature>1001</feature>
+				<page>0250-0251</page>
+				<allauthors>
+					<author>Dilip Kumar Roy</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Reminiscences of Sri Sarada Devi</title>
+				<feature>1005</feature>
+				<page>0251-0253</page>
+				<allauthors>
+					<author>Sadasivananda, Swami</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Sarada-Ideals of Women's Education</title>
+				<feature></feature>
+				<page>0253-0260</page>
+				<allauthors>
+					<author>Naidu, Prof. P.S.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Two Women Saints of South India</title>
+				<feature></feature>
+				<page>0260-0266</page>
+				<allauthors>
+					<author>Sankaranarayanan, P.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Contagion of the Holy</title>
+				<feature></feature>
+				<page>0266-0271</page>
+				<allauthors>
+					<author>Dilip Kumar Roy</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Women Characters in the Mahabharata</title>
+				<feature></feature>
+				<page>0271-0273</page>
+				<allauthors>
+					<author>Suniti Bala Gupta</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Charaiveti - Reactions from Deeper Levels</title>
+				<feature></feature>
+				<page>0273-0275</page>
+				<allauthors>
+					<author>Subandhu</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Notes and Comments</title>
+				<feature></feature>
+				<page>0275-0276</page>
+				<allauthors/>
+			</entry>
+			<entry>
+				<title>Orienting an Orientation</title>
+				<feature></feature>
+				<page>0276-0277</page>
+				<allauthors/>
+			</entry>
+			<entry>
+				<title>Reviews and Notices</title>
+				<feature>1002</feature>
+				<page>0277-0279</page>
+				<allauthors/>
+			</entry>
+			<entry>
+				<title>News and Reports</title>
+				<feature>1006</feature>
+				<page>0279-0280</page>
+				<allauthors/>
+			</entry>
+		</part>
+		<part pnum="09" month="01" year="1955">
+			<entry>
+				<title>Saving Succour of the Holy Mother</title>
+				<feature></feature>
+				<page>0281-0282</page>
+				<allauthors/>
+			</entry>
+			<entry>
+				<title>Vivekananda (Poem)</title>
+				<feature>1001</feature>
+				<page>0282-0283</page>
+				<allauthors>
+					<author>Emily J. Cook</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>The Ideal of Service in the Religion of Zarathustra</title>
+				<feature>1008</feature>
+				<page>0283-0289</page>
+				<allauthors>
+					<author>Budhananda, Swami</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Seeing Brahman with Open Eyes</title>
+				<feature></feature>
+				<page>0289-0302</page>
+				<allauthors>
+					<author>Siddheswarananda, Swami</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>The Sanctifying love of Saradamani Devi</title>
+				<feature></feature>
+				<page>0302-0306</page>
+				<allauthors>
+					<author>Chari, C.T.K.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Contagion of the Holy</title>
+				<feature></feature>
+				<page>0306-0310</page>
+				<allauthors>
+					<author>Dilip Kumar Roy</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Women Characters in the Mahabharata</title>
+				<feature></feature>
+				<page>0310-0313</page>
+				<allauthors>
+					<author>Suniti Bala Gupta</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Charaiveti - Concept of Rebirth</title>
+				<feature></feature>
+				<page>0313-0315</page>
+				<allauthors>
+					<author>Subandhu</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>A Call for a Plunge in Wisdom</title>
+				<feature></feature>
+				<page>0315-0316</page>
+				<allauthors/>
+			</entry>
+			<entry>
+				<title>Making Religion of Politics</title>
+				<feature></feature>
+				<page>0316-0317</page>
+				<allauthors/>
+			</entry>
+			<entry>
+				<title>Reviews and Notices</title>
+				<feature>1002</feature>
+				<page>0317-0319</page>
+				<allauthors/>
+			</entry>
+			<entry>
+				<title>News and Reports</title>
+				<feature>1006</feature>
+				<page>0319-0320</page>
+				<allauthors/>
+			</entry>
+		</part>
+		<part pnum="10" month="02" year="1955">
+			<entry>
+				<title>Saving Succour of the Holy Mother</title>
+				<feature></feature>
+				<page>0321-0322</page>
+				<allauthors/>
+			</entry>
+			<entry>
+				<title>To Ramakrishna (Poem)</title>
+				<feature>1001</feature>
+				<page>0322-0323</page>
+				<allauthors>
+					<author>Emily J. Cook</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>The Ideal of Service in Taoism</title>
+				<feature>1008</feature>
+				<page>0323-0329</page>
+				<allauthors>
+					<author>Budhananda, Swami</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Concentration</title>
+				<feature></feature>
+				<page>0329-0334</page>
+				<allauthors>
+					<author>Vivekananda, Swami</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Swami Vivekananda's Ideal of Patriotism</title>
+				<feature></feature>
+				<page>0334-0336</page>
+				<allauthors>
+					<author>Tejasananda, Swami</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>The Approach to Sri Ramakrishna from the Point of View of Indian Philosophy</title>
+				<feature></feature>
+				<page>0336-0340</page>
+				<allauthors>
+					<author>Thiagarajan, V.A.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Contagion of the Holy</title>
+				<feature></feature>
+				<page>0340-0344</page>
+				<allauthors>
+					<author>Dilip Kumar Roy</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Some Leading Ideas of Hindu Thought</title>
+				<feature></feature>
+				<page>0344-0349</page>
+				<allauthors>
+					<author>Raghavan, V.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Charaiveti - Priests and Diviners</title>
+				<feature></feature>
+				<page>0349-0351</page>
+				<allauthors>
+					<author>Subandhu</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Notes and Comments</title>
+				<feature></feature>
+				<page>0351-0352</page>
+				<allauthors/>
+			</entry>
+			<entry>
+				<title>Depoliticalize Education</title>
+				<feature></feature>
+				<page>0352-0355</page>
+				<allauthors/>
+			</entry>
+			<entry>
+				<title>Reviews and Notices</title>
+				<feature>1002</feature>
+				<page>0355-0357</page>
+				<allauthors/>
+			</entry>
+			<entry>
+				<title>News and Reports</title>
+				<feature>1006</feature>
+				<page>0357-0361</page>
+				<allauthors/>
+			</entry>
+			<entry>
+				<title>Holy Mother Birth Centenary Celebrations in Madras</title>
+				<feature></feature>
+				<page>0361-0380</page>
+				<allauthors/>
+			</entry>
+		</part>
+		<part pnum="11" month="03" year="1955">
+			<entry>
+				<title>Saving Succour of the Holy Mother</title>
+				<feature></feature>
+				<page>0383-0384</page>
+				<allauthors/>
+			</entry>
+			<entry>
+				<title>We Require Planning for the Entire Man</title>
+				<feature>1008</feature>
+				<page>0384-0387</page>
+				<allauthors>
+					<author>Budhananda, Swami</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Sri Ramakrishna's Spiritual Experiences</title>
+				<feature></feature>
+				<page>0387-0393</page>
+				<allauthors>
+					<author>Nikhilananda, Swami</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Varieties of Vedantic Experiences</title>
+				<feature></feature>
+				<page>0393-0400</page>
+				<allauthors>
+					<author>Srinivasachari, P.N.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Sri Sarada Devi - A Mother by Nature</title>
+				<feature></feature>
+				<page>0400-0402</page>
+				<allauthors>
+					<author>Satprakashananda, Swami</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Reason and Faith in this Atomic Age</title>
+				<feature></feature>
+				<page>0402-0405</page>
+				<allauthors>
+					<author>Anthony Elenjimittam</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Women Characters in the Mahabharata</title>
+				<feature></feature>
+				<page>0405-0407</page>
+				<allauthors>
+					<author>Suniti Bala Gupta</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>A Review of the Twenty-Ninth Indian Philosophical Congress</title>
+				<feature></feature>
+				<page>0407-0411</page>
+				<allauthors>
+					<author>Saraswati Chennakesavan</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Charaiveti - Aids for Reverence</title>
+				<feature></feature>
+				<page>0411-0413</page>
+				<allauthors>
+					<author>Subandhu</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Notes and Comments</title>
+				<feature></feature>
+				<page>0413-0414</page>
+				<allauthors/>
+			</entry>
+			<entry>
+				<title>Reclamation of Waste Humanity in India</title>
+				<feature></feature>
+				<page>0414-0415</page>
+				<allauthors/>
+			</entry>
+			<entry>
+				<title>A Rebuke to Acharya Vinoba</title>
+				<feature></feature>
+				<page>0415-0416</page>
+				<allauthors/>
+			</entry>
+			<entry>
+				<title>Reviews and Notices</title>
+				<feature>1002</feature>
+				<page>0416-0418</page>
+				<allauthors/>
+			</entry>
+			<entry>
+				<title>News and Reports</title>
+				<feature>1006</feature>
+				<page>0418-0423</page>
+				<allauthors/>
+			</entry>
+		</part>
+		<part pnum="12" month="04" year="1955">
+			<entry>
+				<title>Saving Succour of the Holy Mother</title>
+				<feature></feature>
+				<page>0423-0424</page>
+				<allauthors/>
+			</entry>
+			<entry>
+				<title>Wanted a World-saving Satyagraha of the Scientists World over</title>
+				<feature>1008</feature>
+				<page>0424-0433</page>
+				<allauthors>
+					<author>Budhananda, Swami</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Indian Way of Life Lived by The Holy Mother</title>
+				<feature></feature>
+				<page>0433-0434</page>
+				<allauthors>
+					<author>Chandra kumari Handoo</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>The Place of Tradition in Sankara's Philosophy</title>
+				<feature></feature>
+				<page>0434-0441</page>
+				<allauthors>
+					<author>Ganananda, Swami</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Women Characters in the Mahabharata</title>
+				<feature></feature>
+				<page>0441-0445</page>
+				<allauthors>
+					<author>Suniti Bala Gupta</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Reason and Faith in this Atomic Age</title>
+				<feature></feature>
+				<page>0445-0451</page>
+				<allauthors>
+					<author>Anthony Elenjimittam</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Navaratri Lectures, Reporting - The Ideal of Womanhood</title>
+				<feature></feature>
+				<page>0451-0451</page>
+				<allauthors>
+					<author>Varadachari, S.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Navaratri Lectures, Reporting - Woman in the Vedas and Upanishads</title>
+				<feature></feature>
+				<page>0451-0452</page>
+				<allauthors>
+					<author>Murty, M.K.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Navaratri Lectures, Reporting - Woman in the Ramayana</title>
+				<feature></feature>
+				<page>0452-0452</page>
+				<allauthors>
+					<author>Savitri Ammal</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Navaratri Lectures, Reporting - Woman in the Mahabharata</title>
+				<feature></feature>
+				<page>0452-0453</page>
+				<allauthors>
+					<author>Balasubramania Iyer, K.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Navaratri Lectures, Reporting - Woman in the Srimad Bhagavata</title>
+				<feature></feature>
+				<page>0453-0453</page>
+				<allauthors>
+					<author>Raghunatha Iyer, N.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Navaratri Lectures, Reporting - Woman in Sanskrit Literature</title>
+				<feature></feature>
+				<page>0453-0454</page>
+				<allauthors>
+					<author>Venkataraghavachari, V.S.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Navaratri Lectures, Reporting - Woman Mystics of North India</title>
+				<feature></feature>
+				<page>0454-0455</page>
+				<allauthors>
+					<author>Davey, S.N.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Navaratri Lectures, Reporting - Woman Mystics of South India</title>
+				<feature></feature>
+				<page>0455-0455</page>
+				<allauthors>
+					<author>Acharya, Sri P.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Navaratri Lectures, Reporting - The Ideal Woman of Modern India: The Holy Mother</title>
+				<feature></feature>
+				<page>0455-0456</page>
+				<allauthors>
+					<author>Siddhatmananda, Swami</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Charaiveti - Rites and Ceremonies</title>
+				<feature></feature>
+				<page>0456-0458</page>
+				<allauthors>
+					<author>Subandhu</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Notes and Comments</title>
+				<feature></feature>
+				<page>0458-0459</page>
+				<allauthors/>
+			</entry>
+			<entry>
+				<title>For Young Builders of New India</title>
+				<feature></feature>
+				<page>0459-0460</page>
+				<allauthors/>
+			</entry>
+			<entry>
+				<title>The Passing and Coming Years of the Vedanta Kesari</title>
+				<feature></feature>
+				<page>0460-0461</page>
+				<allauthors/>
+			</entry>
+			<entry>
+				<title>Reviews and Notices</title>
+				<feature>1002</feature>
+				<page>0461-0462</page>
+				<allauthors/>
+			</entry>
+			<entry>
+				<title>News and Reports</title>
+				<feature>1006</feature>
+				<page>0462-0470</page>
 				<allauthors/>
 			</entry>
 		</part>
@@ -54218,7 +54220,7 @@
 			<entry>
 				<title>News and Reports</title>
 				<feature>1006</feature>
-				<page>0527-528</page>
+				<page>0527-0528</page>
 				<allauthors/>
 			</entry>
 		</part>
@@ -66952,7 +66954,7 @@
 				<allauthors/>
 			</entry>
 		</part>
-		<part pnum="10_11" month="10_11" year="1978">
+		<part pnum="10-11" month="10-11" year="1978">
 			<entry>
 				<title>Sri Ramakrishna on Mukti</title>
 				<feature></feature>
@@ -68258,7 +68260,7 @@
 				<allauthors/>
 			</entry>
 		</part>
-		<part pnum="11-12" month="11_12" year="1979">
+		<part pnum="11-12" month="11-12" year="1979">
 			<entry>
 				<title>Hymns from the Bhagavata (Translation)</title>
 				<feature>1003</feature>
@@ -70648,7 +70650,7 @@
 				<allauthors/>
 			</entry>
 		</part>
-		<part pnum="11_12" month="11_12" year="1981">
+		<part pnum="11-12" month="11-12" year="1981">
 			<entry>
 				<title>The Upanishad on Yoga</title>
 				<feature></feature>
@@ -71836,7 +71838,7 @@
 				<allauthors/>
 			</entry>
 		</part>
-		<part pnum="11_12" month="11_12" year="1982">
+		<part pnum="11-12" month="11-12" year="1982">
 			<entry>
 				<title>Hymns from the Bhagavata (Translation)</title>
 				<feature>1003</feature>
@@ -73174,7 +73176,7 @@
 				<allauthors/>
 			</entry>
 		</part>
-		<part pnum="11_12" month="11_12" year="1983">
+		<part pnum="11-12" month="11-12" year="1983">
 			<entry>
 				<title>Sri Ramakrishna and Swami Vivekananda on the Gita</title>
 				<feature></feature>
@@ -74450,7 +74452,7 @@
 				<allauthors/>
 			</entry>
 		</part>
-		<part pnum="11_12" month="11_12" year="1984">
+		<part pnum="11-12" month="11-12" year="1984">
 			<entry>
 				<title>Invocation</title>
 				<feature></feature>
@@ -75578,7 +75580,7 @@
 				<allauthors/>
 			</entry>
 		</part>
-		<part pnum="11_12" month="11_12" year="1985">
+		<part pnum="11-12" month="11-12" year="1985">
 			<entry>
 				<title>Flawless Gem, The</title>
 				<feature>1008</feature>
@@ -75742,7 +75744,7 @@
 			<entry>
 				<title>Sri Ramakrishna the Ideal Householder</title>
 				<feature></feature>
-				<page>0484-487</page>
+				<page>0484-0487</page>
 				<allauthors>
 					<author>Gopalakrishnan Nair, Dr. M.R.</author>
 				</allauthors>
@@ -76710,7 +76712,7 @@
 				<allauthors/>
 			</entry>
 		</part>
-		<part pnum="11_12" month="11_12" year="1986">
+		<part pnum="11-12" month="11-12" year="1986">
 			<entry>
 				<title>Invocation (verse from Atharva Veda)</title>
 				<feature></feature>
@@ -77844,7 +77846,7 @@
 				<allauthors/>
 			</entry>
 		</part>
-		<part pnum="11_12" month="11_12" year="1987">
+		<part pnum="11-12" month="11-12" year="1987">
 			<entry>
 				<title>Invocation (Hymn on Swami Vivekananda by Sarat Chandra Chakravarty)</title>
 				<feature></feature>
@@ -78876,7 +78878,7 @@
 				<allauthors/>
 			</entry>
 		</part>
-		<part pnum="11_12" month="11_12" year="1988">
+		<part pnum="11-12" month="11-12" year="1988">
 			<entry>
 				<title>Invocation</title>
 				<feature></feature>
@@ -79914,7 +79916,7 @@
 				<allauthors/>
 			</entry>
 		</part>
-		<part pnum="11_12" month="11_12" year="1989">
+		<part pnum="11-12" month="11-12" year="1989">
 			<entry>
 				<title>Invocation - A Buddhist Prayer</title>
 				<feature></feature>
@@ -80886,7 +80888,7 @@
 				<allauthors/>
 			</entry>
 		</part>
-		<part pnum="11_12" month="11_12" year="1990">
+		<part pnum="11-12" month="11-12" year="1990">
 			<entry>
 				<title>The Song of the Sannyasin</title>
 				<feature></feature>
@@ -80976,7 +80978,7 @@
 			<entry>
 				<title>Monasticism for Indian Woman</title>
 				<feature></feature>
-				<page>0492-501</page>
+				<page>0492-0501</page>
 				<allauthors>
 					<author>Atmaprana, Pravrajika</author>
 				</allauthors>
@@ -81780,7 +81782,7 @@
 				<allauthors/>
 			</entry>
 		</part>
-		<part pnum="11_12" month="11_12" year="1991">
+		<part pnum="11-12" month="11-12" year="1991">
 			<entry>
 				<title>Mahasamadhi of Srimat Swami Tapasyanandaji Maharaj</title>
 				<feature></feature>
@@ -82578,7 +82580,7 @@
 				<allauthors/>
 			</entry>
 		</part>
-		<part pnum="11_12" month="11_12" year="1992">
+		<part pnum="11-12" month="11-12" year="1992">
 			<entry>
 				<title>Service is True Worship</title>
 				<feature></feature>
@@ -83206,7 +83208,7 @@
 				<allauthors/>
 			</entry>
 		</part>
-		<part pnum="08_09" month="08_09" year="1993">
+		<part pnum="08-09" month="08-09" year="1993">
 			<entry>
 				<title>Ramakrishna, Sri, The Harmony Sutra of</title>
 				<feature></feature>
@@ -84364,7 +84366,7 @@
 				<allauthors/>
 			</entry>
 		</part>
-		<part pnum="11_12" month="11_12" year="1994">
+		<part pnum="11-12" month="11-12" year="1994">
 			<entry>
 				<title>Practical Religion (Invocation)</title>
 				<feature></feature>
@@ -85608,7 +85610,7 @@
 				</allauthors>
 			</entry>
 		</part>
-		<part pnum="11_12" month="11_12" year="1995">
+		<part pnum="11-12" month="11-12" year="1995">
 			<entry>
 				<title>Avadhuta Gita (The Song of the Free) (Translation)</title>
 				<feature>1003</feature>
@@ -99948,7 +99950,7 @@
 			<entry>
 				<title>Book Reviews</title>
 				<feature>1002</feature>
-				<page>0241-0000</page>
+				<page>0241-0244</page>
 				<allauthors/>
 			</entry>
 		</part>
@@ -100174,7 +100176,7 @@
 		</part>
 		<part pnum="09" month="09" year="2004">
 			<entry>
-				<title>kaivalyopanishad</title>
+				<title>Kaivalyopanishad</title>
 				<feature></feature>
 				<page>0325-0326</page>
 				<allauthors/>
@@ -100182,10 +100184,16 @@
 			<entry>
 				<title>Heart of the Matter</title>
 				<feature>1008</feature>
-				<page>0326-0331</page>
+				<page>0326-0329</page>
 				<allauthors>
 					<author>Atmashraddhananda, Swami</author>
 				</allauthors>
+			</entry>
+			<entry>
+				<title>Simhavalokanam</title>
+				<feature>1009</feature>
+				<page>0330-0330</page>
+				<allauthors/>
 			</entry>
 			<entry>
 				<title>Memories of Mother</title>
@@ -100198,23 +100206,35 @@
 			<entry>
 				<title>Eternal Message of the Gita, The</title>
 				<feature></feature>
-				<page>0333-0336</page>
+				<page>0333-0335</page>
 				<allauthors>
 					<author>Siddheswarananda, Swami</author>
 				</allauthors>
 			</entry>
 			<entry>
+				<title>Poems</title>
+				<feature>1001</feature>
+				<page>0335-0335</page>
+				<allauthors/>
+			</entry>
+			<entry>
 				<title>Way to Overcome Suffering, The</title>
 				<feature></feature>
-				<page>0336-0340</page>
+				<page>0336-0339</page>
 				<allauthors>
 					<author>Bhuteshananda, Swami</author>
 				</allauthors>
 			</entry>
 			<entry>
+				<title>Letter of Swami Turiyananda, A</title>
+				<feature>1004</feature>
+				<page>0339-0339</page>
+				<allauthors/>
+			</entry>
+			<entry>
 				<title>Indian Culture: Its Heights And Lights</title>
 				<feature></feature>
-				<page>0340-0346</page>
+				<page>0340-0345</page>
 				<allauthors>
 					<author>Tathagatananda, Swami</author>
 				</allauthors>
@@ -100230,16 +100250,10 @@
 			<entry>
 				<title>Non-Dualistic Science, The</title>
 				<feature></feature>
-				<page>0352-0339</page>
+				<page>0352-0357</page>
 				<allauthors>
 					<author>Sandarshanananda, Swami</author>
 				</allauthors>
-			</entry>
-			<entry>
-				<title>Letter of Swami Turiyananda, A</title>
-				<feature>1004</feature>
-				<page>0339-0358</page>
-				<allauthors/>
 			</entry>
 			<entry>
 				<title>The Order on the March</title>
@@ -100251,18 +100265,6 @@
 				<title>Book Reviews</title>
 				<feature>1002</feature>
 				<page>0361-0330</page>
-				<allauthors/>
-			</entry>
-			<entry>
-				<title>Simhavalokanam</title>
-				<feature>1009</feature>
-				<page>0330-0335</page>
-				<allauthors/>
-			</entry>
-			<entry>
-				<title>Poems</title>
-				<feature>1001</feature>
-				<page>0335-0000</page>
 				<allauthors/>
 			</entry>
 		</part>
@@ -100368,7 +100370,7 @@
 		</part>
 		<part pnum="11" month="11" year="2004">
 			<entry>
-				<title>kaivalyopanishad</title>
+				<title>Kaivalyopanishad</title>
 				<feature></feature>
 				<page>0405-0406</page>
 				<allauthors/>
@@ -100452,7 +100454,7 @@
 			<entry>
 				<title>Simhavalokanam</title>
 				<feature>1009</feature>
-				<page>0410-0000</page>
+				<page>0410-0411</page>
 				<allauthors/>
 			</entry>
 		</part>
@@ -103132,7 +103134,7 @@
 			<entry>
 				<title>What They Say</title>
 				<feature></feature>
-				<page>0550-0000</page>
+				<page>0550-0556</page>
 				<allauthors/>
 			</entry>
 		</part>
@@ -104424,7 +104426,7 @@
 			<entry>
 				<title>Ten Commandments for Students From Taittiriya Upanishad</title>
 				<feature></feature>
-				<page>0588-0000</page>
+				<page>0588-0592</page>
 				<allauthors/>
 			</entry>
 		</part>

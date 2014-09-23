@@ -23,7 +23,7 @@ page_end varchar(10),
 volume varchar(3),
 part varchar(10),
 year varchar(10), 
-month varchar(2),
+month varchar(10),
 titleid varchar(30), primary key(titleid)) ENGINE=MyISAM");
 $sth11r->execute();
 $sth11r->finish();
