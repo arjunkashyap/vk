@@ -42,7 +42,7 @@
 				<li><a href="records/features.php"><i class="fa fa-tags"></i>&nbsp;Categories</a></li>
 			</ul>
 			<div class="motif">
-				<img src="images/motif1.jpg">
+				<img src="images/motif.jpg">
 			</div>
 		</div>
 		<div class="archive_holder">
@@ -274,9 +274,11 @@ $db->close();
 	<div class="clearfix"></div>
 </div>
 <div class="foot_box">
-	<div class="right">
-		&copy;The Vedanta Kesari, Sri Ramakrishna Math, Mylapore, Chennai. All Rights Reserved
+	<div class="left">
+		&copy;The Vedanta Kesari, Sri Ramakrishna Math, Mylapore, Chennai.
 	</div>
+	<div class="right">All Rights Reserved</div>
 </div>
 </body>
+
 </html>
