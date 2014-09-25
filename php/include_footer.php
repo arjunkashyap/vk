@@ -4,7 +4,7 @@
 				<ul>
 					<li class="foot_link_span"><a href="../index.php">‣Home</a></li>
 					<li class="foot_link_span"><a href="archive.php">‣Digital Archives</a></li>
-					<li class="foot_link_span"><a href="records/volumes.php">‣Records</a></li>
+					<li class="foot_link_span"><a href="volumes.php">‣Records</a></li>
 					<li class="foot_link_span"><a href="memoirs/volumes.php">‣Memoirs</a></li>					
 				</ul>
 			</div>

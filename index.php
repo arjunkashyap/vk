@@ -12,7 +12,7 @@
 <body>
 <div class="page">
 	<div class="header">
-		<div class="zsi_logo"><img src="php/images/logo.png" alt="ZSI Logo" /></div>
+		<div class="zsi_logo"><img src="php/images/logo.png" alt="Ramakrishna Math Logo" /></div>
 		<div class="title">
 			<p class="eng">
 				<span class="big">Sri Ramakrishna Math,</span><br />
@@ -26,8 +26,8 @@
 		<div class="nav">
 			<ul class="menu">
 				<li><a class="active" href="index.php">Home</a></li>
-				<li><a href="php/about1.php">About</a></li>
-				<li><a href="php/records/volumes.php">Digital Archives</a></li>
+				<li><a href="php/about.php">About</a></li>
+				<li><a href="php/volumes.php">Digital Archives</a></li>
 				<li><a href="php/help.php">Help</a></li>
 			</ul>
 			<div class="clearfix"></div>
@@ -37,10 +37,10 @@
 		<div class="nav">
 			<ul class="menu">
 				<li class="gap_below"><a href="php/search.php"><i class="fa fa-search"></i>&nbsp;&nbsp;Search</a></li>
-				<li><a href="php/records/volumes.php"><i class="fa fa-book"></i>&nbsp;&nbsp;Volumes</a></li>
-				<li><a href="php/records/articles.php"><i class="fa fa-pencil"></i>&nbsp;&nbsp;Articles</a></li>
-				<li><a href="php/records/authors.php"><i class="fa fa-user"></i>&nbsp;&nbsp;Authors</a></li>
-				<li><a href="php/records/features.php"><i class="fa fa-tags"></i>&nbsp;Categories</a></li>
+				<li><a href="php/volumes.php"><i class="fa fa-book"></i>&nbsp;&nbsp;Volumes</a></li>
+				<li><a href="php/articles.php"><i class="fa fa-pencil"></i>&nbsp;&nbsp;Articles</a></li>
+				<li><a href="php/authors.php"><i class="fa fa-user"></i>&nbsp;&nbsp;Authors</a></li>
+				<li><a href="php/features.php"><i class="fa fa-tags"></i>&nbsp;Categories</a></li>
 			</ul>
 			<div class="motif">
 				<img src="php/images/motif.jpg">
@@ -59,8 +59,8 @@
 			<div class="foot_links1">
 				<ul>
 					<li class="foot_link_span"><a href="index.php">‣Home</a></li>
-					<li class="foot_link_span"><a href="php/about1.php">‣About</a></li>
-					<li class="foot_link_span"><a href="php/records/volumes.php">‣Digital Archives</a></li>
+					<li class="foot_link_span"><a href="php/about.php">‣About</a></li>
+					<li class="foot_link_span"><a href="php/volumes.php">‣Digital Archives</a></li>
 				</ul>
 			</div>
 			<div class="foot_right">

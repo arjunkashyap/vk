@@ -4,18 +4,18 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Vedanta Kesari | Digital archives of their Publications</title>
-<link href="../style/reset.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="../style/indexstyle.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="../style/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+<link href="style/reset.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="style/indexstyle.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="style/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 </head>
 
 <body>
 <div class="page">
 	<div class="header">
-		<div class="zsi_logo"><img src="../images/logo.png" alt="ZSI Logo" /></div>
+		<div class="zsi_logo"><img src="images/logo.png" alt="Ramakrishna Math Logo" /></div>
 		<div class="title">
 			<p class="eng">
-				<span class="big">Sri Ramakrishna Math</span><br />
+				<span class="big">Sri Ramakrishna Math,</span><br />
 				<span class="big">Mylapore, Chennai</span><br />
 			</p>
 		    <div class="full">
@@ -28,14 +28,14 @@
 	<div class="mainpage">
 		<div class="nav">
 			<ul class="menu">
-				<li class="gap_below"><a href="../search.php"><i class="fa fa-search"></i>&nbsp;&nbsp;Search</a></li>
+				<li class="gap_below"><a href="search.php"><i class="fa fa-search"></i>&nbsp;&nbsp;Search</a></li>
 				<li><a href="volumes.php"><i class="fa fa-book"></i>&nbsp;&nbsp;Volumes</a></li>
 				<li><a href="articles.php"><i class="fa fa-pencil"></i>&nbsp;&nbsp;Articles</a></li>
 				<li><a href="authors.php"><i class="fa fa-user"></i>&nbsp;&nbsp;Authors</a></li>
 				<li><a href="features.php"><i class="fa fa-tags"></i>&nbsp;Categories</a></li>
 			</ul>
 			<div class="motif">
-				<img src="../images/motif.jpg">
+				<img src="images/motif.jpg">
 			</div>
 		</div>
 		<div class="archive_holder">
@@ -73,7 +73,7 @@
 <?php
 
 include("connect.php");
-require_once("../common.php");
+require_once("common.php");
 
 if(isset($_GET['letter']))
 {
@@ -166,7 +166,7 @@ if($num_rows > 0)
 		if($result3){$result3->free();}
 				
 		echo "<li>";
-		echo "<span class=\"titlespan\"><a target=\"_blank\" href=\"../../Volumes/$volume/$part/index.djvu?djvuopts&amp;page=$page.djvu&amp;zoom=page\">$title</a></span>";
+		echo "<span class=\"titlespan\"><a target=\"_blank\" href=\"../Volumes/$volume/$part/index.djvu?djvuopts&amp;page=$page.djvu&amp;zoom=page\">$title</a></span>";
 		echo "
 		<span class=\"titlespan\">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
 		<span class=\"yearspan\">
@@ -199,18 +199,18 @@ if($num_rows > 0)
 					
 					if($fl == 0)
 					{
-						echo "<span class=\"authorspan\"><a href=\"../auth.php?authid=$aid&amp;author=" . urlencode($authorname) . "\">$authorname</a></span>";
+						echo "<span class=\"authorspan\"><a href=\"auth.php?authid=$aid&amp;author=" . urlencode($authorname) . "\">$authorname</a></span>";
 						$fl = 1;
 					}
 					else
 					{
-						echo "<span class=\"titlespan\">;&nbsp;</span><span class=\"authorspan\"><a href=\"../auth.php?authid=$aid&amp;author=" . urlencode($authorname) . "\">$authorname</a></span>";
+						echo "<span class=\"titlespan\">;&nbsp;</span><span class=\"authorspan\"><a href=\"auth.php?authid=$aid&amp;author=" . urlencode($authorname) . "\">$authorname</a></span>";
 					}
 				}
 				if($result2){$result2->free();}
 			}
 		}
-		//~ echo "<br /><span class=\"downloadspan\"><a href=\"../../Volumes/$volume/$part/index.djvu?djvuopts&amp;page=$page.djvu&amp;zoom=page\" target=\"_blank\">View article</a>&nbsp;|&nbsp;<a href=\"#\">Download article (DjVu)</a>&nbsp;|&nbsp;<a href=\"#\">Download article (PDF)</a></span>";
+		//~ echo "<br /><span class=\"downloadspan\"><a href=\"../Volumes/$volume/$part/index.djvu?djvuopts&amp;page=$page.djvu&amp;zoom=page\" target=\"_blank\">View article</a>&nbsp;|&nbsp;<a href=\"#\">Download article (DjVu)</a>&nbsp;|&nbsp;<a href=\"#\">Download article (PDF)</a></span>";
 
 		echo "</li>\n";
 	}
@@ -229,9 +229,9 @@ $db->close();
 		<div class="foot_links">
 			<div class="foot_links1">
 				<ul>
-					<li class="foot_link_span"><a href="index.php">‣Home</a></li>
-					<li class="foot_link_span"><a href="../about1.php">‣About</a></li>
-					<li class="foot_link_span"><a href="records/volumes.php">‣Digital Archives</a></li>
+					<li class="foot_link_span"><a href="../index.php">‣Home</a></li>
+					<li class="foot_link_span"><a href="about.php">‣About</a></li>
+					<li class="foot_link_span"><a href="volumes.php">‣Digital Archives</a></li>
 				</ul>
 			</div>
 			<div class="foot_right">
