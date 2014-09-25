@@ -23,22 +23,8 @@
 				<p class="small">Lion of Vedanta</p>
 			</div> 
 		</div>
-		<div class="nav">
-			<ul class="menu">
-				<li><a class="active" href="../index.php">Home</a></li>
-				<li>
-					<a href="about1.php">About</a>
-				</li>
-				<li>
-					<a href="records/volumes.php">Digital Archives</a>
-				</li>
-				<li>
-					<a href="../help.html" target="_blank">Help</a>
-				</li>
-			</ul>
-			<div class="clearfix"></div>
-		</div>
-	</div>
+<?php include("include_nav.php");?>
+    </div>
 	<div class="mainpage">
 		<div class="nav">
 			<ul class="menu">

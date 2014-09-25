@@ -239,7 +239,7 @@ html, body {
 	min-height: 68em;
 }
 .mainpage .page_title{
-	margin: 2em 0em 1em 0em;
+	margin: 1em 0em 1em 0em;
 	padding-bottom: 0.5em;
 	font-size: 1.5em;
 	color: #483D8B;
@@ -591,6 +591,13 @@ html, body {
 	color: #3D3D3D;
 	min-height: 48em;
 }
+.about a{
+	color: inherit;
+	text-decoration: inherit;
+}
+.about a:HOVER{
+	text-decoration: underline;
+}
 .about p{
 	padding: 0em 1em 1em 0em;
 	text-align: justify;
@@ -602,6 +609,37 @@ html, body {
 }
 .about ul{
 	margin: 0 0 1em 4em;
+}
+.help{
+	padding: 2em 1em 1em 1em;
+	font-size: 0.80em;
+	border-right: 1px solid #CCCCCC;
+	width: 75%;
+	float: right;
+	color: #3D3D3D;
+	min-height: 48em;
+}
+.help a{
+	color: inherit;
+	text-decoration: inherit;
+}
+.help a:HOVER{
+	text-decoration: underline;
+}
+.help p{
+	padding: 0em 1em 1em 0em;
+	text-align: justify;
+}
+.help .h1{
+	color: #483D8B;
+	font-size: 1em;
+	font-weight: bold;
+}
+.help ul{
+	margin: 0 0 1em 4em;
+}
+.help ul li{
+	list-style-type: decimal;
 }
 .lower_roman li{
 	list-style-type: lower-roman;
@@ -845,15 +883,15 @@ html, body {
 	font-size: 0.9em;
 }
 .helptable tr{
-	border-top: 1px solid #8B0000;;
+	border-top: 1px solid #CCC;;
 }
 .helptable tr:last-of-type{
-	border-bottom: 1px solid #8B0000;;
+	border-bottom: 1px solid #CCC;;
 }
 .hleft{
 	vertical-align: middle;
 	width: 23%;
-	border-right: 1px solid #8B0000;
+	border-right: 1px solid #CCC;
 	padding: 0.5em 1em 0.5em 0.5em;
 	text-align: right;
 }
