@@ -61,6 +61,7 @@
 					<li class="foot_link_span"><a href="index.php">‣Home</a></li>
 					<li class="foot_link_span"><a href="php/about.php">‣About</a></li>
 					<li class="foot_link_span"><a href="php/volumes.php">‣Digital Archives</a></li>
+					<li class="foot_link_span"><a href="php/help.php">‣Help</a></li>
 				</ul>
 			</div>
 			<div class="foot_right">

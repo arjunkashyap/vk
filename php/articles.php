@@ -68,11 +68,9 @@ $db = @new mysqli('localhost', "$user", "$password", "$database");
 if($db->connect_errno > 0)
 {
 	echo '<li>Not connected to the database [' . $db->connect_errno . ']</li>';
-	echo "</ul></div></div>";
-	include("include_footer.php");
-	echo "<div class=\"clearfix\"></div></div>";
-	include("include_footer_out.php");
-	echo "</body></html>";
+	echo "</ul>";
+    echo "</div></div>";
+    include("include_footer.php");
 	exit(1);
 }
 

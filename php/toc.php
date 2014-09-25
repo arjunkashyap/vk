@@ -26,10 +26,7 @@ if($db->connect_errno > 0)
 {
 	echo 'Not connected to the database [' . $db->connect_errno . ']';
 	echo "</div></div>";
-	include("include_footer.php");
-	echo "<div class=\"clearfix\"></div></div>";
-	include("include_footer_out.php");
-	echo "</body></html>";
+    include("include_footer.php");
 	exit(1);
 }
 

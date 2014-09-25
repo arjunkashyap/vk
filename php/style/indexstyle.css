@@ -227,7 +227,7 @@ html, body {
 	width: 75%;
 	float: right;
 	color: #3D3D3D;
-	min-height: 68em;
+	min-height: 40em;
 }
 .mainpage .archive_holder_volume{
 	padding: 2em 1em 1em 1em;
@@ -236,7 +236,7 @@ html, body {
 	width: 75%;
 	float: right;
 	color: #3D3D3D;
-	min-height: 68em;
+	min-height: 40em;
 }
 .mainpage .page_title{
 	margin: 1em 0em 1em 0em;
@@ -589,7 +589,7 @@ html, body {
 	width: 75%;
 	float: right;
 	color: #3D3D3D;
-	min-height: 48em;
+	min-height: 40em;
 }
 .about a{
 	color: inherit;
@@ -617,7 +617,7 @@ html, body {
 	width: 75%;
 	float: right;
 	color: #3D3D3D;
-	min-height: 48em;
+	min-height: 40em;
 }
 .help a{
 	color: inherit;

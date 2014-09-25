@@ -11,9 +11,9 @@ $db = @new mysqli('localhost', "$user", "$password", "$database");
 if($db->connect_errno > 0)
 {
 	echo '<li>Not connected to the database [' . $db->connect_errno . ']</li>';
-	echo "</ul></div></div></div>";
-	echo "<div class=\"clearfix\"></div></div>";
-	echo "</body></html>";
+	echo "</ul></div>";
+	echo "</div></div>";
+    include("include_footer.php");
 	exit(1);
 }
 
