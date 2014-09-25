@@ -109,7 +109,7 @@ if($num_rows > 0)
 		
 		$result3 = $db->query($query3); 
 					
-				$row3 = $result3->fetch_assoc();		
+        $row3 = $result3->fetch_assoc();		
 		$feature=$row3['feat_name'];
 		$dpart = preg_replace("/^0/", "", $part);
 		$dpart = preg_replace("/\-0/", "-", $dpart);

@@ -20,20 +20,18 @@ if($db->connect_errno > 0)
 				<table>
 <?php
 
-//~ $db = mysql_connect("localhost",$user,$password) or die("Not connected to database");
-//~ $rs = mysql_select_db($database,$db) or die("No Database");
-
 echo "<tr>
+	<td class=\"left\"><label for=\"textfield2\" class=\"titlespan\">Title</label></td>
+	<td class=\"right\"><input name=\"title\" type=\"text\" class=\"titlespan wide\" id=\"textfield2\" maxlength=\"150\"/></td>
+</tr>
+<tr>
 	<td class=\"left\"><label for=\"autocomplete\" class=\"titlespan\">Author</label></td>
 	<td class=\"right\"><input name=\"author\" type=\"text\" class=\"titlespan wide\" id=\"autocomplete\" maxlength=\"150\" />";
 	
-$query_ac = "select * from author where type regexp '01|02|03|04|05|06|07|08|09|10|11|12|13' order by authorname";
+$query_ac = "select * from author order by authorname";
 
-$result_ac = $db->query($query_ac); 
+$result_ac = $db->query($query_ac);
 $num_rows_ac = $result_ac ? $result_ac->num_rows : 0;
-
-//~ $result_ac = mysql_query($query_ac);
-//~ $num_rows_ac = mysql_num_rows($result_ac);
 
 echo "<script type=\"text/javascript\">$( \"#autocomplete\" ).autocomplete({source: [ ";
 
@@ -43,7 +41,6 @@ if($num_rows_ac > 0)
 {
 	for($i=1;$i<=$num_rows_ac;$i++)
 	{
-		//~ $row_ac=mysql_fetch_assoc($result_ac);
 		$row_ac = $result_ac->fetch_assoc();
 
 		$authorname=$row_ac['authorname'];
@@ -54,19 +51,92 @@ if($num_rows_ac > 0)
 }
 
 echo "$source_ac ]});</script></td>";
-echo "</tr>
-<tr>
-	<td class=\"left\"><label for=\"textfield2\" class=\"titlespan\">Title</label></td>
-	<td class=\"right\"><input name=\"title\" type=\"text\" class=\"titlespan wide\" id=\"textfield2\" maxlength=\"150\" autocomplete=\"off\"/></td>
-</tr>";
+echo "</tr>";
 
 if($result_ac){$result_ac->free();}
-$db->close();
 ?>
 					<tr>
+                        <td class="left"><label class="titlespan">Category</label></td>
+                        <td class="right">
+                            <select name="featid" class="titlespan wide">
+                                <option value="">&nbsp;</option>
+<?php
+
+$query = "select * from feature where feat_name != '' order by feat_name";
+$result = $db->query($query);
+$num_rows = $result ? $result->num_rows : 0;
+
+if($num_rows > 0)
+{
+    for($i=1;$i<=$num_rows;$i++)
+    {
+        $row = $result->fetch_assoc();
+
+        $feat_name=$row['feat_name'];
+        $featid=$row['featid'];
+        echo "<option value=\"$featid\">" . $feat_name . "</option>";
+    }
+}
+
+if($result){$result->free();}
+
+?>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
 						<td class="left"><label for="textfield3" class="titlespan">Words</label></td>
-						<td class="right"><input name="text" type="text" class="titlespan wide" id="textfield3" maxlength="150" autocomplete="off"/></td>
+						<td class="right"><input name="text" type="text" class="titlespan wide" id="textfield3" maxlength="150"/></td>
 					</tr>
+                    <tr>
+                        <td class="left"><label class="titlespan">Year</label></td>
+                        <td class="right"><select name="year1" class="titlespan">
+                                <option value="">&nbsp;</option>
+<?php
+
+$query = "select distinct year from article order by year";
+$result = $db->query($query);
+$num_rows = $result ? $result->num_rows : 0;
+
+if($num_rows > 0)
+{
+    for($i=1;$i<=$num_rows;$i++)
+    {
+        $row = $result->fetch_assoc();
+
+        $year=$row['year'];
+        echo "<option value=\"$year\">" . $year . "</option>";
+    }
+}
+
+if($result){$result->free();}
+
+?>
+                        </select>
+                        <span class="titlespan" >&nbsp;to&nbsp;</span>
+                        <select name="year2" class="titlespan">
+                            <option value="">&nbsp;</option>
+
+<?php
+$result = $db->query($query);
+$num_rows = $result ? $result->num_rows : 0;
+
+if($num_rows > 0)
+{
+    for($i=1;$i<=$num_rows;$i++)
+    {
+        $row = $result->fetch_assoc();
+
+        $year=$row['year'];
+        echo "<option value=\"$year\">" . $year . "</option>";
+    }
+}
+if($result){$result->free();}
+$db->close();
+?>
+                            </select>
+                        </td>
+                    </tr>
 					<tr>
 						<td class="left">&nbsp;</td>
 						<td class="right">

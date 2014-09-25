@@ -7,8 +7,10 @@
 <link href="style/reset.css" media="screen" rel="stylesheet" type="text/css" />
 <link href="style/indexstyle.css" media="screen" rel="stylesheet" type="text/css" />
 <link href="style/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-</head>
+<link rel="stylesheet" href="style/jquery-ui.css" />
 
+<script type="text/javascript" src="js/jquery-1.9.1.js"></script>
+<script type="text/javascript" src="js/jquery-ui.js"></script></head>
 <body>
 <div class="page">
 	<div class="header">

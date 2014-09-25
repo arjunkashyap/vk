@@ -241,7 +241,7 @@ html, body {
 .mainpage .page_title{
 	margin: 1em 0em 1em 0em;
 	padding-bottom: 0.5em;
-	font-size: 1.5em;
+	font-size: 1.3em;
 	color: #483D8B;
 	width: 80%;
 	border-bottom: 1px solid #483D8B;	
@@ -289,7 +289,7 @@ html, body {
 }
 .archive_search table .left{
 	width: 67px;
-	height: 40px;
+	height: 30px;
 	text-align: right;
 	padding: 1em 2em 1em 0;
 	vertical-align: middle;
@@ -400,6 +400,7 @@ html, body {
 }
 .mainpage .archive_holder ul{
 	margin-left: 2em;
+    line-height: 2em;
 }
 .mainpage .archive_holder ul li{
 	margin-bottom: 1em;
@@ -452,7 +453,6 @@ html, body {
 .count{
 	width: 10em;
 	float: right;
-	margin-top: 3em;
 }
 .footer {
 	width: 100%;
@@ -564,6 +564,9 @@ html, body {
 .big{
 	font-size: 1.2em;
 }
+.sml{
+	font-size: 0.95em;
+}
 .small{
 	font-size: 1em;
 	text-align: left;
@@ -584,7 +587,7 @@ html, body {
 }
 .about{
 	padding: 2em 1em 1em 1em;
-	font-size: 0.80em;
+	font-size: 0.85em;
 	border-right: 1px solid #CCCCCC;
 	width: 75%;
 	float: right;
@@ -612,7 +615,7 @@ html, body {
 }
 .help{
 	padding: 2em 1em 1em 1em;
-	font-size: 0.80em;
+	font-size: 0.85em;
 	border-right: 1px solid #CCCCCC;
 	width: 75%;
 	float: right;
@@ -955,7 +958,4 @@ html, body {
 }
 .nrmargin{
 	margin-right: 0.25em;
-}
-.archive_holder{
-	line-height: 2em;
 }
