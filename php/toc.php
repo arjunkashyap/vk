@@ -13,11 +13,9 @@ if(!(isValidVolume($volume) && isValidPart($part)))
 { 
 	echo "Invalid URL";
 	
-	echo "</div></div>";
-	include("include_footer.php");
-	echo "<div class=\"clearfix\"></div></div>";
-	include("include_footer_out.php");
-	echo "</body></html>";
+	echo "</ul>";
+    echo "</div></div>";
+    include("include_footer.php");
 	exit(1);
 }
 

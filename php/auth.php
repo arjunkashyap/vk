@@ -22,13 +22,11 @@ $authorname = entityReferenceReplace($authorname);
 //~ $authorname = entityReferenceReplace($authorname);
 if(!(isValidAuthid($authid) && isValidAuthor($authorname)))
 {
-	echo "Invalid URL";
+	echo "<li>Invalid URL</li>";
 	
-	echo "</div></div>";
-	include("include_footer.php");
-	echo "<div class=\"clearfix\"></div></div>";
-	include("include_footer_out.php");
-	echo "</body></html>";
+    echo "</ul>";
+    echo "</div></div>";
+    include("include_footer.php");
 	exit(1);
 }
 

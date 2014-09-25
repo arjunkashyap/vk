@@ -45,12 +45,10 @@ if(isset($_GET['letter']))
 	{
 		echo "<li>Invalid URL</li>";
 		
-		echo "</ul></div></div>";
-		include("include_footer.php");
-		echo "<div class=\"clearfix\"></div></div>";
-		include("include_footer_out.php");
-		echo "</body></html>";
-		exit(1);
+		echo "</ul>";
+        echo "</div></div>";
+        include("include_footer.php");
+        exit(1);
 	}
 	
 	if($letter == '')
