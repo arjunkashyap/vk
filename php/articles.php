@@ -63,8 +63,6 @@ else
 	$letter = 'A';
 }
 
-//~ $db = mysql_connect("localhost",$user,$password) or die("Not connected to database");
-//~ $rs = mysql_select_db($database,$db) or die("No Database");
 
 $db = @new mysqli('localhost', "$user", "$password", "$database");
 if($db->connect_errno > 0)
@@ -89,8 +87,6 @@ else
 	$query = "select * from article where title like '$letter%' order by title, volume, part, page";
 }
 
-//~ $result = mysql_query($query);
-//~ $num_rows = mysql_num_rows($result);
 
 $result = $db->query($query); 
 $num_rows = $result ? $result->num_rows : 0;
@@ -99,8 +95,7 @@ if($num_rows > 0)
 {
 	for($i=1;$i<=$num_rows;$i++)
 	{
-		//~ $row=mysql_fetch_assoc($result);
-		$row = $result->fetch_assoc();
+				$row = $result->fetch_assoc();
 		
 		$titleid=$row['titleid'];
 		$title=$row['title'];
@@ -117,10 +112,8 @@ if($num_rows > 0)
 		$query3 = "select feat_name from feature where featid='$featid'";
 		
 		$result3 = $db->query($query3); 
-		//~ $result3 = mysql_query($query3);	
-			
-		//~ $row3=mysql_fetch_assoc($result3);		
-		$row3 = $result3->fetch_assoc();		
+					
+				$row3 = $result3->fetch_assoc();		
 		$feature=$row3['feat_name'];
 		$dpart = preg_replace("/^0/", "", $part);
 		$dpart = preg_replace("/\-0/", "-", $dpart);
@@ -132,7 +125,7 @@ if($num_rows > 0)
 		echo "
 		<span class=\"titlespan\">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
 		<span class=\"yearspan\">
-			<a href=\"toc.php?vol=$volume&amp;part=$part\">".$year."&nbsp;&nbsp;" . $month_name{intval($month)}."&nbsp;;&nbsp;(Volume&nbsp;".intval($volume)."&nbsp;&nbsp;Issue&nbsp;".$dpart.")</a>
+			<a href=\"toc.php?vol=$volume&amp;part=$part\">" . $month_name{intval($month)} ."&nbsp;" . $year ."&nbsp;&nbsp;(Volume&nbsp;".intval($volume).", Issue&nbsp;".$dpart.")</a>
 		</span>";
 		if($feature != "")
 		{

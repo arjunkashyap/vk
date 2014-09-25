@@ -1,4 +1,4 @@
-zsi_logo@font-face {
+@font-face {
   font-family: 'Droid Sans';
   font-style: normal;
   font-weight: 400;
@@ -38,7 +38,7 @@ html, body {
 	clear: both;
 	padding: 0.1em 0 0em 0;
 }
-.header .zsi_logo{
+.header .vk_logo{
 	height:7em;
 	float: left;
 	padding-bottom: 2em;

@@ -12,7 +12,7 @@
 <body>
 <div class="page">
 	<div class="header">
-		<div class="zsi_logo"><img src="images/logo.png" alt="Ramakrishna Math Logo" /></div>
+		<div class="vk_logo"><img src="images/logo.png" alt="Ramakrishna Math Logo" /></div>
 		<div class="title">
 			<p class="eng">
 				<span class="big">Sri Ramakrishna Math,</span><br />

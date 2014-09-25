@@ -72,16 +72,12 @@ if($db->connect_errno > 0)
 	exit(1);
 }
 
-//~ $db = mysql_connect("localhost",$user,$password) or die("Not connected to database");
-//~ $rs = mysql_select_db($database,$db) or die("No Database");
 
 $query = "select * from author where authorname like '$letter%' order by authorname";
 /*
 $query = "select * from author where authorname like '$letter%' order by authorname";
 */
 
-//~ $result = mysql_query($query);
-//~ $num_rows = mysql_num_rows($result);
 
 $result = $db->query($query); 
 $num_rows = $result ? $result->num_rows : 0;
@@ -90,8 +86,7 @@ if($num_rows > 0)
 {
 	for($i=1;$i<=$num_rows;$i++)
 	{
-		//~ $row=mysql_fetch_assoc($result);
-		$row = $result->fetch_assoc();
+				$row = $result->fetch_assoc();
 
 		$authid=$row['authid'];
 		$authorname=$row['authorname'];
@@ -103,7 +98,7 @@ if($num_rows > 0)
 }
 else
 {
-	echo "<li>Sorry! No author names were found to begin with the letter '$letter' in Records of the Indian Museum / ZSI</li>";
+	echo "<li>Sorry! No author names were found to begin with the letter '$letter' in The Vedanta Kesari</li>";
 }
 
 if($result){$result->free();}

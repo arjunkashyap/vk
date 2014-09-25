@@ -18,6 +18,6 @@
 				<li><a href="features.php"><i class="fa fa-tags"></i>&nbsp;Categories</a></li>
 			</ul>
 			<div class="motif">
-				<img src="images/motif.jpg">
+				<img src="images/motif.jpg" alt="Design element">
 			</div>
 		</div>

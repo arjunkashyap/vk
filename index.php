@@ -12,7 +12,7 @@
 <body>
 <div class="page">
 	<div class="header">
-		<div class="zsi_logo"><img src="php/images/logo.png" alt="Ramakrishna Math Logo" /></div>
+		<div class="vk_logo"><img src="php/images/logo.png" alt="Ramakrishna Math Logo" /></div>
 		<div class="title">
 			<p class="eng">
 				<span class="big">Sri Ramakrishna Math,</span><br />
@@ -43,11 +43,11 @@
 				<li><a href="php/features.php"><i class="fa fa-tags"></i>&nbsp;Categories</a></li>
 			</ul>
 			<div class="motif">
-				<img src="php/images/motif.jpg">
+				<img src="php/images/motif.jpg" alt="Design element">
 			</div>
 		</div>
 		<div class="about">
-			<img src="php/images/temple.jpg">
+			<img src="php/images/temple.jpg" alt="Universal temple, Mylapore, Chennai">
 			<div class="page_title">The Vedanta Kesari</div>
 			<p>The Vedanta Kesari, meaning ” Lion of Vedanta”,is a spiritual and cultural monthly in English published from Sri Ramakrishna Math, Chennai. The Vedanta Kesari is one of India’s oldest religious magazines in English in circulation. It has a monthly circulation of nearly 12,000 copies of which 4000 go to public and institutional libraries across India. The magazine has its subscriber-base in 40 countries.</p>
 		<p>In its 98th year, The Vedanta Kesari is one of India’s oldest religious magazines in English in circulation. It has a monthly circulation of nearly 12,000 copies of which 4000 go to public and institutional libraries across India. The magazine has its subscriber-base in 40 countries.The Vedanta Kesari contains articles on Indian spiritual traditions and scriptures, mainly focusing on Vedanta as expounded by Swami Vivekananda, the illustrious disciple of Sri Ramakrishna. The focus of the magazine is to promote a spiritual and matured outlook towards life. It advocates renunciation of selfish desires along with the service to others in a spirit of worshipfulness.

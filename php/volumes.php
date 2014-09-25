@@ -17,18 +17,14 @@ if($db->connect_errno > 0)
 	exit(1);
 }
 
-//~ $db = mysql_connect("localhost",$user,$password) or die("Not connected to database");
-//~ $rs = mysql_select_db($database,$db) or die("No Database");
 
-$row_count = 30;
+$row_count = 25;
 
 $query = "select distinct volume from article order by volume";
 
 $result = $db->query($query); 
 $num_rows = $result ? $result->num_rows : 0;
 
-//~ $result = mysql_query($query);
-//~ $num_rows = mysql_num_rows($result);
 
 $count = 0;
 $col = 1;
@@ -37,23 +33,19 @@ if($num_rows > 0)
 {
 	for($i=1;$i<=$num_rows;$i++)
 	{
-		//~ $row=mysql_fetch_assoc($result);
-		$row = $result->fetch_assoc();
+				$row = $result->fetch_assoc();
 		$volume=$row['volume'];
 
 		$query1 = "select distinct year from article where volume='$volume'";
 		
-		//~ $result1 = mysql_query($query1);
-		//~ $num_rows1 = mysql_num_rows($result1);
-		$result1 = $db->query($query1); 
+						$result1 = $db->query($query1); 
 		$num_rows1 = $result1 ? $result1->num_rows : 0;
 		
 		if($num_rows1 > 0)
 		{
 			for($i1=1;$i1<=$num_rows1;$i1++)
 			{
-				//~ $row1=mysql_fetch_assoc($result1);
-				$row1 = $result1->fetch_assoc();
+								$row1 = $result1->fetch_assoc();
 				
 				if($i1==1)
 				{

@@ -125,9 +125,10 @@ if($num_rows > 0)
 					
 				echo "<li>";
 				echo "<span class=\"titlespan\"><a target=\"_blank\" href=\"Volumes/$volume/$part/index.djvu?djvuopts&amp;page=$page.djvu&amp;zoom=page\">$title</a></span>";
-				echo "<br /><span class=\"featurespan\">
-					<a href=\"toc.php?vol=$volume&amp;part=$part\">".$year."&nbsp" . $month_name{intval($month)}."&nbsp;;&nbsp;(Volume&nbsp;".intval($volume)."&nbsp;&nbsp;Issue&nbsp;".$dpart.")</a>
-				</span>";
+				echo "<span class=\"titlespan\">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+                    <span class=\"yearspan\">
+                        <a href=\"toc.php?vol=$volume&amp;part=$part\">" . $month_name{intval($month)} ."&nbsp;" . $year ."&nbsp;&nbsp;(Volume&nbsp;".intval($volume).", Issue&nbsp;".$dpart.")</a>
+                    </span>";
 				if($feature != "")
 				{
 					echo "<span class=\"titlespan\">&nbsp;&nbsp;|&nbsp;&nbsp;</span><span class=\"featurespan\"><a href=\"feat.php?feature=" . urlencode($feature) . "&amp;featid=$featid\">$feature</a></span>";

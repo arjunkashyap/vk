@@ -34,23 +34,18 @@ if($db->connect_errno > 0)
 }
 
 
-//~ $db = mysql_connect("localhost",$user,$password) or die("Not connected to database");
-//~ $rs = mysql_select_db($database,$db) or die("No Database");
 
 $month_name = array("0"=>"","1"=>"January","2"=>"February","3"=>"March","4"=>"April","5"=>"May","6"=>"June","7"=>"July","8"=>"August","9"=>"September","10"=>"October","11"=>"November","12"=>"December");
 
 $query = "select distinct year,month from article where volume='$volume' and part='$part'";
 
-//~ $result = mysql_query($query);
-//~ $num_rows = mysql_num_rows($result);
 
 $result = $db->query($query); 
 $num_rows = $result ? $result->num_rows : 0;
 
 if($num_rows > 0)
 {
-	//~ $row=mysql_fetch_assoc($result);
-	$row = $result->fetch_assoc();
+		$row = $result->fetch_assoc();
 
 	$month=$row['month'];
 	$year=$row['year'];
@@ -69,15 +64,12 @@ $query1 = "select * from article where volume='$volume' and part='$part' order b
 $result1 = $db->query($query1); 
 $num_rows1 = $result1 ? $result1->num_rows : 0;
 
-//~ $result1 = mysql_query($query1);
-//~ $num_rows1 = mysql_num_rows($result1);
 
 if($num_rows1 > 0)
 {
 	for($i=1;$i<=$num_rows1;$i++)
 	{
-		//~ $row1=mysql_fetch_assoc($result1);
-		$row1 = $result1->fetch_assoc();
+				$row1 = $result1->fetch_assoc();
 
 		$titleid=$row1['titleid'];
 		$title=$row1['title'];
@@ -93,9 +85,7 @@ if($num_rows1 > 0)
 		
 		$query3 = "select feat_name from feature where featid='$featid'";
 		
-		//~ $result3 = mysql_query($query3);		
-		//~ $row3=mysql_fetch_assoc($result3);
-
+				
 		$result3 = $db->query($query3); 
 		$row3 = $result3->fetch_assoc();
 		
@@ -120,16 +110,13 @@ if($num_rows1 > 0)
 			{
 				$query2 = "select * from author where authid=$aid";
 
-				//~ $result2 = mysql_query($query2);
-				//~ $num_rows2 = mysql_num_rows($result2);
-
+								
 				$result2 = $db->query($query2); 
 				$num_rows2 = $result2 ? $result2->num_rows : 0;
 
 				if($num_rows2 > 0)
 				{
-					//~ $row2=mysql_fetch_assoc($result2);
-					$row2 = $result2->fetch_assoc();
+										$row2 = $result2->fetch_assoc();
 					
 					$authorname=$row2['authorname'];
 

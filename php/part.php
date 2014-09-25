@@ -33,12 +33,8 @@ if($db->connect_errno > 0)
 	exit(1);
 }
 
-//~ $db = mysql_connect("localhost",$user,$password) or die("Not connected to database");
-//~ $rs = mysql_select_db($database,$db) or die("No Database");
-
-echo "<div class=\"page_title\"><i class='fa fa-book fa-1x'></i>&nbsp;&nbsp;".$year."&nbsp;&nbsp;(Volume".intval($volume).")</div>";
+echo "<div class=\"page_title\"><i class='fa fa-book fa-1x'></i>&nbsp;&nbsp;".$year."&nbsp;(Volume&nbsp;".intval($volume).")</div>";
 ?>
-
 			<div class="col1">
 				<ul>
 
@@ -52,9 +48,6 @@ $query = "select distinct part from article where volume='$volume' order by part
 $result = $db->query($query); 
 $num_rows = $result ? $result->num_rows : 0;
 
-//~ $result = mysql_query($query);
-//~ $num_rows = mysql_num_rows($result);
-
 $count = 0;
 $col = 1;
 
@@ -62,54 +55,17 @@ if($num_rows > 0)
 {
 	for($i=1;$i<=$num_rows;$i++)
 	{
-		//~ $row=mysql_fetch_assoc($result);
 		$row = $result->fetch_assoc();
 		
 		$part=$row['part'];
 		
-		$query11 = "select min(page) as minpage from article where volume='$volume' and part='$part'";
-		
-		//~ $result11 = mysql_query($query11);
-		//~ $num_rows11 = mysql_num_rows($result11);
-		$result11 = $db->query($query11); 
-		$num_rows11 = $result11 ? $result11->num_rows : 0;
-
-		
-		if($num_rows11 > 0)
-		{
-			//~ $row11=mysql_fetch_assoc($result11);
-			$row11 = $result11->fetch_assoc();
-			$page_start = $row11['minpage'];
-			$page_start = intval($page_start);
-		}
-		if($result11){$result11->free();}
-
-		$query12 = "select max(page_end) as maxpage from article where volume='$volume' and part='$part'";
-		
-		//~ $result12 = mysql_query($query12);
-		//~ $num_rows12 = mysql_num_rows($result12);
-		$result12 = $db->query($query12); 
-		$num_rows12 = $result12 ? $result12->num_rows : 0;
-		
-		if($num_rows12 > 0)
-		{
-			//~ $row12=mysql_fetch_assoc($result12);
-			$row12 = $result12->fetch_assoc();
-			$page_end = $row12['maxpage'];
-			$page_end = intval($page_end);
-		}
-		if($result12){$result12->free();}
-
 		$query1 = "select distinct month from article where volume='$volume' and part='$part' order by month";
 
-		//~ $result1 = mysql_query($query1);
-		//~ $num_rows1 = mysql_num_rows($result1);
 		$result1 = $db->query($query1); 
 		$num_rows1 = $result1 ? $result1->num_rows : 0;
 
 		if($num_rows1 > 0)
 		{
-			//~ $row1=mysql_fetch_assoc($result1);
 			$row1 = $result1->fetch_assoc();
 			$month = $row1['month'];
 
@@ -117,21 +73,19 @@ if($num_rows > 0)
 			if($count > $row_count)
 			{
 				$col++;
-				echo "</div>\n
-				<div class=\"col$col\">";
-				echo "<ul>";
+				echo "</ul></div>\n<div class=\"col$col\">\n<ul>";
 				$count = 1;
 			}
 			
 			$dpart = preg_replace("/^0/", "", $part);
 			$dpart = preg_replace("/\-0/", "-", $dpart);
 			
-			echo "<li class=\"li_below\"><span class=\"yearspan\"><a href=\"toc.php?vol=$volume&amp;part=$part\">Issue&nbsp;".$dpart;
+			echo "<li class=\"li_below\"><span class=\"yearspan\"><a href=\"toc.php?vol=$volume&amp;part=$part\">".$month_name{intval($month)};
 			if(intval($month) != 0)
 			{
-				echo "&nbsp;(".$month_name{intval($month)}.")";
+				echo "&nbsp;(Issue&nbsp;".$dpart.")";
 			}
-			echo "<br /></a></span></li>";
+			echo "</a></span></li>";
 		}
 		if($result1){$result1->free();}
 	}

@@ -2,8 +2,8 @@
 <?php include("include_nav.php");?>
 		<div class="about">
 			<div class="page_title">The Vedanta Kesari: Genesis and evolution</div>
-			<img class="about_image" src="images/1914.jpg">
-			<img class="about_image" src="images/2013.jpg">
+			<img class="about_image" src="images/1914.jpg" alt="First issue - Cover page">
+			<img class="about_image" src="images/2013.jpg" alt="Latest issue - Cover page">
 			<p class="h1">Background &amp; Inspiration</p>
 			<p>Under the inspiration of Swami Vivekananda, a group of his disciples in Madras, including G. Venkataranga Rao, M.C. Nanjunda Rao and Alasinga Perumal, started on 14 September 1895 a monthly journal bearing the title Brahmavadin. It continued to be brought out regularly for 14 years, until Alasinga’s demise in 1909. From 1909 to 1914, the publication of Brahmavadin became quite irregular. The last issue was brought out in 1914 (March-April).  Soon after, the Brahmavadin’s legacy was continued by a new journal, The Vedanta Kesari, started by Sri Ramakrishna Math Chennai, and has been in circulation ever since.
 			   In its 98th year, The Vedanta Kesari is one of India’s oldest religious magazines in English in circulation. It has a monthly circulation of nearly 12,000 copies of which 4000 go to public and institutional libraries across India. The magazine has its subscriber-base in 40 countries.

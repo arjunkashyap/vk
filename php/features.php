@@ -19,23 +19,18 @@ if($db->connect_errno > 0)
 	exit(1);
 }
 
-//~ $db = mysql_connect("localhost",$user,$password) or die("Not connected to database");
-//~ $rs = mysql_select_db($database,$db) or die("No Database");
 
 $query = "select * from feature order by feat_name";
 
 $result = $db->query($query); 
 $num_rows = $result ? $result->num_rows : 0;
 
-//~ $result = mysql_query($query);
-//~ $num_rows = mysql_num_rows($result);
 
 if($num_rows > 0)
 {
 	for($i=1;$i<=$num_rows;$i++)
 	{
-		//~ $row=mysql_fetch_assoc($result);
-		$row = $result->fetch_assoc();
+				$row = $result->fetch_assoc();
 		
 		$feat_name=$row['feat_name'];
 		$featid=$row['featid'];
