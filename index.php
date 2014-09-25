@@ -65,10 +65,12 @@
 			</div>
 			<div class="foot_right">
 				<span class="big">Sri Ramakrishna Math</span>
-				<p>	31 Ramakrishna Math Road,<br>
-					Mylapore, Chennai 600004,India<br>
-					Email: mail@chennaimath.org<br>
-					<i class="fa fa-phone-square"></i>&nbsp; 044-24621110<br>
+				<p>
+                    31 Ramakrishna Math Road,<br />
+                    Mylapore, Chennai 600004,India<br />
+					Email: mail@chennaimath.org<br />
+					<i class="fa fa-phone-square"></i>&nbsp; 044-24621110
+                </p>
 			</div>
 		</div>
 	</div>

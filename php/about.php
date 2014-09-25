@@ -51,32 +51,9 @@
 			   Since 1978, the magazine has been regularly bringing out an annual number dedicated to a theme (Usually the December issue). Some of its popular theme-based issues published so far are: Yoga and its Aspects, Values for the Present Age, Globalization, Religion Today, Culture and Civilization, Channeling Youth Power, Nurturing Inter – personal Relationship, Upanishads in Daily Life, Facets of Freedom (December 2010 Issue), Joy of Spirituality (December 2011 Issue), etc. Many of these numbers have later been made into books and published by Sri Ramakrishna Math, Chennai.</p>
 		</div>
 	</div>
-    <div class="footer">
-		<div class="foot_links">
-			<div class="foot_links1">
-				<ul>
-					<li class="foot_link_span"><a href="../index.php">‣Home</a></li>
-					<li class="foot_link_span"><a href="about.php">‣About</a></li>
-					<li class="foot_link_span"><a href="volumes.php">‣Digital Archives</a></li>
-				</ul>
-			</div>
-			<div class="foot_right">
-				<span class="big">Sri Ramakrishna Math</span>
-				<p>	31 Ramakrishna Math Road,<br>
-					Mylapore, Chennai 600004,India<br>
-					Email: mail@chennaimath.org<br>
-					<i class="fa fa-phone-square"></i>&nbsp; 044-24621110<br>
-			</div>
-		</div>
-	</div>
-	<div class="clearfix"></div>
-</div>
-<div class="foot_box">
-	<div class="left">
-		&copy;The Vedanta Kesari, Sri Ramakrishna Math, Mylapore,  Chennai.
-	</div>
-	<div class="right">All Rights Reserved</div>
-</div>
+    
+<?php include("include_footer.php");?>
+
 </body>
 
 </html>
