@@ -1,28 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Vedanta Kesari | Digital archives of their Publications</title>
-<link href="style/reset.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="style/indexstyle.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="style/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-</head>
-
-<body>
-<div class="page">
-	<div class="header">
-		<div class="zsi_logo"><img src="images/logo.png" alt="Ramakrishna Math Logo" /></div>
-		<div class="title">
-			<p class="eng">
-				<span class="big">Sri Ramakrishna Math,</span><br />
-				<span class="big">Mylapore, Chennai</span><br />
-			</p>
-		    <div class="full">
-				<p class="vbig">The Vedanta Kesari</p>
-				<p class="small">Lion of Vedanta</p>
-			</div> 
-		</div>
+<?php include("include_header.php");?>
 <?php include("include_nav.php");
 include("connect.php");
 require_once("common.php");
@@ -32,20 +8,6 @@ if(isset($_GET['author'])){$authorname = $_GET['author'];}else{$authorname = '';
 
 $authorname = entityReferenceReplace($authorname);
 ?>
-	</div>
-	<div class="mainpage">
-		<div class="nav">
-			<ul class="menu">
-				<li class="gap_below"><a href="search.php"><i class="fa fa-search"></i>&nbsp;&nbsp;Search</a></li>
-				<li><a href="volumes.php"><i class="fa fa-book"></i>&nbsp;&nbsp;Volumes</a></li>
-				<li><a href="articles.php"><i class="fa fa-pencil"></i>&nbsp;&nbsp;Articles</a></li>
-				<li><a href="authors.php"><i class="fa fa-user"></i>&nbsp;&nbsp;Authors</a></li>
-				<li><a href="features.php"><i class="fa fa-tags"></i>&nbsp;Categories</a></li>
-			</ul>
-			<div class="motif">
-				<img src="images/motif.jpg">
-			</div>
-		</div>
 		<div class="archive_holder">
 		<?php echo "<div class=\"page_title\"><i class=\"fa fa-user fa-1x\"></i>&nbsp;&nbsp;Articles written by $authorname</div>";?>
 			<ul class="dot">
@@ -189,7 +151,3 @@ $db->close();
 	</div>
     
 <?php include("include_footer.php");?>
-
-</body>
-
-</html>

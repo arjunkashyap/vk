@@ -26,3 +26,5 @@
 	</div>
 	<div class="right">All Rights Reserved</div>
 </div>
+</body>
+</html>
