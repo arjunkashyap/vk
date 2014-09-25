@@ -1,0 +1,3 @@
+ErrorDocument 403 /vk/403text.html
+ErrorDocument 404 /vk/404text.html
+ErrorDocument 405 /vk/405text.html
