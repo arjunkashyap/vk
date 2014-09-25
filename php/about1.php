@@ -51,7 +51,7 @@
 			   Since 1978, the magazine has been regularly bringing out an annual number dedicated to a theme (Usually the December issue). Some of its popular theme-based issues published so far are: Yoga and its Aspects, Values for the Present Age, Globalization, Religion Today, Culture and Civilization, Channeling Youth Power, Nurturing Inter – personal Relationship, Upanishads in Daily Life, Facets of Freedom (December 2010 Issue), Joy of Spirituality (December 2011 Issue), etc. Many of these numbers have later been made into books and published by Sri Ramakrishna Math, Chennai.</p>
 		</div>
 	</div>
-<div class="footer">
+    <div class="footer">
 		<div class="foot_links">
 			<div class="foot_links1">
 				<ul>

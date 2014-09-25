@@ -23,22 +23,8 @@
 				<p class="small">Lion of Vedanta</p>
 			</div> 
 		</div>
-		<div class="nav">
-			<ul class="menu">
-				<li><a class="active" href="index.php">Home</a></li>
-				<li>
-					<a href="about1.php">About</a>
-				</li>
-				<li>
-					<a href="records/volumes.php">Digital Archives</a>
-				</li>
-				<li>
-					<a href="Regional_Centres/help.djvu?djvuopts&amp;zoom=page" target="_blank">Help</a>
-				</li>
-			</ul>
-			<div class="clearfix"></div>
-		</div>
-	</div>
+<?php include("include_nav.php");?>
+    </div>
 	<div class="mainpage">
 		<div class="nav">
 			<ul class="menu">
@@ -157,12 +143,12 @@
             </table>
 		</div>
 	</div>
-       <div class="footer">
+    <div class="footer">
 		<div class="foot_links">
 			<div class="foot_links1">
 				<ul>
 					<li class="foot_link_span"><a href="index.php">‣Home</a></li>
-					<li class="foot_link_span"><a href="../about1.php">‣About</a></li>
+					<li class="foot_link_span"><a href="about1.php">‣About</a></li>
 					<li class="foot_link_span"><a href="records/volumes.php">‣Digital Archives</a></li>
 				</ul>
 			</div>
@@ -170,6 +156,7 @@
 				<span class="big">Sri Ramakrishna Math</span>
 				<p>	31 Ramakrishna Math Road,<br>
 					Mylapore, Chennai 600004,India<br>
+					Email: mail@chennaimath.org<br>
 					<i class="fa fa-phone-square"></i>&nbsp; 044-24621110<br>
 			</div>
 		</div>
@@ -178,10 +165,11 @@
 </div>
 <div class="foot_box">
 	<div class="left">
-		&copy;The Vedanta Kesari, Sri Ramakrishna Math, Mylapore, Chennai.
+		&copy;The Vedanta Kesari, Sri Ramakrishna Math, Mylapore,  Chennai.
 	</div>
 	<div class="right">All Rights Reserved</div>
 </div>
 </body>
 
 </html>
+
