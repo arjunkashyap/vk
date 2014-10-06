@@ -66,6 +66,10 @@ if($author=='')
 {
 	$author='[a-z]*';
 }
+if($featid=='')
+{
+	$featid='[a-z]*';
+}
 
 ($year1 == '') ? $year1 = 1914 : $year1 = $year1;
 ($year2 == '') ? $year2 = date('Y') : $year2 = $year2;
@@ -131,6 +135,7 @@ elseif($text!='')
             WHERE year between $year1 and $year2 ORDER BY volume, part, cur_page";
 }
 
+echo $query;
 $result = $db->query($query); 
 $num_results = $result ? $result->num_rows : 0;
 
