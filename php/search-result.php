@@ -135,7 +135,6 @@ elseif($text!='')
             WHERE year between $year1 and $year2 ORDER BY volume, part, cur_page";
 }
 
-echo $query;
 $result = $db->query($query); 
 $num_results = $result ? $result->num_rows : 0;
 
