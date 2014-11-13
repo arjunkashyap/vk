@@ -42,6 +42,9 @@ Modules - reusable parts of our design
   max-width: 768px;
   margin: 0 auto;
 }
+.cd-container h1{
+  color: #3d3536;
+}
 .cd-container::after {
   /* clearfix */
   content: '';
@@ -75,6 +78,17 @@ Main components
 }
 .cd-header #cd-logo img {
   display: block;
+  height: 80px;
+  float: left;
+}
+.cd-header #cd-logo span {
+  display: inline-block;
+  padding: .6em 1em;
+  border-top: none;
+  color: #3d3536;
+  font-weight: bold;
+  font-size: 14px;
+  font-size: 0.875rem;
 }
 @media only screen and (min-width: 768px) {
   .cd-header {
