@@ -39,8 +39,10 @@ Modules - reusable parts of our design
 .cd-container {
   /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
   width: 90%;
-  max-width: 768px;
+  max-width: 900px;
   margin: 0 auto;
+  font-size: 20px;
+  line-height: 1.75;
 }
 .cd-container h1{
   color: #3d3536;
@@ -193,13 +195,13 @@ Main components
   min-height: 100%;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center top;
   z-index: 1;
 }
-.cd-fixed-bg h1, .cd-fixed-bg h2 {
+.banner{
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 27.5%;
   bottom: auto;
   right: auto;
   -webkit-transform: translateX(-50%) translateY(-50%);
@@ -209,14 +211,54 @@ Main components
   transform: translateX(-50%) translateY(-50%);
   width: 90%;
   max-width: 1170px;
-  text-align: center;
-  font-size: 30px;
-  font-size: 1.875rem;
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
-  color: white;
+  text-align: right;
+  padding-right: 20px;
 }
+.banner_background{
+  position: absolute;
+  left: 50%;
+  top: 27.5%;
+  bottom: auto;
+  right: auto;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  width: 90%;
+  max-width: 1170px;
+  text-align: right;
+  background-color: black;
+  opacity: 0.4;
+  min-height: 100px;
+}
+
+.banner h1 {
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 1.5;
+  color: white;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+} 
+.banner h2 {
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 1.5;
+  color: white;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.cd-container h1 {
+  font-size: 30px;
+  color: #3372df;
+} 
+
+.cd-container p {
+  margin: 20px 0;
+}
+
 .cd-fixed-bg.cd-bg-1 {
-  background-image: url("../img/cd-background-1.jpg");
+  background-image: url("../img/img8.jpg");
 }
 .cd-fixed-bg.cd-bg-2 {
   background-image: url("../img/cd-background-2.jpg");
@@ -228,17 +270,27 @@ Main components
   background-image: url("../img/cd-background-4.jpg");
 }
 @media only screen and (min-width: 768px) {
-  .cd-fixed-bg h1, .cd-fixed-bg h2 {
-    font-size: 36px;
+  .banner_background{
+    display: none;
+  }
+  .banner h1 {
+    font-size: 35px;
+    color: #3d3536;
+  }
+  .banner h2 {
+    font-size: 15px;
+    color: #3d3536;
   }
 }
 @media only screen and (min-width: 1170px) {
   .cd-fixed-bg {
     background-attachment: fixed;
   }
-  .cd-fixed-bg h1, .cd-fixed-bg h2 {
+  .banner h1 {
     font-size: 48px;
-    font-weight: 300;
+  }
+  .banner h2 {
+    font-size: 20px;
   }
 }
 
@@ -255,7 +307,7 @@ Main components
   color: #a6989a;
 }
 .cd-scrolling-bg.cd-color-2 {
-  background-color: #99a478;
+  background-color: #ffffff;
   color: #3d3536;
 }
 .cd-scrolling-bg.cd-color-3 {
