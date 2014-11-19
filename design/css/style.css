@@ -44,9 +44,7 @@ Modules - reusable parts of our design
   font-size: 20px;
   line-height: 1.75;
 }
-.cd-container h1{
-  color: #3d3536;
-}
+
 .cd-container::after {
   /* clearfix */
   content: '';
@@ -54,6 +52,13 @@ Modules - reusable parts of our design
   clear: both;
 }
 
+.clr1{
+  color: #3372df;
+}
+
+.clr2{
+  color: #be0709;
+}
 /* -------------------------------- 
 
 Main components 
@@ -299,7 +304,6 @@ Main components
 
 .cd-container h1 {
   font-size: 30px;
-  color: #3372df;
 } 
 
 .cd-container p {
