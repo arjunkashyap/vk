@@ -112,6 +112,24 @@ Modules - reusable parts of our design
   margin-bottom: 75px !important;  
 }
 
+.editor {
+  width: 250px;
+  text-align: center;
+  margin: 25px;
+  float: left;
+}
+
+.editor div:first-child {
+  font-size: 0.7em;
+  border-bottom: 1px solid #be0709;
+  line-height: 2.5;
+}
+
+.editor div:last-child {
+  font-size: 0.9em;
+  line-height: 2.5;
+}
+
 /* -------------------------------- 
 
 Main components 
