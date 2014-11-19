@@ -59,6 +59,59 @@ Modules - reusable parts of our design
 .clr2{
   color: #be0709;
 }
+.simpleTable{
+  margin: 0 auto;
+}
+
+.simpleTable td:first-child {
+  border-right: 1px solid #EEE;
+  border-bottom: 1px solid #EEE;
+  padding: 20px 30px 20px 0;
+}
+
+.simpleTable td:last-child {
+  padding: 20px 0px 20px 30px;
+  border-bottom: 1px solid #EEE;
+}
+
+.bquote{
+  font-size: 0.9em;
+  width: 90%;
+  padding-left: 100px;
+}
+
+.bquoteOpen{
+  float: left;
+  margin-top: -50px;
+}
+
+.bquoteClose{
+  float: right;
+  margin: 175px 0 0 0;
+}
+
+.bquoteOpen:before {
+  content: "\201C";
+  font-size: 120px;
+  color: #7a7a7a;
+  font-family: serif;
+}
+
+.bquoteClose:after {
+  content: "\201D";
+  font-size: 120px;
+  color: #7a7a7a;
+  font-family: serif;
+}
+
+.gapAbove{
+  margin-top: 75px !important;  
+}
+
+.gapBelow{
+  margin-bottom: 75px !important;  
+}
+
 /* -------------------------------- 
 
 Main components 
