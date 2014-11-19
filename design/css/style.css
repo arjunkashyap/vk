@@ -198,6 +198,7 @@ Main components
   background-position: center top;
   z-index: 1;
 }
+
 .banner{
   position: absolute;
   left: 50%;
@@ -214,10 +215,9 @@ Main components
   text-align: right;
   padding-right: 20px;
 }
-.banner_background{
+
+.bannerBackFull{
   position: absolute;
-  left: 50%;
-  top: 27.5%;
   bottom: auto;
   right: auto;
   -webkit-transform: translateX(-50%) translateY(-50%);
@@ -228,9 +228,44 @@ Main components
   width: 90%;
   max-width: 1170px;
   text-align: right;
-  background-color: black;
   opacity: 0.4;
   min-height: 100px;
+  background-color: black;
+  left: 50%;
+  top: 27.5%;  
+}
+
+.bannerHalf{
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateX(0%) translateY(-50%);
+  -moz-transform: translateX(0%) translateY(-50%);
+  -ms-transform: translateX(0%) translateY(-50%);
+  -o-transform: translateX(0%) translateY(-50%);
+  transform: translateX(0%) translateY(-50%);
+  right: 10%;
+  left: auto;
+  width: 25%;
+  max-width: 1170px;
+  text-align: center;
+  padding: 40px;
+}
+
+.bannerBackHalf{
+  position: absolute;
+  right: 10%;
+  left: auto;
+  width: 25%;
+  height: 100%;
+  max-width: 1170px;
+  text-align: right;
+  opacity: 0.5;
+  min-height: 200px;
+  background-color: #f2c472;
+}
+
+.bg2{
+  background-color: white; 
 }
 
 .banner h1 {
@@ -239,8 +274,22 @@ Main components
   line-height: 1.5;
   color: white;
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+.bannerHalf h1 {
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 1.5;
+  color: white;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
 } 
 .banner h2 {
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 1.5;
+  color: white;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+.bannerHalf h2 {
   font-size: 12px;
   font-weight: 300;
   line-height: 1.5;
@@ -270,14 +319,22 @@ Main components
   background-image: url("../img/cd-background-4.jpg");
 }
 @media only screen and (min-width: 768px) {
-  .banner_background{
+  .hideIfBig{
     display: none;
   }
   .banner h1 {
     font-size: 35px;
     color: #3d3536;
   }
+  .bannerHalf h1 {
+    font-size: 35px;
+    color: #3d3536;
+  }
   .banner h2 {
+    font-size: 15px;
+    color: #3d3536;
+  }
+  .bannerHalf h2 {
     font-size: 15px;
     color: #3d3536;
   }
@@ -289,8 +346,19 @@ Main components
   .banner h1 {
     font-size: 48px;
   }
+  .bannerHalf h1 {
+    font-size: 48px;
+    color: #be0709;
+  }
   .banner h2 {
     font-size: 20px;
+  }
+  .bannerHalf h2 {
+    font-size: 20px;
+  }
+  .bannerHalf p {
+    font-size: 20px;
+    line-height: 1.75;
   }
 }
 
