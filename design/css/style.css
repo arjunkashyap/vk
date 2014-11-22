@@ -154,6 +154,19 @@ Modules - reusable parts of our design
   color: inherit;
 }
 
+.seeMore{
+  width: 100%;
+  text-align: right;
+  float: right;
+  font-size: 0.9em;
+}
+
+.imgSample{
+  width: 100px;
+  border: 10px solid #ffffff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+
 /* -------------------------------- 
 
 Main components 
@@ -412,14 +425,25 @@ Main components
 .cd-fixed-bg.cd-bg-1 {
   background-image: url("../img/img8.jpg");
 }
+
 .cd-fixed-bg.cd-bg-2 {
   background-image: url("../img/img4.jpg");
 }
+
 .cd-fixed-bg.cd-bg-3 {
   background-image: url("../img/img9.jpg");
 }
+
 .cd-fixed-bg.cd-bg-4 {
   background-image: url("../img/cd-background-4.jpg");
+}
+
+.itl{
+  font-style: italic;
+}
+
+.fRight{
+  float: right;  
 }
 @media only screen and (min-width: 768px) {
   .hideIfBig{
