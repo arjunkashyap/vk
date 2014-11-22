@@ -187,6 +187,29 @@ Modules - reusable parts of our design
   margin-left: 20px;
 }
 
+.tArchive {
+  font-size: 20px;
+  line-height: 1.5;
+  color: black;
+  font-weight: 300;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.tArchive td{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.tArchive tr>td:first-child {
+  text-align: right;
+  padding-right: 5px;
+}
+
+.tArchive tr>td:last-child {
+  text-align: left;
+  padding-left: 5px;
+}
+
 /* -------------------------------- 
 
 Main components 
@@ -410,6 +433,11 @@ Main components
   background-color: #ffffff;
 }
 
+.bgClr4{
+  opacity: 0.7;
+  background-color: #f2c472;
+}
+
 .banner h1 {
   font-size: 25px;
   font-weight: 300;
@@ -482,6 +510,16 @@ Main components
 .bld{
   font-weight: bold !important;
 }
+
+.alignLeft{
+  text-align: left !important;
+  padding-left: 50px;
+}
+
+.alignRight{
+  text-align: right !important;
+}
+
 @media only screen and (min-width: 768px) {
   .hideIfBig{
     display: none;
@@ -507,20 +545,25 @@ Main components
   .cd-fixed-bg {
     background-attachment: fixed;
   }
+  
   .banner h1 {
     font-size: 48px;
   }
+  
   .bannerHalf h1 {
     font-size: 48px;
     color: #ffffff;
   }
+  
   .banner h2 {
     font-size: 20px;
   }
+  
   .bannerHalf h2 {
     font-size: 30px;
     color: #ffffff;
   }
+  
   .bannerHalf p {
     padding-top: 30px;
     font-size: 20px;
