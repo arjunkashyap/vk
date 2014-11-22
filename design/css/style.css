@@ -69,6 +69,10 @@ Modules - reusable parts of our design
   color: #3d3536 !important;
 }
 
+.clr4{
+  color: #9c581b !important;
+}
+
 .simpleTable{
   margin: 0 auto;
 }
@@ -130,6 +134,14 @@ Modules - reusable parts of our design
   margin-bottom: 25px !important;  
 }
 
+.gapAboveLarge {
+  margin-top: 125px !important;  
+}
+
+.gapBelowLarge {
+  margin-bottom: 125px !important;  
+}
+
 .editor {
   width: 250px;
   text-align: center;
@@ -146,6 +158,34 @@ Modules - reusable parts of our design
 .editor div:last-child {
   font-size: 0.9em;
   line-height: 2.5;
+}
+
+.archiveIcon{
+  width: 175px;
+  color: #BBB;
+  line-height: 0px;
+  margin-bottom: 60px;
+  text-align: center;
+  float: left;
+}
+
+.archiveIcon a{
+  display: inline-block;
+  transition: color 0.3s ease-out;
+}
+
+.archiveIcon a:HOVER{
+  color: #9c581b;
+  transition: color 0.3s ease-out;
+}
+
+.archiveIcon div:first-child {
+  font-size: 70px;
+}
+
+.archiveIcon div:last-child {
+  font-size: 20px;
+  line-height: 2;
 }
 
 .aNumber {
