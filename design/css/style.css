@@ -335,13 +335,17 @@ Main components
   height: 100%;
   max-width: 1170px;
   text-align: right;
-  opacity: 0.5;
   min-height: 200px;
+}
+
+.bgClr1{
+  opacity: 0.5;
   background-color: #f2c472;
 }
 
-.bg2{
-  background-color: white; 
+.bgClr2{
+  opacity: 0.7;
+  background-color: #518FD9;
 }
 
 .banner h1 {
@@ -432,8 +436,11 @@ Main components
     font-size: 20px;
   }
   .bannerHalf p {
+    padding-top: 30px;
     font-size: 20px;
-    line-height: 1.75;
+    line-height: 1.5;
+    color: black;
+    font-weight: 300;
   }
 }
 
@@ -446,7 +453,7 @@ Main components
   z-index: 2;
 }
 .cd-scrolling-bg.cd-color-1 {
-  background-color: #3d3536;
+  background-color: #ffffff;
   color: #a6989a;
 }
 .cd-scrolling-bg.cd-color-2 {
