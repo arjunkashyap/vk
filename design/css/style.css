@@ -27,7 +27,7 @@ body, html {
 }
 
 a {
-  color: #b4d7a8;
+  color: inherit;
   text-decoration: none;
 }
 
@@ -128,6 +128,30 @@ Modules - reusable parts of our design
 .editor div:last-child {
   font-size: 0.9em;
   line-height: 2.5;
+}
+
+.aNumber {
+  width: 90%;
+  text-align: left;
+  margin: 10px 0px 10px 0px;
+  float: left; 
+}
+
+.aNumber div:first-child {
+  font-size: 0.7em;
+  border-bottom: 1px solid #3372df;
+  line-height: 2.5;
+  padding-left: 20px;
+}
+
+.aNumber div:last-child {
+  font-size: 0.9em;
+  line-height: 2.5;
+  padding-left: 20px;
+}
+
+.aNumber {
+  color: inherit;
 }
 
 /* -------------------------------- 
@@ -454,7 +478,7 @@ Main components
 }
 .cd-scrolling-bg.cd-color-1 {
   background-color: #ffffff;
-  color: #a6989a;
+  color: #3d3536;
 }
 .cd-scrolling-bg.cd-color-2 {
   background-color: #ffffff;
