@@ -3,6 +3,11 @@
 Primary style
 
 -------------------------------- */
+@font-face {
+ font-family: 'Siddhantaa';
+ src: url('siddhanta.ttf');
+}
+
 html * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -53,12 +58,17 @@ Modules - reusable parts of our design
 }
 
 .clr1{
-  color: #3372df;
+  color: #3372df !important;
 }
 
 .clr2{
-  color: #be0709;
+  color: #be0709 !important;
 }
+
+.clr3{
+  color: #3d3536 !important;
+}
+
 .simpleTable{
   margin: 0 auto;
 }
@@ -104,12 +114,20 @@ Modules - reusable parts of our design
   font-family: serif;
 }
 
-.gapAbove{
+.gapAbove {
   margin-top: 75px !important;  
 }
 
-.gapBelow{
+.gapBelow {
   margin-bottom: 75px !important;  
+}
+
+.gapAboveSmall {
+  margin-top: 25px !important;  
+}
+
+.gapBelowSmall {
+  margin-bottom: 25px !important;  
 }
 
 .editor {
@@ -449,6 +467,18 @@ Main components
 
 .fRight{
   float: right;  
+}
+
+.fSan{
+  font-family: Siddhanta;
+}
+
+.sml{
+  font-size: 18px !important;
+}
+
+.bld{
+  font-weight: bold !important;
 }
 @media only screen and (min-width: 768px) {
   .hideIfBig{
