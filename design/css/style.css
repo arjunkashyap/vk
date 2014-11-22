@@ -92,12 +92,12 @@ Modules - reusable parts of our design
 
 .bquoteOpen{
   float: left;
-  margin-top: -50px;
+  margin-top: -20px;
 }
 
 .bquoteClose{
   float: right;
-  margin: 175px 0 0 0;
+  margin: 130px 0 0 0;
 }
 
 .bquoteOpen:before {
@@ -183,6 +183,8 @@ Modules - reusable parts of our design
   width: 100px;
   border: 10px solid #ffffff;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  margin-right: 40px;
+  margin-left: 20px;
 }
 
 /* -------------------------------- 
