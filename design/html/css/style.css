@@ -73,6 +73,10 @@ Modules - reusable parts of our design
   color: #9c581b !important;
 }
 
+.clr5{
+  color: #777 !important;
+}
+
 .simpleTable{
   margin: 0 auto;
 }
@@ -250,6 +254,35 @@ Modules - reusable parts of our design
   padding-left: 5px;
 }
 
+.article{
+  margin: 30px 0;
+  padding: 20px;
+  box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
+  line-height: 1.5;
+  min-height: 50px;
+  border-left: 5px solid #3372df;
+}
+
+.article .aTitle{
+  font-size: 20px;
+}
+
+.article .aAuthor{
+  font-size: 16px;
+}
+
+.article .aFeature{
+  font-size: 16px;
+}
+
+.article .aIssue{
+  font-size: 16px;
+}
+
+.alphabet .letter{
+  font-size: 16px;
+  margin-right: 10px;
+}
 /* -------------------------------- 
 
 Main components 
@@ -635,7 +668,7 @@ Main components
 }
 @media only screen and (min-width: 768px) {
   .cd-scrolling-bg {
-    padding: 8em 0;
+    padding: 6em 0;
     font-size: 20px;
     font-size: 1.25rem;
     line-height: 2;
