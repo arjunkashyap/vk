@@ -763,6 +763,9 @@ Secondary Navigation
 #cd-sec-nav li:last-child a {
   border-bottom: none;
 }
+#cd-sec-nav i{
+  margin-right: 3px;
+}
 @media only screen and (min-width: 1170px) {
   #cd-sec-nav ul {
     /* the navigation moves to the top */
@@ -770,7 +773,7 @@ Secondary Navigation
     width: auto;
     max-width: none;
     bottom: auto;
-    top: 100px;
+    top: 90px;
     background: transparent;
     visibility: visible;
     box-shadow: none;
@@ -796,7 +799,7 @@ Secondary Navigation
     border-top: none;
     color: #3372df;
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: normal;
     font-size: 14px;
     font-size: 0.875rem;
   }
@@ -824,9 +827,10 @@ Secondary Navigation
     display: block;
   }
   #cd-sec-nav.is-fixed ul li a {
-    padding: 1.6em;
+    padding: 1em 1em 1em 1.6em;
     margin-left: 0;
     border-bottom: 1px solid #eff2f6;
+    font-weight: normal;
   }
   #cd-sec-nav ul.has-transitions {
     /* this class is used to bring back transitions when the navigation moves at the bottom right */
@@ -861,7 +865,7 @@ Secondary Navigation
 
 .cd-sec-nav-trigger {
   position: fixed;
-  top: 90px;
+  top: 80px;
   right: 5%;
   width: 44px;
   height: 44px;
