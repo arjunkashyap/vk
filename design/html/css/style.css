@@ -408,7 +408,7 @@ Main components
     font-size: 0.875rem;
   }
   .no-touch .cd-main-nav a:hover {
-    color: #9c581b;
+    color: #3372df;
     transition: color 0.3s ease-out;
   }
 }
@@ -805,7 +805,7 @@ Secondary Navigation
     font-size: 0.875rem;
   }
   #cd-sec-nav li a:hover {
-    color: #9c581b;
+    color: #3372df;
     transition: color 0.3s ease-out;
   }
   #cd-sec-nav.is-fixed ul {
