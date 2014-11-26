@@ -5,7 +5,7 @@ jQuery(document).ready(function($){
 	});
 
 	// browser window scroll (in pixels) after which the "menu" link is shown
-	var offset = 0;
+	var offset = 90;
 
 	var navigationContainer = $('#cd-sec-nav'),
 		mainNavigation = navigationContainer.find('#cd-sec-main-nav ul');
