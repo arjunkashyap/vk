@@ -54,8 +54,10 @@ jQuery(document).ready(function($){
 
 	$('.year .aIssue').on('click', function(){
 
+		$( '.cd-container' ).find( '.active' ).removeClass( 'active' );
+		$( '.cd-container' ).find( '.issueHolder' ).slideUp( 50 );
 		$( this ).toggleClass( 'active' );
-		$( '#issueHolder' ).slideToggle( 250 );
+		$( '#issueHolder' ).slideDown( 250 );
 	});
 });
 
