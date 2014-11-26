@@ -54,7 +54,8 @@ jQuery(document).ready(function($){
 
 	$('.year .aIssue').on('click', function(){
 
-		$('#issueHolder').slideToggle( 300 );
+		$( this ).toggleClass( 'active' );
+		$( '#issueHolder' ).slideToggle( 250 );
 	});
 });
 
