@@ -13,7 +13,9 @@ if(isset($_GET['part'])){$part = $_GET['part'];}else{$part = '';}
 $dpart = preg_replace("/^0/", "", $part);
 $dpart = preg_replace("/\-0/", "-", $dpart);
 
-echo '<h1 class="clr1 gapBelowSmall">Archive &gt; (Volume ' . intval($volume) . ', Issue ' . $dpart . ')</h1>';
+$yearMonth = getYearMonth($volume, $part);
+
+echo '<h1 class="clr1 gapBelowSmall">Archive &gt; ' . $month_name{intval($yearMonth['month'])} . ' ' . $yearMonth['year'] . ' (Volume ' . intval($volume) . ', Issue ' . $dpart . ')</h1>';
 
 if(!(isValidVolume($volume) && isValidPart($part)))
 {

@@ -101,6 +101,26 @@ function entityReferenceReplace($term)
 	
 	return($term);
 }
+
+function getYearMonth($volume, $part)
+{
+	include("connect.php");
+
+	$query = "select distinct year,month from article where volume='$volume' and part='$part'";
+	$result = $db->query($query);
+	$num_rows = $result ? $result->num_rows : 0;
+	if($num_rows > 0) {
+
+		$row = $result->fetch_assoc();
+		return($row);
+	}
+	else {
+
+		$row['year'] = '';
+		$row['month'] = '';
+		return($row);
+	}
+}
 /*
 isValidTitle, isValidFeature, isValidAuthor, isValidText
 */
