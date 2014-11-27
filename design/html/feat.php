@@ -1,6 +1,7 @@
 <?php include("include_header.php");?>
-<?php include("include_nav.php");?>
-		<div class="archive_holder">
+<main class="cd-main-content">
+		<div class="cd-scrolling-bg cd-color-2">
+			<div class="cd-container">
 <?php
 
 include("connect.php");
@@ -9,129 +10,60 @@ require_once("common.php");
 if(isset($_GET['feature'])){$feat_name = $_GET['feature'];}else{$feat_name = '';}
 if(isset($_GET['featid'])){$featid = $_GET['featid'];}else{$featid = '';}
 
+echo '<h1 class="clr1 gapBelowSmall">Archive &gt; Features &gt; ' . $feat_name . '</h1>';
+
 $feat_name = entityReferenceReplace($feat_name);
 
 if(!(isValidFeature($feat_name) && isValidFeatid($featid)))
 {
-	echo "Invalid URL";
-	
-    echo "</div></div>";
-    include("include_footer.php");
-	exit(1);
+	echo '<span class="aFeature clr2">Invalid URL</span>';
+	echo '</div> <!-- cd-container -->';
+	echo '</div> <!-- cd-scrolling-bg -->';
+	echo '</main> <!-- cd-main-content -->';
+	include("include_footer.php");
+
+    exit(1);
 }
 
-$db = @new mysqli('localhost', "$user", "$password", "$database");
-if($db->connect_errno > 0)
+$query = 'select * from article where featid=\'' . $featid . '\' order by volume, part, page';
+
+$result = $db->query($query); 
+$num_rows = $result ? $result->num_rows : 0;
+
+if($num_rows > 0)
 {
-	echo 'Not connected to the database [' . $db->connect_errno . ']';
-	echo "</div></div>";
-    include("include_footer.php");
-	exit(1);
-}
-
-
-$month_name = array("0"=>"","1"=>"January","2"=>"February","3"=>"March","4"=>"April","5"=>"May","6"=>"June","7"=>"July","8"=>"August","9"=>"September","10"=>"October","11"=>"November","12"=>"December");
-
-echo "<div class=\"page_title\"><i class='fa fa-tags fa-1x'></i>&nbsp;&nbsp;Category&nbsp;:&nbsp;$feat_name</div>";
-echo "<ul class=\"dot\">";
-
-
-$query1 = "select * from article where featid='$featid' order by volume, part, page";
-
-$result1 = $db->query($query1); 
-$num_rows1 = $result1 ? $result1->num_rows : 0;
-
-
-if($num_rows1 > 0)
-{
-	for($i=1;$i<=$num_rows1;$i++)
+	while($row = $result->fetch_assoc())
 	{
-				$row1 = $result1->fetch_assoc();
-
-		$titleid=$row1['titleid'];
-		$title=$row1['title'];
-		$featid=$row1['featid'];
-		$page=$row1['page'];
-		$authid=$row1['authid'];
-		$volume=$row1['volume'];
-		$part=$row1['part'];
-		$year=$row1['year'];
-		$month=$row1['month'];
-		
-		$title1=addslashes($title);
-		
-		$query3 = "select feat_name from feature where featid='$featid'";
-		
-						
-		$result3 = $db->query($query3); 
-		$row3 = $result3->fetch_assoc();
-
-		$feature=$row3['feat_name'];
-		
-		if($result3){$result3->free();}
-		
-		$dpart = preg_replace("/^0/", "", $part);
+		$dpart = preg_replace("/^0/", "", $row['part']);
 		$dpart = preg_replace("/\-0/", "-", $dpart);
 		
-		echo "<li>";
-		echo "<span class=\"titlespan\"><a target=\"_blank\" href=\"../Volumes/$volume/$part/index.djvu?djvuopts&amp;page=$page.djvu&amp;zoom=page\">$title</a></span>";
-		echo "
-		<span class=\"titlespan\">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
-		<span class=\"yearspan\">
-			<a href=\"toc.php?vol=$volume&amp;part=$part\">" . $month_name{intval($month)} ."&nbsp;" . $year ."&nbsp;&nbsp;(Volume&nbsp;".intval($volume).", Issue&nbsp;".$dpart.")</a>
-		</span>";
-		
-		if($authid != 0)
-		{
+		echo '<div class="article">';
+		echo '	<div class="gapBelowSmall">';
+		echo '		<span class="aIssue clr5"><a href="toc.php?vol=' . $row['volume'] . '&amp;part=' . $row['part'] . '">' . $month_name{intval($row['month'])} . ' ' . $row['year'] . '  (Volume ' . intval($row['volume']) . ', Issue ' . $dpart . ')</a></span>';
+		echo '	</div>';
+		echo '	<span class="aTitle"><a target="_blank" href="../../Volumes/' . $row['volume'] . '/' . $row['part'] . '/index.djvu?djvuopts&amp;page=' . $row['page'] . '.djvu&amp;zoom=page">' . $row['title'] . '</a></span><br />';
+		if($row['authid'] != 0) {
 
-			echo "<br />&mdash;";
-			$aut = preg_split('/;/',$authid);
+			echo '	<span class="aAuthor itl">by ';
+			$authids = preg_split('/;/',$row['authid']);
+			$authornames = preg_split('/;/',$row['authorname']);
+			$a=0;
+			foreach ($authids as $aid) {
 
-			$fl = 0;
-			foreach ($aut as $aid)
-			{
-				$query2 = "select * from author where authid=$aid";
-
-				$result2 = $db->query($query2); 
-				$num_rows2 = $result2 ? $result2->num_rows : 0;
-				
-								
-				if($num_rows2 > 0)
-				{
-										$row2 = $result2->fetch_assoc();
-
-					$authorname=$row2['authorname'];
-					
-
-					if($fl == 0)
-					{
-						echo "<span class=\"authorspan\"><a href=\"auth.php?authid=$aid&amp;author=" . urlencode($authorname) . "\">$authorname</a></span>";
-						$fl = 1;
-					}
-					else
-					{
-						echo "<span class=\"titlespan\">;&nbsp;</span><span class=\"authorspan\"><a href=\"auth.php?authid=$aid&amp;author=" . urlencode($authorname) . "\">$authorname</a></span>";
-					}
-				}
-				if($result2){$result2->free();}
-
-			}
+				echo '<a href="auth.php?authid=' . $aid . '&amp;author=' . urlencode($authornames[$a]) . '">' . $authornames[$a] . '</a> ';
+				$a++;
+			}			
+			echo '	</span>';
 		}
-		//~ echo "<br /><span class=\"downloadspan\"><a href=\"../Volumes/$volume/$part/index.djvu?djvuopts&amp;page=$page.djvu&amp;zoom=page\" target=\"_blank\">View article</a>&nbsp;|&nbsp;<a href=\"#\">Download article (DjVu)</a>&nbsp;|&nbsp;<a href=\"#\">Download article (PDF)</a></span>";
-
-		echo "</li>\n";
+		echo '</div>';
 	}
 }
-else
-{
-	echo "No data in the database";
-}
 
-if($result1){$result1->free();}
+if($result){$result->free();}
 $db->close();
+
 ?>
-				</ul>
-			</div>
-	</div>
-    
+			</div> <!-- cd-container -->
+		</div> <!-- cd-scrolling-bg -->
+	</main> <!-- cd-main-content -->
 <?php include("include_footer.php");?>
