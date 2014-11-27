@@ -77,6 +77,26 @@ Modules - reusable parts of our design
   color: #777 !important;
 }
 
+.buttonBgClr1{
+  background-color: #3372df;
+}
+
+.buttonBgClr2{
+  background-color: #be0709;
+}
+
+.buttonBgClr3{
+  background-color: #3d3536;
+}
+
+.buttonBgClr4{
+  background-color: #9c581b;
+}
+
+.buttonBgClr5{
+  background-color: #777;
+}
+
 .simpleTable{
   margin: 0 auto;
 }
@@ -339,6 +359,23 @@ Modules - reusable parts of our design
   font-size: 14px;
   font-weight: bold;
   padding: 10px;
+}
+
+#arrow-scroll {
+  bottom: 40px;
+  right: 40px;
+  cursor: pointer;
+  position: static;
+  position: absolute;
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  border-radius: 50%;
+  min-width: 40px;
+  min-height: 40px;
+  opacity: 0.9;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  line-height: 1;
 }
 
 /* -------------------------------- 
