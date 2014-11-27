@@ -1,57 +1,53 @@
 <?php include("include_header.php");?>
-<?php include("include_nav.php");?>
-		<div class="archive_holder">
-			<div class="page_title"><i class="fa fa-tags"></i>&nbsp;&nbsp;Categories</div>
-				<ul class="dot">
+<main class="cd-main-content">
+		<div class="cd-scrolling-bg cd-color-2">
+			<div class="cd-container">
+				<h1 class="clr1 gapBelowSmall">Archive &gt; Features</h1>
 <?php
 
 include("connect.php");
+require_once("common.php");
 
-$db = @new mysqli('localhost', "$user", "$password", "$database");
-if($db->connect_errno > 0)
+if(isset($_GET['letter']))
 {
-	echo '<li>Not connected to the database [' . $db->connect_errno . ']</li>';
-	echo "</ul>";
-    echo "</div></div>";
-    include("include_footer.php");
-	exit(1);
+	$letter=$_GET['letter'];
+	
+	if(!(isValidLetter($letter)))
+	{
+		echo '<span class="aFeature clr2">Invalid URL</span>';
+		echo '</div> <!-- cd-container -->';
+		echo '</div> <!-- cd-scrolling-bg -->';
+		echo '</main> <!-- cd-main-content -->';
+		include("include_footer.php");
+
+        exit(1);
+	}
+	
+	($letter == '') ? $letter = 'A' : $letter = $letter;
+}
+else
+{
+	$letter = 'A';
 }
 
-
-$query = "select * from feature order by feat_name";
+$query = 'select * from feature order by feat_name';
 
 $result = $db->query($query); 
 $num_rows = $result ? $result->num_rows : 0;
 
-
 if($num_rows > 0)
 {
-	for($i=1;$i<=$num_rows;$i++)
+	while($row = $result->fetch_assoc())
 	{
-				$row = $result->fetch_assoc();
-		
-		$feat_name=$row['feat_name'];
-		$featid=$row['featid'];
-
-		if($feat_name != "")
-		{
-			echo "<li>";
-			echo "<span class=\"featurespan\"><a href=\"feat.php?feature=" . urlencode($feat_name) . "&amp;featid=$featid\">$feat_name</a></span>";
-			echo "</li>\n";
-		}
+		echo ($row['feat_name'] == '') ? '' : '<div class="author"><span class="aAuthor"><a href="feat.php?feature=' . urlencode($row['feat_name']) . '&amp;featid=' . $row['featid'] . '">' . $row['feat_name'] . '</a></div>';
 	}
-}
-else
-{
-	echo "No data in the database";
 }
 
 if($result){$result->free();}
 $db->close();
 
 ?>
-				</ul>
-			</div>
-	</div>
-    
+			</div> <!-- cd-container -->
+		</div> <!-- cd-scrolling-bg -->
+	</main> <!-- cd-main-content -->
 <?php include("include_footer.php");?>
