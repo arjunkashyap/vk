@@ -43,10 +43,12 @@ if(isset($_GET['letter']))
 	
 	if(!(isValidLetter($letter)))
 	{
-		echo "<li>Invalid URL</li>";
-		echo "</ul>";
-        echo "</div></div>";
-        include("include_footer.php");
+		echo '<span class="aFeature clr2">Invalid URL</span>';
+		echo '</div> <!-- cd-container -->';
+		echo '</div> <!-- cd-scrolling-bg -->';
+		echo '</main> <!-- cd-main-content -->';
+		include("include_footer.php");
+
         exit(1);
 	}
 	
