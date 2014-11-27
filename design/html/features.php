@@ -8,28 +8,6 @@
 include("connect.php");
 require_once("common.php");
 
-if(isset($_GET['letter']))
-{
-	$letter=$_GET['letter'];
-	
-	if(!(isValidLetter($letter)))
-	{
-		echo '<span class="aFeature clr2">Invalid URL</span>';
-		echo '</div> <!-- cd-container -->';
-		echo '</div> <!-- cd-scrolling-bg -->';
-		echo '</main> <!-- cd-main-content -->';
-		include("include_footer.php");
-
-        exit(1);
-	}
-	
-	($letter == '') ? $letter = 'A' : $letter = $letter;
-}
-else
-{
-	$letter = 'A';
-}
-
 $query = 'select * from feature order by feat_name';
 
 $result = $db->query($query); 
