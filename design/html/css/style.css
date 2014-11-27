@@ -78,23 +78,23 @@ Modules - reusable parts of our design
 }
 
 .buttonBgClr1{
-  background-color: #3372df;
+  color: #3372df;
 }
 
 .buttonBgClr2{
-  background-color: #be0709;
+  color: #be0709;
 }
 
 .buttonBgClr3{
-  background-color: #3d3536;
+  color: #3d3536;
 }
 
 .buttonBgClr4{
-  background-color: #9c581b;
+  color: #9c581b;
 }
 
 .buttonBgClr5{
-  background-color: #777;
+  color: #777;
 }
 
 .simpleTable{
@@ -368,16 +368,19 @@ Modules - reusable parts of our design
   position: static;
   position: absolute;
   text-align: center;
-  color: white;
+  background-color: white;
   font-size: 40px;
   border-radius: 50%;
   min-width: 40px;
   min-height: 40px;
   opacity: 0.9;
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.4);
   line-height: 1;
 }
 
+.moreNav{
+  display: inline-block;
+}
 /* -------------------------------- 
 
 Main components 

@@ -60,7 +60,7 @@ jQuery(document).ready(function($){
 		$( '#issueHolder' ).slideDown( 250 );
 	});
 
-	$('nav a[href^="#"]').on("click", function(e) {
+	$('nav a[href^="#"], .moreNav[href^="#"]').on("click", function(e) {
         e.preventDefault();
         var t = $(this.hash);
         $("body,html").animate({
