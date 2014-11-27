@@ -121,6 +121,30 @@ function getYearMonth($volume, $part)
 		return($row);
 	}
 }
+
+function getYear($volume)
+{
+	include("connect.php");
+
+	$query = "select distinct year from article where volume='$volume'";
+	$result = $db->query($query);
+	$num_rows = $result ? $result->num_rows : 0;
+	if($num_rows > 0) {
+
+		$year = '';
+		while($row = $result->fetch_assoc()) {
+	
+			$year = $year . '-' . $row['year'];
+		}
+		$year = preg_replace('/^\-/', '', $year);
+		$year = preg_replace('/\-[0-9][0-9]([0-9][0-9])/', '-$1', $year);
+		return( $year );
+	}
+	else {
+
+		return( '' );
+	}
+}
 /*
 isValidTitle, isValidFeature, isValidAuthor, isValidText
 */
