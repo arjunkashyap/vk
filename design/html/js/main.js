@@ -59,5 +59,13 @@ jQuery(document).ready(function($){
 		$( this ).toggleClass( 'active' );
 		$( '#issueHolder' ).slideDown( 250 );
 	});
+
+	$('nav a[href^="#"]').on("click", function(e) {
+        e.preventDefault();
+        var t = $(this.hash);
+        $("body,html").animate({
+            scrollTop: t.offset().top
+        }, 900, "swing")
+    });
 });
 
