@@ -35,11 +35,11 @@
 			<a href="#0" class="cd-sec-nav-trigger">Menu<span></span></a>
 			<nav id="cd-sec-main-nav">
 				<ul>
-					<li><a href="#0"><i class="fa fa-calendar"></i> Years</a></li>
-					<li><a href="#0"><i class="fa fa-files-o"></i> Titles</a></li>
-					<li><a href="#0"><i class="fa fa-users"></i> Authors</a></li>
-					<li><a href="#0"><i class="fa fa-tags"></i> Features</a></li>
-					<li><a href="#0"><i class="fa fa-search"></i> Search</a></li>
+					<li><a href="volumes.php"><i class="fa fa-calendar"></i> Years</a></li>
+					<li><a href="articles.php"><i class="fa fa-files-o"></i> Titles</a></li>
+					<li><a href="authors.php"><i class="fa fa-users"></i> Authors</a></li>
+					<li><a href="features.php"><i class="fa fa-tags"></i> Features</a></li>
+					<li><a href="search.php"><i class="fa fa-search"></i> Search</a></li>
 				</ul>
 			</nav> <!-- cd-sec-main-nav -->
 		</div>
