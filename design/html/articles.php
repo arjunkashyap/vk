@@ -59,7 +59,7 @@ else
 	$letter = 'A';
 }
 
-($letter == 'Special') ? $query = "select * from article where title not regexp '^[a-zA-Z].*' order by title, volume, part, page" : $query = "select * from article where title like '$letter%' order by title, volume, part, page";
+($letter == 'Special') ? $query = 'select * from article where title not regexp \'^[a-zA-Z].*\' order by title, volume, part, page' : $query = 'select * from article where title like \'' . $letter . '%\' order by title, volume, part, page';
 
 $result = $db->query($query); 
 $num_rows = $result ? $result->num_rows : 0;
