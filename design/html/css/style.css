@@ -325,7 +325,9 @@ Modules - reusable parts of our design
 
 .year .aIssue{
   font-size: 16px;
-  padding: 10px;  
+  padding: 10px;
+  min-width: 80px;
+  text-align: center;
 }
 
 .year .aIssue:hover, .year .active{
