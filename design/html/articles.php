@@ -102,7 +102,7 @@ if($num_rows > 0)
 }
 else
 {
-	echo "Sorry! No articles were found to begin with the letter '$letter' in The Vedanta Kesari";
+	echo 'Sorry! No articles were found to begin with the letter \'' . $letter . '\' in The Vedanta Kesari';
 }
 
 if($result){$result->free();}
