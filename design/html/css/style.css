@@ -612,6 +612,11 @@ Main components
   background-color: #f2c472;
 }
 
+.bgClr5{
+  opacity: 0.7;
+  background-color: #BEDCFF;
+}
+
 .banner h1 {
   font-size: 25px;
   font-weight: 300;
@@ -663,6 +668,10 @@ Main components
 
 .cd-fixed-bg.cd-bg-4 {
   background-image: url("../img/img11.jpg");
+}
+
+.cd-fixed-bg.cd-bg-5 {
+  background-image: url("../img/img5.jpg");
 }
 
 .itl{
