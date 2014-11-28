@@ -1,22 +1,12 @@
 <?php include("include_header.php");?>
-<?php include("include_nav.php");?>
-		<div class="archive_holder">
-			<ul class="dot">
+<main class="cd-main-content">
+        <div class="cd-scrolling-bg cd-color-2">
+            <div class="cd-container">
+                <h1 class="clr1 gapBelowSmall">Archive &gt; Titles</h1>
 <?php
 
 include("connect.php");
 require_once("common.php");
-
-$db = @new mysqli('localhost', $user, $password, $database);
-if($db->connect_errno > 0)
-{
-	echo 'Not connected to the database [' . $db->connect_errno . ']';
-	 echo "</div></div>";
-    include("include_footer.php");
-	exit(1);
-}
-
-$month_name = array("0"=>"","1"=>"January","2"=>"February","3"=>"March","4"=>"April","5"=>"May","6"=>"June","7"=>"July","8"=>"August","9"=>"September","10"=>"October","11"=>"November","12"=>"December");
 
 if(isset($_GET['author'])){$author = $_GET['author'];}else{$author = '';}
 if(isset($_GET['text'])){$text = $_GET['text'];}else{$text = '';}
@@ -56,19 +46,18 @@ $text = preg_replace("/ +$/", "", $text);
 $text = preg_replace("/  /", " ", $text);
 $text = preg_replace("/  /", " ", $text);
 
-
 $text2 = $text;
 if($title=='')
 {
-	$title='[a-z]*';
+    $title='[a-z]*';
 }
 if($author=='')
 {
-	$author='[a-z]*';
+    $author='[a-z]*';
 }
 if($featid=='')
 {
-	$featid='[a-z]*';
+    $featid='[a-z]*';
 }
 
 ($year1 == '') ? $year1 = 1914 : $year1 = $year1;
@@ -76,9 +65,9 @@ if($featid=='')
 
 if($year2 < $year1)
 {
-	$tmp = $year1;
-	$year1 = $year2;
-	$year2 = $tmp;
+    $tmp = $year1;
+    $year1 = $year2;
+    $year2 = $tmp;
 }
 
 $authorFilter = '';
@@ -92,16 +81,16 @@ $texts = preg_split("/ /", $text);
 
 for($ic=0;$ic<sizeof($authors);$ic++)
 {
-	$authorFilter .= "and authorname REGEXP '" . $authors[$ic] . "' ";
+    $authorFilter .= "and authorname REGEXP '" . $authors[$ic] . "' ";
 }
 for($ic=0;$ic<sizeof($titles);$ic++)
 {
-	$titleFilter .= "and title REGEXP '" . $titles[$ic] . "' ";
+    $titleFilter .= "and title REGEXP '" . $titles[$ic] . "' ";
 }
 for($ic=0;$ic<sizeof($texts);$ic++)
 {
-	$textFilter .= "+" . $texts[$ic] . "* ";
-	$textSearchBox .= "|" . $texts[$ic];
+    $textFilter .= "+" . $texts[$ic] . "* ";
+    $textSearchBox .= "|" . $texts[$ic];
 }
 
 $authorFilter = preg_replace("/^and /", "", $authorFilter);
@@ -111,22 +100,22 @@ $textSearchBox = preg_replace("/^\|/", "", $textSearchBox);
 
 if($text=='')
 {
-	$query="SELECT * FROM
-				(SELECT * FROM
+    $query="SELECT * FROM
+                (SELECT * FROM
                     (SELECT * FROM
                         (SELECT * FROM article WHERE $authorFilter) AS tb1
                     WHERE $titleFilter) AS tb2
-				WHERE featid REGEXP '$featid') AS tb3
-			WHERE year between $year1 and $year2 ORDER BY volume, part, page";
+                WHERE featid REGEXP '$featid') AS tb3
+            WHERE year between $year1 and $year2 ORDER BY volume, part, page";
 
 }
 elseif($text!='')
 {
-	$text = rtrim($text);
-	
-	$query="SELECT * FROM
-				(SELECT * FROM
-					(SELECT * FROM
+    $text = rtrim($text);
+    
+    $query="SELECT * FROM
+                (SELECT * FROM
+                    (SELECT * FROM
                         (SELECT * FROM
                             (SELECT * FROM searchtable WHERE MATCH (text) AGAINST ('$textFilter' IN BOOLEAN MODE)) AS tb1
                         WHERE $authorFilter) AS tb2
@@ -142,13 +131,12 @@ if ($num_results > 0)
 {
     echo "<div class=\"count authorspan\">$num_results result(s)</div>";
 }
-echo "<div class=\"page_title\">Search Results</div>";
-$titleid[0]=0;
-$count = 1;
-$id = "0";
-if($num_results > 0)
+
+$result = $db->query($query); 
+$num_rows = $result ? $result->num_rows : 0;
+
+if($num_rows > 0)
 {
-    echo "<ul>";
     for($i=1;$i<=$num_results;$i++)
     {
         $row1 = $result->fetch_assoc();
@@ -169,9 +157,9 @@ if($num_results > 0)
         $dpart = preg_replace("/\-0/", "-", $dpart);
         
         $query3 = "select feat_name from feature where featid='$featid'";
-		$result3 = $db->query($query3); 
-		$row3 = $result3->fetch_assoc();		
-		$feature=$row3['feat_name'];
+        $result3 = $db->query($query3); 
+        $row3 = $result3->fetch_assoc();        
+        $feature=$row3['feat_name'];
         
         if($text != '')
         {
@@ -181,15 +169,15 @@ if($num_results > 0)
         $title1=addslashes($title);
         
         if ((strcmp($id, $titleid)) != 0)
-		{
+        {
             if($id == "0")
-			{
-				echo "\n\n\n<li>";
-			}
-			else
-			{
-				echo "\n\n\n\n\n</li>\n<li>";
-			}
+            {
+                echo "\n\n\n<li>";
+            }
+            else
+            {
+                echo "\n\n\n\n\n</li>\n<li>";
+            }
             
             echo "<span class=\"titlespan\"><a target=\"_blank\" href=\"../Volumes/$volume/$part/index.djvu?djvuopts&amp;page=$page.djvu&amp;zoom=page&amp;find=$textSearchBox/r\">$title</a></span>";
             echo "<span class=\"titlespan\">&nbsp;&nbsp;|&nbsp;&nbsp;</span><span class=\"yearspan\"><a href=\"toc.php?vol=$volume&amp;part=$part\">" . $month_name{intval($month)} ."&nbsp;" . $year ."&nbsp;&nbsp;(Volume&nbsp;".intval($volume).", Issue&nbsp;".$dpart.")</a></span>";
@@ -209,12 +197,12 @@ if($num_results > 0)
                 {
                     $query2 = "select * from author where authid=$aid";
 
-                    $result2 = $db->query($query2); 				
+                    $result2 = $db->query($query2);                 
                     $num_rows2 = $result2 ? $result2->num_rows : 0;
                     
                     if($num_rows2 > 0)
                     {
-                        $row2 = $result2->fetch_assoc();		
+                        $row2 = $result2->fetch_assoc();        
 
                         $authorname=$row2['authorname'];
                         
@@ -237,28 +225,91 @@ if($num_results > 0)
                 echo "<br /><span class=\"titlespan sml\">result(s) found in page(s) : </span>";
                 echo "<span class=\"featurespan sml\"><a href=\"../Volumes/$volume/$part/index.djvu?djvuopts&amp;page=$cur_page.djvu&amp;zoom=page&amp;find=$textSearchBox/r\" target=\"_blank\">".intval($cur_page)."</a> </span>";
             }
-			$id = $titleid;
+            $id = $titleid;
         }
         else
         {
             if($text != '')
-			{
-				echo "&nbsp;<span class=\"featurespan sml\"><a href=\"../Volumes/$volume/$part/index.djvu?djvuopts&amp;page=$cur_page.djvu&amp;zoom=page&amp;find=$textSearchBox/r\" target=\"_blank\">".intval($cur_page)."</a> </span>";
-			}
-			$id = $titleid;
+            {
+                echo "&nbsp;<span class=\"featurespan sml\"><a href=\"../Volumes/$volume/$part/index.djvu?djvuopts&amp;page=$cur_page.djvu&amp;zoom=page&amp;find=$textSearchBox/r\" target=\"_blank\">".intval($cur_page)."</a> </span>";
+            }
+            $id = $titleid;
         }
-    }   
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    while($row = $result->fetch_assoc())
+    {
+        $query3 = 'select feat_name from feature where featid=\'' . $row['featid'] . '\'';
+        $result3 = $db->query($query3); 
+        $row3 = $result3->fetch_assoc();        
+        
+        $dpart = preg_replace("/^0/", "", $row['part']);
+        $dpart = preg_replace("/\-0/", "-", $dpart);
+        
+        if($result3){$result3->free();}
+
+        echo '<div class="article">';
+        echo '  <div class="gapBelowSmall">';
+        echo ($row3['feat_name'] != '') ? '     <span class="aFeature clr2"><a href="feat.php?feature=' . urlencode($row3['feat_name']) . '&amp;featid=' . $row['featid'] . '">' . $row3['feat_name'] . '</a></span> | ' : '';
+        echo '      <span class="aIssue clr5"><a href="toc.php?vol=' . $row['volume'] . '&amp;part=' . $row['part'] . '">' . $month_name{intval($row['month'])} . ' ' . $row['year'] . '  (Volume ' . intval($row['volume']) . ', Issue ' . $dpart . ')</a></span>';
+        echo '  </div>';
+        echo '  <span class="aTitle"><a target="_blank" href="../../Volumes/' . $row['volume'] . '/' . $row['part'] . '/index.djvu?djvuopts&amp;page=' . $row['page'] . '.djvu&amp;zoom=page">' . $row['title'] . '</a></span><br />';
+        if($row['authid'] != 0) {
+
+            echo '  <span class="aAuthor itl">by ';
+            $authids = preg_split('/;/',$row['authid']);
+            $authornames = preg_split('/;/',$row['authorname']);
+            $a=0;
+            foreach ($authids as $aid) {
+
+                echo '<a href="auth.php?authid=' . $aid . '&amp;author=' . urlencode($authornames[$a]) . '">' . $authornames[$a] . '</a> ';
+                $a++;
+            }
+            
+            echo '  </span>';
+        }
+        echo '</div>';
+    }
 }
 else
 {
-    echo"<span class=\"titlespan\">No results</span><br />";
-    echo"<span class=\"authorspan\"><a href=\"search.php\">Go back and Search again</a></span>";
-}	
+    echo 'Sorry! No articles were found to begin with the letter \'' . $letter . '\' in The Vedanta Kesari';
+}
+
 if($result){$result->free();}
 $db->close();
+
 ?>
-		
-		</div>
-	</div>
-    
+            </div> <!-- cd-container -->
+        </div> <!-- cd-scrolling-bg -->
+    </main> <!-- cd-main-content -->
 <?php include("include_footer.php");?>
