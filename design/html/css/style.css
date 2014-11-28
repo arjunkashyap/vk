@@ -383,6 +383,49 @@ Modules - reusable parts of our design
 .moreNav{
   display: inline-block;
 }
+
+.archive_search {
+  margin: 0em 0em 0em 3em;
+  min-height: 30em;
+  line-height: 1.5em;
+}
+
+.archive_search table .left{
+  width: 67px;
+  height: 30px;
+  text-align: right;
+  padding: 1em 2em 1em 0;
+  vertical-align: middle;
+  border-right: 1px solid #CCCCCC;
+  color: #3372df !important;
+}
+
+.archive_search table .right{
+  width: 180px;
+  text-align: left;
+  vertical-align: middle;
+  padding: 1em 0 1em 2em;
+}
+
+.archive_search input, .archive_search select{
+  background: none;
+  border: 1px solid #CCCCCC;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  color: #555;
+  outline: none;
+  padding: 10px;
+}
+
+.archive_search .wide{
+  width: 20em;
+}
+
+.archive_search .med{
+  width: 7em;
+}
+
 /* -------------------------------- 
 
 Main components 
