@@ -170,6 +170,11 @@ if($num_rows > 0)
             
             echo '  </span>';
         }
+        if($text != '')
+        {
+            echo '<span class="aIssue">Text match found at page(s) : </span>';
+            echo '<span class="aIssue"><a href="../Volumes/$volume/$part/index.djvu?djvuopts&amp;page=$cur_page.djvu&amp;zoom=page&amp;find=$textSearchBox/r" target="_blank">' . intval($row['cur_page']) . '</a> </span>';
+        }
         echo '</div>';
     }
 }
