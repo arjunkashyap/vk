@@ -46,7 +46,6 @@ $text = preg_replace("/ +$/", "", $text);
 $text = preg_replace("/  /", " ", $text);
 $text = preg_replace("/  /", " ", $text);
 
-$text2 = $text;
 if($title=='')
 {
     $title='[a-z]*';
@@ -72,12 +71,9 @@ if($year2 < $year1)
 
 $authorFilter = '';
 $titleFilter = '';
-$textFilter = '';
-$textSearchBox = '';
 
 $authors = preg_split("/ /", $author);
 $titles = preg_split("/ /", $title);
-$texts = preg_split("/ /", $text);
 
 for($ic=0;$ic<sizeof($authors);$ic++)
 {
@@ -87,16 +83,10 @@ for($ic=0;$ic<sizeof($titles);$ic++)
 {
     $titleFilter .= "and title REGEXP '" . $titles[$ic] . "' ";
 }
-for($ic=0;$ic<sizeof($texts);$ic++)
-{
-    $textFilter .= "+" . $texts[$ic] . "* ";
-    $textSearchBox .= "|" . $texts[$ic];
-}
 
 $authorFilter = preg_replace("/^and /", "", $authorFilter);
 $titleFilter = preg_replace("/^and /", "", $titleFilter);
 $titleFilter = preg_replace("/ $/", "", $titleFilter);
-$textSearchBox = preg_replace("/^\|/", "", $textSearchBox);
 
 if($text=='')
 {
@@ -112,12 +102,36 @@ if($text=='')
 elseif($text!='')
 {
     $text = rtrim($text);
+    if(preg_match("/^\"/", $text)) {
+
+        $stext = preg_replace("/\"/", "", $text);
+        $dtext = $stext;
+        $stext = '"' . $stext . '"';
+    }
+    elseif(preg_match("/\+/", $text)) {
+
+        $stext = preg_replace("/\+/", " +", $text);
+        $dtext = preg_replace("/\+/", "|", $text);
+        $stext = '+' . $stext;
+    }
+    elseif(preg_match("/\|/", $text)) {
+
+        $stext = preg_replace("/\|/", " ", $text);
+        $dtext = $text;
+    }
+    else {
+
+        $stext = $text;
+        $dtext = $stext = preg_replace("/ /", "|", $text);
+    }
+    
+    $stext = addslashes($stext);
     
     $query="SELECT * FROM
                 (SELECT * FROM
                     (SELECT * FROM
                         (SELECT * FROM
-                            (SELECT * FROM searchtable WHERE MATCH (text) AGAINST ('$textFilter' IN BOOLEAN MODE)) AS tb1
+                            (SELECT *, MATCH (text) AGAINST ('$stext' IN BOOLEAN MODE) AS relevance FROM searchtable WHERE MATCH (text) AGAINST ('$stext' IN BOOLEAN MODE) ORDER BY relevance DESC) AS tb1
                         WHERE $authorFilter) AS tb2
                     WHERE $titleFilter) AS tb3
                 WHERE featid REGEXP '$featid') AS tb4
@@ -176,7 +190,7 @@ if($num_rows > 0)
             if($text != '')
             {
                 echo '<br /><span class="aIssue">Text match found at page(s) : </span>';
-                echo '<span class="aIssue"><a href="../../Volumes/' . $row['volume'] . '/' . $row['part'] . '/index.djvu?djvuopts&amp;page=' . $row['cur_page'] . '.djvu&amp;zoom=page&amp;find=' . $textSearchBox . '/r" target="_blank">' . intval($row['cur_page']) . '</a> </span>';
+                echo '<span class="aIssue"><a href="../../Volumes/' . $row['volume'] . '/' . $row['part'] . '/index.djvu?djvuopts&amp;page=' . $row['cur_page'] . '.djvu&amp;zoom=page&amp;find=' . $dtext . '/r" target="_blank">' . intval($row['cur_page']) . '</a> </span>';
             }
             $id = $row['titleid'];
         }
@@ -184,7 +198,7 @@ if($num_rows > 0)
 
             if($text != '')
             {
-                echo '&nbsp;<span class="aIssue"><a href="../../Volumes/' . $row['volume'] . '/' . $row['part'] . '/index.djvu?djvuopts&amp;page=' . $row['cur_page'] . '.djvu&amp;zoom=page&amp;find=' . $textSearchBox . '/r" target="_blank">' . intval($row['cur_page']) . '</a> </span>';
+                echo '&nbsp;<span class="aIssue"><a href="../../Volumes/' . $row['volume'] . '/' . $row['part'] . '/index.djvu?djvuopts&amp;page=' . $row['cur_page'] . '.djvu&amp;zoom=page&amp;find=' . $dtext . '/r" target="_blank">' . intval($row['cur_page']) . '</a> </span>';
             }
             $id = $row['titleid'];
         }
