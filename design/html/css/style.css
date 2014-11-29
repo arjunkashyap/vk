@@ -293,6 +293,7 @@ Modules - reusable parts of our design
 
 .article .aAuthor{
   font-size: 16px;
+  font-weight: 400;
 }
 
 .article .aFeature{
@@ -412,7 +413,7 @@ Modules - reusable parts of our design
   vertical-align: middle;
   border-right: 1px solid #CCCCCC;
   color: #3372df !important;
-  font-weight: bold;
+  font-weight: 400;
 }
 
 .archive_search table .right{
