@@ -224,6 +224,7 @@ Modules - reusable parts of our design
   border-bottom: 1px solid #3372df;
   line-height: 2.5;
   padding-left: 20px;
+  font-weight: 400;
 }
 
 .aNumber div:last-child {
