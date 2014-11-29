@@ -145,6 +145,24 @@ function getYear($volume)
 		return( '' );
 	}
 }
+
+function getMonth($month)
+{
+	$month = preg_replace('/01/', 'January', $month);
+	$month = preg_replace('/02/', 'February', $month);
+	$month = preg_replace('/03/', 'March', $month);
+	$month = preg_replace('/04/', 'April', $month);
+	$month = preg_replace('/05/', 'May', $month);
+	$month = preg_replace('/06/', 'June', $month);
+	$month = preg_replace('/07/', 'July', $month);
+	$month = preg_replace('/08/', 'August', $month);
+	$month = preg_replace('/09/', 'September', $month);
+	$month = preg_replace('/10/', 'October', $month);
+	$month = preg_replace('/11/', 'November', $month);
+	$month = preg_replace('/12/', 'December', $month);
+	
+	return $month;
+}
 /*
 isValidTitle, isValidFeature, isValidAuthor, isValidText
 */
