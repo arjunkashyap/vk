@@ -8,6 +8,8 @@
 
 	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
 	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+	<link rel="stylesheet" href="css/jquery-ui.css" /> <!-- jQuery UI style -->
+
 	<link href="css/font-awesome-4.1.0/css/font-awesome.min.css" media="all" rel="stylesheet" type="text/css" /> <!-- Icon gallery (fontAwesome) style -->
 	<script src="js/modernizr.js"></script> <!-- Modernizr -->
 	<script src="js/jquery-2.1.1.js"></script>
