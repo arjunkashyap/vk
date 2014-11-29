@@ -15,7 +15,7 @@ $dpart = preg_replace("/\-0/", "-", $dpart);
 
 $yearMonth = getYearMonth($volume, $part);
 
-echo '<h1 class="clr1 gapBelowSmall">Archive &gt; ' . $month_name{intval($yearMonth['month'])} . ' ' . $yearMonth['year'] . ' (Volume ' . intval($volume) . ', Issue ' . $dpart . ')</h1>';
+echo '<h1 class="clr1 gapBelowSmall">Archive &gt; ' . getMonth($yearMonth['month']) . ' ' . $yearMonth['year'] . ' (Volume ' . intval($volume) . ', Issue ' . $dpart . ')</h1>';
 
 if(!(isValidVolume($volume) && isValidPart($part)))
 {
