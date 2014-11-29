@@ -308,6 +308,10 @@ Modules - reusable parts of our design
   border-left: 1px solid #be0709;
 }
 
+.author:hover{
+  box-shadow: 0 1px 5px rgba(34, 25, 25, 0.6);
+}
+
 .author .aAuthor{
   font-size: 16px;
 }
