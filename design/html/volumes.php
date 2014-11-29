@@ -29,7 +29,7 @@ if($num_rows > 0)
 			echo '<div class="year">';
 			$count = 1;
 		}
-		echo '<div id="year1" class="aIssue">' . getYear($row['volume']) . '</div>';
+		echo '<div class="clickYear aIssue" data-volume="' . $row['volume'] . '">' . getYear($row['volume']) . '</div>';
 	}
 	echo '</div>';
 }

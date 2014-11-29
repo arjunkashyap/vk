@@ -52,14 +52,6 @@ jQuery(document).ready(function($){
 		} 
 	}
 
-	$('.year .aIssue').on('click', function(){
-
-		$( '.cd-container' ).find( '.active' ).removeClass( 'active' );
-		$( '.cd-container' ).find( '.issueHolder' ).slideUp( 50 );
-		$( this ).toggleClass( 'active' );
-		$( '#issueHolder' ).slideDown( 250 );
-	});
-
 	$('nav a[href^="#"], .moreNav[href^="#"]').on("click", function(e) {
         e.preventDefault();
         var t = $(this.hash);
@@ -67,5 +59,29 @@ jQuery(document).ready(function($){
             scrollTop: t.offset().top
         }, 900, "swing")
     });
-});
 
+    $('.clickYear').on("click", function(e) {
+
+    	var clickedYear = this;
+        var volume = $( clickedYear ).attr('data-volume');
+
+		$.ajax({
+			type: "POST",
+			url: "get-parts.php?volume=" + volume,
+			dataType: "html",
+			success: function(res){
+
+				$( '.cd-container' ).find( '.active' ).removeClass( 'active' );
+				$( '.cd-container' ).find( '.issueHolder' ).slideUp( 50 );
+				$( '.cd-container' ).find( '.issueHolder' ).remove( );
+
+				$( clickedYear ).parent( '.year' ).after(res);
+				$( clickedYear ).toggleClass( 'active' );
+				$( '#issueHolder' ).slideDown( 250 );
+			},
+			error: function(e){
+				
+			}
+		});
+    });
+});
