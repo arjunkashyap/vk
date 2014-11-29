@@ -136,7 +136,7 @@ if ($num_results > 0)
 
 $result = $db->query($query); 
 $num_rows = $result ? $result->num_rows : 0;
-
+$id = 0;
 if($num_rows > 0)
 {
     while($row = $result->fetch_assoc())
@@ -150,32 +150,44 @@ if($num_rows > 0)
         
         if($result3){$result3->free();}
 
-        echo '<div class="article">';
-        echo '  <div class="gapBelowSmall">';
-        echo ($row3['feat_name'] != '') ? '     <span class="aFeature clr2"><a href="feat.php?feature=' . urlencode($row3['feat_name']) . '&amp;featid=' . $row['featid'] . '">' . $row3['feat_name'] . '</a></span> | ' : '';
-        echo '      <span class="aIssue clr5"><a href="toc.php?vol=' . $row['volume'] . '&amp;part=' . $row['part'] . '">' . $month_name{intval($row['month'])} . ' ' . $row['year'] . '  (Volume ' . intval($row['volume']) . ', Issue ' . $dpart . ')</a></span>';
-        echo '  </div>';
-        echo '  <span class="aTitle"><a target="_blank" href="../../Volumes/' . $row['volume'] . '/' . $row['part'] . '/index.djvu?djvuopts&amp;page=' . $row['page'] . '.djvu&amp;zoom=page">' . $row['title'] . '</a></span><br />';
-        if($row['authid'] != 0) {
+        if ((strcmp($id, $row['titleid'])) != 0) {
 
-            echo '  <span class="aAuthor itl">by ';
-            $authids = preg_split('/;/',$row['authid']);
-            $authornames = preg_split('/;/',$row['authorname']);
-            $a=0;
-            foreach ($authids as $aid) {
+            echo ($id == "0") ? '<div class="article">' : '</div><div class="article">';
 
-                echo '<a href="auth.php?authid=' . $aid . '&amp;author=' . urlencode($authornames[$a]) . '">' . $authornames[$a] . '</a> ';
-                $a++;
+            echo '  <div class="gapBelowSmall">';
+            echo ($row3['feat_name'] != '') ? '     <span class="aFeature clr2"><a href="feat.php?feature=' . urlencode($row3['feat_name']) . '&amp;featid=' . $row['featid'] . '">' . $row3['feat_name'] . '</a></span> | ' : '';
+            echo '      <span class="aIssue clr5"><a href="toc.php?vol=' . $row['volume'] . '&amp;part=' . $row['part'] . '">' . $month_name{intval($row['month'])} . ' ' . $row['year'] . '  (Volume ' . intval($row['volume']) . ', Issue ' . $dpart . ')</a></span>';
+            echo '  </div>';
+            echo '  <span class="aTitle"><a target="_blank" href="../../Volumes/' . $row['volume'] . '/' . $row['part'] . '/index.djvu?djvuopts&amp;page=' . $row['page'] . '.djvu&amp;zoom=page">' . $row['title'] . '</a></span>';
+            if($row['authid'] != 0) {
+
+                echo '  <br /><span class="aAuthor itl">by ';
+                $authids = preg_split('/;/',$row['authid']);
+                $authornames = preg_split('/;/',$row['authorname']);
+                $a=0;
+                foreach ($authids as $aid) {
+
+                    echo '<a href="auth.php?authid=' . $aid . '&amp;author=' . urlencode($authornames[$a]) . '">' . $authornames[$a] . '</a> ';
+                    $a++;
+                }
+
+                echo '  </span>';
             }
-            
-            echo '  </span>';
+            if($text != '')
+            {
+                echo '<br /><span class="aIssue">Text match found at page(s) : </span>';
+                echo '<span class="aIssue"><a href="../../Volumes/' . $row['volume'] . '/' . $row['part'] . '/index.djvu?djvuopts&amp;page=' . $row['cur_page'] . '.djvu&amp;zoom=page&amp;find=' . $textSearchBox . '/r" target="_blank">' . intval($row['cur_page']) . '</a> </span>';
+            }
+            $id = $row['titleid'];
         }
-        if($text != '')
-        {
-            echo '<span class="aIssue">Text match found at page(s) : </span>';
-            echo '<span class="aIssue"><a href="../Volumes/$volume/$part/index.djvu?djvuopts&amp;page=$cur_page.djvu&amp;zoom=page&amp;find=$textSearchBox/r" target="_blank">' . intval($row['cur_page']) . '</a> </span>';
+        else {
+
+            if($text != '')
+            {
+                echo '&nbsp;<span class="aIssue"><a href="../../Volumes/' . $row['volume'] . '/' . $row['part'] . '/index.djvu?djvuopts&amp;page=' . $row['cur_page'] . '.djvu&amp;zoom=page&amp;find=' . $textSearchBox . '/r" target="_blank">' . intval($row['cur_page']) . '</a> </span>';
+            }
+            $id = $row['titleid'];
         }
-        echo '</div>';
     }
 }
 else
@@ -187,6 +199,7 @@ if($result){$result->free();}
 $db->close();
 
 ?>
+                </div> <!-- article card -->
             </div> <!-- cd-container -->
         </div> <!-- cd-scrolling-bg -->
     </main> <!-- cd-main-content -->
