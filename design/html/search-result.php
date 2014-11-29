@@ -175,7 +175,7 @@ if($num_rows > 0)
 }
 else
 {
-    echo '<a href="#" class="sml clr2">Sorry! No results. Hit the back button or click here to try again.</a>';
+    echo '<a href="search.php" class="sml clr2">Sorry! No results. Hit the back button or click here to try again.</a>';
 }
 
 if($result){$result->free();}
