@@ -388,6 +388,7 @@ Modules - reusable parts of our design
   margin: 0em 0em 0em 3em;
   min-height: 30em;
   line-height: 1.5em;
+  font-size: 0.9em;
 }
 
 .archive_search table .left{
