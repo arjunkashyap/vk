@@ -427,6 +427,10 @@ Modules - reusable parts of our design
   width: 7em;
 }
 
+.count{
+  font-style: italic;
+}
+
 /* -------------------------------- 
 
 Main components 
