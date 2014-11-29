@@ -388,7 +388,7 @@ Modules - reusable parts of our design
   margin: 0em 0em 0em 3em;
   min-height: 30em;
   line-height: 1.5em;
-  font-size: 0.9em;
+  font-size: 0.9em;  
 }
 
 .archive_search table .left{
@@ -399,6 +399,7 @@ Modules - reusable parts of our design
   vertical-align: middle;
   border-right: 1px solid #CCCCCC;
   color: #3372df !important;
+  font-weight: bold;
 }
 
 .archive_search table .right{
