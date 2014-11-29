@@ -283,6 +283,10 @@ Modules - reusable parts of our design
   border-left: 5px solid #3372df;
 }
 
+.article:hover{
+  box-shadow: 0 1px 5px rgba(34, 25, 25, 0.6);
+}
+
 .article .aTitle{
   font-size: 20px;
 }
