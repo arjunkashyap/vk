@@ -971,6 +971,11 @@ Secondary Navigation
     color: #3372df;
     transition: color 0.3s ease-out;
   }
+  #cd-sec-nav li:hover{
+    color: #3372df !important;
+    border-bottom: 1px solid #3372df;
+    transition: color 0.3s ease-out;
+  }
   #cd-sec-nav.is-fixed ul {
     /* when the user scrolls down, the navigation moves to the bottom right in Fixed position - as on touch devices */
     position: fixed;
@@ -989,12 +994,18 @@ Secondary Navigation
   }
   #cd-sec-nav.is-fixed ul li {
     display: block;
+    border-bottom: 1px solid white;
   }
   #cd-sec-nav.is-fixed ul li a {
     padding: 1em 1em 1em 1.6em;
     margin-left: 0;
     border-bottom: 1px solid #eff2f6;
     font-weight: normal;
+    transition: margin 0.5s ease-out;
+  }
+  #cd-sec-nav.is-fixed ul li a:hover {
+    margin-left: 5px;
+    transition: margin 0.5s ease-out;
   }
   #cd-sec-nav ul.has-transitions {
     /* this class is used to bring back transitions when the navigation moves at the bottom right */
