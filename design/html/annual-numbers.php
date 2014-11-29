@@ -2,7 +2,7 @@
 <main class="cd-main-content">
 		<div class="cd-scrolling-bg cd-color-2">
 			<div class="cd-container">
-				<h1 class="clr1 gapBelowSmall">Annual Numbers</h1>
+				<h1 class="clr1 gapBelowSmall">Annual Numbers - Special Issues</h1>
 				<div class="aNumber">
 					<div><a href="toc.php?vol=009&amp;part=09-10">January-February 1923 (Volume 9, Issue 9-10)</a></div>
 					<div><a href="../../Volumes/009/09-10/index.djvu?djvuopts&amp;zoom=page">On the reminiscences of Swami Vivekananda</a></div>
