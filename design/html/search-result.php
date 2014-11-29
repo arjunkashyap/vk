@@ -129,7 +129,9 @@ $num_results = $result ? $result->num_rows : 0;
 
 if ($num_results > 0)
 {
-    echo '<div class="count">' . $num_results . ' result(s)</div>';
+    echo '<div class="count">' . $num_results;
+    echo ($num_results > 1) ? ' results' : ' result';
+    echo '</div>';
 }
 
 $result = $db->query($query); 
