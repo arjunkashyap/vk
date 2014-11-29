@@ -363,6 +363,11 @@ Modules - reusable parts of our design
   padding: 10px;
 }
 
+.issue .deLimiter{
+  font-size: 14px;
+  padding: 10px 0 10px 0;
+}
+
 #arrow-scroll {
   bottom: 40px;
   right: 40px;

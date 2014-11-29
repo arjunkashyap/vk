@@ -18,9 +18,12 @@ echo '<div id="issueHolder" class="issueHolder"><div class="issue">';
 
 if($num_rows > 0)
 {
+	$isFirst = 1;
 	while($row = $result->fetch_assoc())
 	{
+		echo (($row['month'] == '01') && ($isFirst == 0)) ? '<div class="deLimiter">|</div>' : '';
 		echo '<div class="aIssue"><a href="toc.php?vol=' . $volume . '&amp;part=' . $row['part'] . '">' . $month_name{intval($row['month'])} . '</a></div>';
+		$isFirst = 0;
 	}
 }
 
