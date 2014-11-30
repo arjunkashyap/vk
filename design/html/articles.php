@@ -30,7 +30,6 @@
 					<span class="letter"><a href="articles.php?letter=X">X</a></span>
 					<span class="letter"><a href="articles.php?letter=Y">Y</a></span>
 					<span class="letter"><a href="articles.php?letter=Z">Z</a></span>
-					<span class="letter"><a href="articles.php?letter=Special">#</a></span>
 				</div>
 <?php
 
@@ -59,7 +58,7 @@ else
 	$letter = 'A';
 }
 
-($letter == 'Special') ? $query = 'select * from article where title not regexp \'^[a-zA-Z].*\' order by title, volume, part, page' : $query = 'select * from article where title like \'' . $letter . '%\' order by title, volume, part, page';
+$query = 'select * from article where title like \'' . $letter . '%\' order by title, volume, part, page';
 
 $result = $db->query($query); 
 $num_rows = $result ? $result->num_rows : 0;
@@ -102,7 +101,7 @@ if($num_rows > 0)
 }
 else
 {
-	echo 'Sorry! No articles were found to begin with the letter \'' . $letter . '\' in The Vedanta Kesari';
+	echo '<span class="sml">Sorry! No articles were found to begin with the letter \'' . $letter . '\' in The Vedanta Kesari</span>';
 }
 
 if($result){$result->free();}
