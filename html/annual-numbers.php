@@ -13,23 +13,23 @@
 				</div>
 				<div class="aNumber">
 					<div><a href="toc.php?vol=039&amp;part=01">May 1952 (Volume 39, Issue 1)</a></div>
-					<div><a href="../Volumes/039/1/index.djvu?djvuopts&amp;zoom=page">International Symposium on: 'The Individual and the World Crisis'</a></div>
+					<div><a href="../Volumes/039/01/index.djvu?djvuopts&amp;zoom=page">International Symposium on: 'The Individual and the World Crisis'</a></div>
 				</div>
 				<div class="aNumber">
 					<div><a href="toc.php?vol=040&amp;part=01">May 1953 (Volume 40, Issue 1)</a></div>
-					<div><a href="../Volumes/040/1/index.djvu?djvuopts&amp;zoom=page">Symposium on: 'Is Religion anymore a Necessity for Humanity?'</a></div>
+					<div><a href="../Volumes/040/01/index.djvu?djvuopts&amp;zoom=page">Symposium on: 'Is Religion anymore a Necessity for Humanity?'</a></div>
 				</div>
 				<div class="aNumber">
 					<div><a href="toc.php?vol=041&amp;part=03">July 1954 (Volume 41, Issue 3)</a></div>
-					<div><a href="../Volumes/041/3/index.djvu?djvuopts&amp;zoom=page">Holy Mother Birth Centenary Number</a></div>
+					<div><a href="../Volumes/041/03/index.djvu?djvuopts&amp;zoom=page">Holy Mother Birth Centenary Number</a></div>
 				</div>
 				<div class="aNumber">
 					<div><a href="toc.php?vol=042&amp;part=01">May 1955 (Volume 42, Issue 1)</a></div>
-					<div><a href="../Volumes/042/1/index.djvu?djvuopts&amp;zoom=page">Religion Today in different parts of the World</a></div>
+					<div><a href="../Volumes/042/01/index.djvu?djvuopts&amp;zoom=page">Religion Today in different parts of the World</a></div>
 				</div>
 				<div class="aNumber">
 					<div><a href="toc.php?vol=043&amp;part=01">May 1956 (Volume 43, Issue 1)</a></div>
-					<div><a href="../Volumes/043/1/index.djvu?djvuopts&amp;zoom=page">Buddha and Buddhism</a></div>
+					<div><a href="../Volumes/043/01/index.djvu?djvuopts&amp;zoom=page">Buddha and Buddhism</a></div>
 				</div>
 				<div class="aNumber">
 					<div><a href="toc.php?vol=044&amp;part=04">August 1957 (Volume 44, Issue 4)</a></div>
@@ -37,47 +37,47 @@
 				</div>
 				<div class="aNumber">
 					<div><a href="toc.php?vol=045&amp;part=01">May 1958 (Volume 45, Issue 1)</a></div>
-					<div><a href="../Volumes/045/1/index.djvu?djvuopts&amp;zoom=page">Twentieth Century Religious and Devotional Lyrics</a></div>
+					<div><a href="../Volumes/045/01/index.djvu?djvuopts&amp;zoom=page">Twentieth Century Religious and Devotional Lyrics</a></div>
 				</div>
 				<div class="aNumber">
 					<div><a href="toc.php?vol=046&amp;part=01">May 1959 (Volume 46, Issue 1)</a></div>
-					<div><a href="../Volumes/046/1/index.djvu?djvuopts&amp;zoom=page">Saints of India</a></div>
+					<div><a href="../Volumes/046/01/index.djvu?djvuopts&amp;zoom=page">Saints of India</a></div>
 				</div>
 				<div class="aNumber">
 					<div><a href="toc.php?vol=047&amp;part=01">May 1960 (Volume 47, Issue 1)</a></div>
-					<div><a href="../Volumes/047/1/index.djvu?djvuopts&amp;zoom=page">Sudden Conversion of Saints to Spiritual Life</a></div>
+					<div><a href="../Volumes/047/01/index.djvu?djvuopts&amp;zoom=page">Sudden Conversion of Saints to Spiritual Life</a></div>
 				</div>
 				<div class="aNumber">
 					<div><a href="toc.php?vol=048&amp;part=01">May 1961 (Volume 48, Issue 1)</a></div>
-					<div><a href="../Volumes/048/1/index.djvu?djvuopts&amp;zoom=page">Holy Books of Influence</a></div>
+					<div><a href="../Volumes/048/01/index.djvu?djvuopts&amp;zoom=page">Holy Books of Influence</a></div>
 				</div>
 				<div class="aNumber">
 					<div><a href="toc.php?vol=050&amp;part=04">August 1963 (Volume 50, Issue 4)</a></div>
-					<div><a href="../Volumes/050/4/index.djvu?djvuopts&amp;zoom=page">Swamiji Birth Centenary Number</a></div>
+					<div><a href="../Volumes/050/04/index.djvu?djvuopts&amp;zoom=page">Swamiji Birth Centenary Number</a></div>
 				</div>
 				<div class="aNumber">
 					<div><a href="toc.php?vol=051&amp;part=01">May 1964 (Volume 51, Issue 1)</a></div>
-					<div><a href="../Volumes/051/1/index.djvu?djvuopts&amp;zoom=page">Vedanta Kesari Golden Jubilee Number.</a></div>
+					<div><a href="../Volumes/051/01/index.djvu?djvuopts&amp;zoom=page">Vedanta Kesari Golden Jubilee Number.</a></div>
 				</div>
 				<div class="aNumber">
 					<div><a href="toc.php?vol=052&amp;part=01">May 1965 (Volume 52, Issue 1)</a></div>
-					<div><a href="../Volumes/052/1/index.djvu?djvuopts&amp;zoom=page">Conception of Soul in different Schools of Thought</a></div>
+					<div><a href="../Volumes/052/01/index.djvu?djvuopts&amp;zoom=page">Conception of Soul in different Schools of Thought</a></div>
 				</div>
 				<div class="aNumber">
 					<div><a href="toc.php?vol=053&amp;part=01">May 1966 (Volume 53, Issue 1)</a></div>
-					<div><a href="../Volumes/053/1/index.djvu?djvuopts&amp;zoom=page">The Idea of God in different Faiths</a></div>
+					<div><a href="../Volumes/053/01/index.djvu?djvuopts&amp;zoom=page">The Idea of God in different Faiths</a></div>
 				</div>
 				<div class="aNumber">
 					<div><a href="toc.php?vol=060&amp;part=07">November 1973 (Volume 60, Issue 7)</a></div>
-					<div><a href="../Volumes/060/7/index.djvu?djvuopts&amp;zoom=page">Symposium on: Swamiji and Science</a></div>
+					<div><a href="../Volumes/060/07/index.djvu?djvuopts&amp;zoom=page">Symposium on: Swamiji and Science</a></div>
 				</div>
 				<div class="aNumber">
 					<div><a href="toc.php?vol=062&amp;part=09">January 1976 (Volume 62, Issue 9)</a></div>
-					<div><a href="../Volumes/062/9/index.djvu?djvuopts&amp;zoom=page">Symposium on: Dharma Sthapaka Ramakrishna</a></div>
+					<div><a href="../Volumes/062/09/index.djvu?djvuopts&amp;zoom=page">Symposium on: Dharma Sthapaka Ramakrishna</a></div>
 				</div>
 				<div class="aNumber">
 					<div><a href="toc.php?vol=063&amp;part=09">January 1977 (Volume 63, Issue 9)</a></div>
-					<div><a href="../Volumes/063/9/index.djvu?djvuopts&amp;zoom=page">Articles on Swami Vivekananda</a></div>
+					<div><a href="../Volumes/063/09/index.djvu?djvuopts&amp;zoom=page">Articles on Swami Vivekananda</a></div>
 				</div>
 				<div class="aNumber">
 					<div><a href="toc.php?vol=065&amp;part=10-11">October-November 1978 (Volume 65, Issue 10-11)</a></div>
@@ -141,7 +141,7 @@
 				</div>
 				<div class="aNumber">
 					<div><a href="toc.php?vol=080&amp;part=08-09">August-September 1993 (Volume 80, Issue 8-9)</a></div>
-					<div><a href="../Volumes/080/8-9/index.djvu?djvuopts&amp;zoom=page">World's Parliament of Religions Centennial(1893-1993) Commemorative Volume</a></div>
+					<div><a href="../Volumes/080/08-09/index.djvu?djvuopts&amp;zoom=page">World's Parliament of Religions Centennial(1893-1993) Commemorative Volume</a></div>
 				</div>
 				<div class="aNumber">
 					<div><a href="toc.php?vol=081&amp;part=11-12">November-December 1994 (Volume 81, Issue 11-12)</a></div>
