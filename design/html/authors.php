@@ -30,7 +30,6 @@
 					<span class="letter"><a href="authors.php?letter=X">X</a></span>
 					<span class="letter"><a href="authors.php?letter=Y">Y</a></span>
 					<span class="letter"><a href="authors.php?letter=Z">Z</a></span>
-					<span class="letter"><a href="authors.php?letter=Special">#</a></span>
 				</div>
 <?php
 
@@ -75,7 +74,7 @@ if($num_rows > 0)
 }
 else
 {
-	echo 'Sorry! No author names were found to begin with the letter \'' . $letter . '\' in The Vedanta Kesari';
+	echo '<span class="sml">Sorry! No author names were found to begin with the letter \'' . $letter . '\' in The Vedanta Kesari</span>';
 }
 
 if($result){$result->free();}
