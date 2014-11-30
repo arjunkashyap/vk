@@ -14,6 +14,10 @@ my $dbh=DBI->connect("DBI:mysql:database=$db;host=$host","$usr","$pwd");
 
 #vnum, number, month, year, title, feature, authid, page, 
 
+$sth11d=$dbh->prepare("DROP TABLE IF EXISTS article");
+$sth11d->execute();
+$sth11d->finish();
+
 $sth11r=$dbh->prepare("CREATE TABLE article(title varchar(500), 
 authid varchar(200),
 authorname varchar(1000),
