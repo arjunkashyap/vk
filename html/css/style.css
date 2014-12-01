@@ -596,7 +596,7 @@ Main components
 .banner{
   position: absolute;
   left: 50%;
-  top: 27.5%;
+  top: 20.5%;
   bottom: auto;
   right: auto;
   -webkit-transform: translateX(-50%) translateY(-50%);
