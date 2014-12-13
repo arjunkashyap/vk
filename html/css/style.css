@@ -378,7 +378,7 @@ Modules - reusable parts of our design
   padding: 10px 0 10px 0;
 }
 
-#arrow-scroll {
+.arrow-scroll {
   bottom: 100px;
   right: 40px;
   cursor: pointer;
