@@ -112529,7 +112529,9 @@
 				<title>Setting Right the Compass</title>
 				<feature>Editorials</feature>
 				<page>0002-0005</page>
-				<allauthors/>
+				<allauthors>
+					<author>Atmashraddhananda, Swami</author>
+				</allauthors>
 			</entry>
 			<entry>
 				<title>The Spiritual Universe of Sri Ramacharitamanas As seen through Its Two Invocatory Verses</title>
@@ -112617,7 +112619,9 @@
 				<title>A View of Life-from `Above'</title>
 				<feature>Editorials</feature>
 				<page>0046-0049</page>
-				<allauthors/>
+				<allauthors>
+					<author>Atmashraddhananda, Swami</author>
+				</allauthors>
 			</entry>
 			<entry>
 				<title>The Spiritual Universe of Sri Ramacharitamanas: As seen through Its Two Invocatory Verses</title>
@@ -112694,7 +112698,9 @@
 			<entry>
 				<title>Shraddha-the Power that Empowers Everything</title>
 				<feature>Editorials</feature>
-				<page>0086-0089</page>
+				<allauthors>
+					<author>Atmashraddhananda, Swami</author>
+				</allauthors>
 				<allauthors/>
 			</entry>
 			<entry>
@@ -112767,7 +112773,9 @@
 				<title>Waking Up</title>
 				<feature>Editorials</feature>
 				<page>0126-0129</page>
-				<allauthors/>
+				<allauthors>
+					<author>Atmashraddhananda, Swami</author>
+				</allauthors>
 			</entry>
 			<entry>
 				<title>Holy Mother's Panchatapa-the Austerity of Five-fires: A mythological Perspective</title>
@@ -112861,7 +112869,9 @@
 				<title>Some Permanent Facts About the `Impermanent'</title>
 				<feature>Editorials</feature>
 				<page>0166-0170</page>
-				<allauthors/>
+				<allauthors>
+					<author>Atmashraddhananda, Swami</author>
+				</allauthors>
 			</entry>
 			<entry>
 				<title>Relevance of Swami Vivekananda to the 21st Century</title>
@@ -112953,7 +112963,9 @@
 				<title>The Types of People</title>
 				<feature>Editorials</feature>
 				<page>0206-0208</page>
-				<allauthors/>
+				<allauthors>
+					<author>Atmashraddhananda, Swami</author>
+				</allauthors>
 			</entry>
 			<entry>
 				<title>Shri-viveka-guruvashtakam:Eight verses in praise of swami Vivekananda</title>
@@ -113047,7 +113059,9 @@
 				<title>The Power of Practice</title>
 				<feature>Editorials</feature>
 				<page>0246-0249</page>
-				<allauthors/>
+				<allauthors>
+					<author>Atmashraddhananda, Swami</author>
+				</allauthors>
 			</entry>
 			<entry>
 				<title>Swami Vivekananda's Host in London-Mystery unveiled</title>
@@ -113143,7 +113157,9 @@
 				<title>An Anatomy of Fanaticism</title>
 				<feature>Editorials</feature>
 				<page>0286-0290</page>
-				<allauthors/>
+				<allauthors>
+					<author>Atmashraddhananda, Swami</author>
+				</allauthors>
 			</entry>
 			<entry>
 				<title>Swami Sarananda in America:A Tapestry of Images</title>
@@ -113223,7 +113239,9 @@
 				<title>Dealing with the Deceptive Ego</title>
 				<feature>Editorials</feature>
 				<page>0326-0329</page>
-				<allauthors/>
+				<allauthors>
+					<author>Atmashraddhananda, Swami</author>
+				</allauthors>
 			</entry>
 			<entry>
 				<title>Swami Vivekananda's Call for Global Leadership</title>
@@ -113311,7 +113329,9 @@
 				<title>`Is it Possible?':The Question That We Ask Often</title>
 				<feature>Editorials</feature>
 				<page>0406-0409</page>
-				<allauthors/>
+				<allauthors>
+					<author>Atmashraddhananda, Swami</author>
+				</allauthors>
 			</entry>
 			<entry>
 				<title>Pilgrimage to Mount Kailash</title>
@@ -113397,7 +113417,9 @@
 				<title>A Moral Gymnasium</title>
 				<feature>Editorials</feature>
 				<page>0446-0448</page>
-				<allauthors/>
+				<allauthors>
+					<author>Atmashraddhananda, Swami</author>
+				</allauthors>
 			</entry>
 			<entry>
 				<title>Pilgrimage to Mount Kailash</title>
@@ -113495,9 +113517,11 @@
 			</entry>
 			<entry>
 				<title>The Lion of Vedanta-Its Eternal Roar</title>
-				<feature></feature>
+				<feature>Editorials</feature>
 				<page>0492-0495</page>
-				<allauthors/>
+				<allauthors>
+					<author>Atmashraddhananda, Swami</author>
+				</allauthors>
 			</entry>
 			<entry>
 				<title>The Brahmavadin:Chronicler of Early Ramakrishna Movement</title>
