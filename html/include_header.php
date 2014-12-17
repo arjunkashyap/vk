@@ -30,7 +30,7 @@
 				<li><a href="../index.html#about">About</a></li>
 				<li><a href="../index.html#editors">Editors</a></li>
 				<li><a href="../index.html#annualNumbers">Annual Numbers</a></li>
-				<li><a href="../index.html#archive">Archive</a> | <a href="articles.php">Articles</a></li>
+				<li><a href="../index.html#archive">Archive</a> | <a href="volumes.php">Years</a></li>
 			</ul>
 		</nav> <!-- cd-main-nav -->
 
