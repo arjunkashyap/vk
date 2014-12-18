@@ -485,7 +485,7 @@ Main components
   font-size: 14px;
   font-size: 0.875rem;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 930px) {
   .cd-header {
     height: 70px;
   }
@@ -530,7 +530,7 @@ Main components
   border-top: 1px solid #453c3d;
   color: #8e7d7f;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 930px) {
   .cd-main-nav {
     width: auto;
     height: auto;
@@ -556,7 +556,7 @@ Main components
   }
   .cd-main-nav li {
     display: inline-block;
-    margin-left: 1em;
+    margin-left: 0em;
   }
   .cd-main-nav a {
     display: inline-block;
@@ -576,7 +576,11 @@ Main components
     transition: color 0.3s ease-out;
   }
 }
-
+@media only screen and (min-width: 1130px) {
+  .cd-main-nav li {
+    margin-left: 1.5em;
+  }
+}
 .cd-main-content {
   /* you need to assign a min-height to the main content so that the children can inherit it*/
   height: 100%;
@@ -614,19 +618,19 @@ Main components
   position: absolute;
   bottom: auto;
   right: auto;
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  -moz-transform: translateX(-50%) translateY(-50%);
-  -ms-transform: translateX(-50%) translateY(-50%);
-  -o-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(0%) translateY(-50%);
+  -moz-transform: translateX(0%) translateY(-50%);
+  -ms-transform: translateX(0%) translateY(-50%);
+  -o-transform: translateX(0%) translateY(-50%);
+  transform: translateX(0%) translateY(-50%);
   width: 90%;
   max-width: 1170px;
   text-align: right;
   opacity: 0.4;
-  min-height: 100px;
+  min-height: 175px;
   background-color: black;
   left: 50%;
-  top: 27.5%;  
+  top: 20.5%;  
 }
 
 .bannerHalf{
@@ -639,8 +643,8 @@ Main components
   transform: translateX(0%) translateY(-50%);
   right: 10%;
   left: auto;
-  width: 30%;
-  max-width: 1170px;
+  width: 50%;
+  max-width: 377px;
   text-align: center;
   padding: 40px;
 }
@@ -649,9 +653,9 @@ Main components
   position: absolute;
   right: 10%;
   left: auto;
-  width: 30%;
+  width: 50%;
   height: 100%;
-  max-width: 1170px;
+  max-width: 377px;
   text-align: right;
   min-height: 200px;
 }
@@ -679,6 +683,11 @@ Main components
 .bgClr5{
   opacity: 0.7;
   background-color: #BEDCFF;
+}
+
+.bgClr6{
+  opacity: 0.75;
+  background-color: #fff;
 }
 
 .banner h1 {
@@ -769,28 +778,7 @@ Main components
   text-align: right !important;
 }
 
-@media only screen and (min-width: 768px) {
-  .hideIfBig{
-    display: none;
-  }
-  .banner h1 {
-    font-size: 35px;
-    color: #3d3536;
-  }
-  .bannerHalf h1 {
-    font-size: 35px;
-    color: #3d3536;
-  }
-  .banner h2 {
-    font-size: 15px;
-    color: #3d3536;
-  }
-  .bannerHalf h2 {
-    font-size: 15px;
-    color: #3d3536;
-  }
-}
-@media only screen and (min-width: 1170px) {
+@media only screen and (min-width: 930px) {
   .cd-fixed-bg {
     background-attachment: fixed;
   }
@@ -842,7 +830,7 @@ Main components
   background-color: #ffffff;
   color: #3d3536;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 930px) {
   .cd-scrolling-bg {
     padding: 6em 0;
     font-size: 20px;
@@ -942,7 +930,7 @@ Secondary Navigation
   margin-right: 3px;
   color: #3372df;
 }
-@media only screen and (min-width: 1170px) {
+@media only screen and (min-width: 930px) {
   #cd-sec-nav ul {
     /* the navigation moves to the top */
     position: absolute;
@@ -1141,7 +1129,7 @@ Secondary Navigation
   -o-transform: rotate(225deg);
   transform: rotate(225deg);
 }
-@media only screen and (min-width: 1170px) {
+@media only screen and (min-width: 930px) {
   .cd-sec-nav-trigger {
     /* the the menu triger is hidden by default on desktop devices */
     visibility: hidden;
