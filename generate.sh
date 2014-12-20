@@ -10,6 +10,9 @@ echo "drop database if exists vk; create database vk;" | /usr/bin/mysql -uroot -
 perl insert_author.pl $host $db $usr $pwd
 perl insert_feat.pl $host $db $usr $pwd
 perl insert_articles.pl $host $db $usr $pwd
+
+sh generate_html_files.sh
+
 perl ocr.pl $host $db $usr $pwd
 perl searchtable.pl $host $db $usr $pwd
 echo "create fulltext index text_index on searchtable (text);" | /usr/bin/mysql -uroot -pmysql vk
