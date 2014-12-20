@@ -67,7 +67,7 @@ jQuery(document).ready(function($){
 
 		$.ajax({
 			type: "POST",
-			url: "get-parts.php?volume=" + volume,
+			url: "volume_" + volume + ".html",
 			dataType: "html",
 			success: function(res){
 

@@ -39,7 +39,7 @@ if($num_rows > 0)
 		
 		echo '<div class="article">';
 		echo '	<div class="gapBelowSmall">';
-		echo '		<span class="aIssue clr5"><a href="toc.php?vol=' . $row['volume'] . '&amp;part=' . $row['part'] . '">' . getMonth($row['month']) . ' ' . $row['year'] . '  (Volume ' . intval($row['volume']) . ', Issue ' . $dpart . ')</a></span>';
+		echo '		<span class="aIssue clr5"><a href="toc_' . $row['volume'] . '_' . $row['part'] . '.html">' . getMonth($row['month']) . ' ' . $row['year'] . '  (Volume ' . intval($row['volume']) . ', Issue ' . $dpart . ')</a></span>';
 		echo '	</div>';
 		echo '	<span class="aTitle"><a target="_blank" href="../Volumes/' . $row['volume'] . '/' . $row['part'] . '/index.djvu?djvuopts&amp;page=' . $row['page'] . '.djvu&amp;zoom=page">' . $row['title'] . '</a></span><br />';
 		if($row['authid'] != 0) {
@@ -50,7 +50,7 @@ if($num_rows > 0)
 			$a=0;
 			foreach ($authids as $aid) {
 
-				echo '<a href="auth.php?authid=' . $aid . '&amp;author=' . urlencode($authornames[$a]) . '">' . $authornames[$a] . '</a> ';
+				echo '<a href="auth_' . $aid . '.html">' . $authornames[$a] . '</a> ';
 				$a++;
 			}			
 			echo '	</span>';

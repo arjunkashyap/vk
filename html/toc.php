@@ -47,7 +47,7 @@ if($num_rows > 0)
 		if($result3){$result3->free();}
 
 		echo '<div class="article">';
-		echo ($row3['feat_name'] != '') ? '<div class="gapBelowSmall"><span class="aFeature clr2"><a href="feat.php?feature=' . urlencode($row3['feat_name']) . '&amp;featid=' . $row['featid'] . '">' . $row3['feat_name'] . '</a></span></div>' : '';
+		echo ($row3['feat_name'] != '') ? '<div class="gapBelowSmall"><span class="aFeature clr2"><a href="feat_' . $row['featid'] . '.html">' . $row3['feat_name'] . '</a></span></div>' : '';
 		echo '	<span class="aTitle"><a target="_blank" href="../Volumes/' . $row['volume'] . '/' . $row['part'] . '/index.djvu?djvuopts&amp;page=' . $row['page'] . '.djvu&amp;zoom=page">' . $row['title'] . '</a></span><br />';
 		if($row['authid'] != 0) {
 
@@ -57,7 +57,7 @@ if($num_rows > 0)
 			$a=0;
 			foreach ($authids as $aid) {
 
-				echo '<a href="auth.php?authid=' . $aid . '&amp;author=' . urlencode($authornames[$a]) . '">' . $authornames[$a] . '</a> ';
+				echo '<a href="auth_' . $aid . '.html">' . $authornames[$a] . '</a> ';
 				$a++;
 			}
 			

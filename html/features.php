@@ -17,7 +17,7 @@ if($num_rows > 0)
 {
 	while($row = $result->fetch_assoc())
 	{
-		echo ($row['feat_name'] == '') ? '' : '<div class="author"><span class="aAuthor"><a href="feat.php?feature=' . urlencode($row['feat_name']) . '&amp;featid=' . $row['featid'] . '">' . $row['feat_name'] . '</a></div>';
+		echo ($row['feat_name'] == '') ? '' : '<div class="author"><span class="aAuthor"><a href="feat_' . $row['featid'] . '.html">' . $row['feat_name'] . '</a></div>';
 	}
 }
 
