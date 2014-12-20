@@ -14,3 +14,6 @@ php gen_authors.php
 php gen_auth.php
 php gen_features.php
 php gen_feat.php
+
+cp html/articles_01.html html/articles.html
+cp html/authors_01.html html/authors.html
