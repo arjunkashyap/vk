@@ -2,7 +2,7 @@
 
 require_once("html/connect.php");
 
-$query = "select distinct volume from article order by volume limit 1";
+$query = "select distinct volume from article order by volume";
 $result = $db->query($query); 
 $num_rows = $result ? $result->num_rows : 0;
 
@@ -21,7 +21,7 @@ for($i=1;$i<=$num_rows;$i++)
 		$part=$row2['part'];
 
 		$filename = "html/toc_" . $volume . "_" . $part . ".html";
-		echo $filename;
+
 		$cmd = 'wget "http://localhost/vk/html/toc.php?vol=' . $volume . '&part=' . $part . '" --output-document=' . $filename . ' --quiet';
 
 		system($cmd);
