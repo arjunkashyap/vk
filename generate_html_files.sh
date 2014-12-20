@@ -5,6 +5,7 @@ rm html/toc*.html
 rm html/articles*.html
 rm html/auth*.html
 rm html/feat*.html
+rm html/annual*.html
 
 php gen_volumes.php
 php gen_issues.php
@@ -14,6 +15,7 @@ php gen_authors.php
 php gen_auth.php
 php gen_features.php
 php gen_feat.php
+php gen_annual-numbers.php
 
 cp html/articles_01.html html/articles.html
 cp html/authors_01.html html/authors.html
