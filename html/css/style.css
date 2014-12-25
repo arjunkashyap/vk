@@ -578,7 +578,7 @@ Main components
 }
 @media only screen and (min-width: 1130px) {
   .cd-main-nav li {
-    margin-left: 1.5em;
+    margin-left: 1em;
   }
 }
 .cd-main-content {
@@ -765,6 +765,20 @@ Main components
   font-size: 18px !important;
 }
 
+.smaller{
+  font-size: 16px !important;
+}
+
+.smaller .hleft{
+  padding: 8px 16px 8px 0px;
+  border-bottom: 1px solid #3372df;
+}
+
+.smaller .hright{
+  padding: 8px 0px 8px 16px;
+  border-bottom: 1px solid #3372df;
+}
+
 .bld{
   font-weight: bold !important;
 }
@@ -917,6 +931,11 @@ Secondary Navigation
   -webkit-animation: cd-slide-in 0.6s;
   -moz-animation: cd-slide-in 0.6s;
   animation: cd-slide-in 0.6s;
+}
+#cd-sec-nav ul.is-visible li:nth-child(6) {
+  -webkit-animation: cd-slide-in 0.7s;
+  -moz-animation: cd-slide-in 0.7s;
+  animation: cd-slide-in 0.7s;
 }
 #cd-sec-nav li a {
   display: block;
