@@ -163,6 +163,29 @@ function getMonth($month)
 	
 	return $month;
 }
+
+function printPrevNextIssues($prev, $next)
+{
+	list($prevVolume, $prevPart) = explode(';', $prev);
+	list($nextVolume, $nextPart) = explode(';', $next);
+
+	include("connect.php");
+
+	$query = "select distinct year,month from article where volume='$prevVolume' and part='$prevPart'";
+	$result = $db->query($query);
+	$row = $result->fetch_assoc();
+	$prevYear = $row['year'];
+	$prevMonth = $row['month'];
+
+	$query = "select distinct year,month from article where volume='$nextVolume' and part='$nextPart'";
+	$result = $db->query($query);
+	$row = $result->fetch_assoc();
+	$nextYear = $row['year'];
+	$nextMonth = $row['month'];
+
+	echo 'Prev: ' . $prev . ' ' . $prevYear . ' ' . $prevMonth . '<br />';
+	echo 'Next: ' . $next . ' ' . $nextYear . ' ' . $nextMonth . '<br />';
+}
 /*
 isValidTitle, isValidFeature, isValidAuthor, isValidText
 */
