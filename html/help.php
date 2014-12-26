@@ -13,18 +13,18 @@
 					<li>List of Categories of articles (click on <span class="clr1"><a href="features.html">Features</a></span> link)</li>
 					<li>To Search for an article or words (click on <span class="clr1"><a href="search.php">Search</a></span> link)</li>
 				</ul>
-				<p>Table of contents contain hyperlinks to articles, their authors and the year/month in which they appear. Clicking on a particular article title will open the article in DjVu format. Clicking on the author's name will display the list of articles of that particular author, and these articles can then be accessed by clicking on them. Clicking on the year/month will open the table of contents of that particular issue.</p>
-				<p><span class="clr1">How to search for an article.</span><br />To search for an article click on the <span class="clr1"><a href="search.php">Search</a></span> link and enter details such as title of the article and/or its author and/or the feature and/or the period in which the article might have appeared. On clicking the <span class="clr1">Search</span> button, search result pertaining to the set of values entered, will be displayed. After opening an article, user can search through it using the plug-in search facility. (Press 'F' and enter the search term. On clicking Find next, the search term, if found will be highlighted in the article.)</p>
-				<p><span class="clr1">How to search for a word.</span><br />To search for a word or phrase in the entire archive click on the search link and enter the word in the <span class="clr fmar">Words</span> field. This facility can be used along with the facility provided to search for an article.</p>
+				<p>Table of contents contain hyperlinks to articles, their authors and the year/month in which they appear. Clicking on a particular article title will open the article in DjVu format. Clicking on the author's name will display the list of articles of that particular author, and these articles can then be accessed by clicking on their titles. Clicking on the year/month will open the table of contents of that particular issue.</p>
+				<p><span class="clr1">How to search for an article.</span><br />To search for an article click on the <span class="clr1"><a href="search.php">Search</a></span> link and enter details such as title of the article and/or its author and/or the feature and/or the period in which the article might have appeared. On clicking the Search button, search result pertaining to the set of values entered, will be displayed. After opening an article, user can search through it using the plug-in search facility. (Press 'F' and enter the search term. On clicking Find next, the search term, if found will be highlighted in the article.)</p>
+				<p><span class="clr1">How to search for a word.</span><br />To search for a word or phrase in the entire archive click on the search link and enter the word in the <span class="clr fmar">Words</span> field. This facility can be used along with the facility provided to search for an article described above.</p>
 				<p><span class="clr1">How to print a page.</span><br />Open the required page of the archive and click on File > Print. Using the Page Setup tab, printing can be customized. To print a portion of a page, export the page into a .BMP image file (Right click on the page and click on Export). The image can then be cropped  and printed using any image editing tool.</p>
 				<p class=" clr1">Troubleshooting FAQ</p>
 				<p>
 					<span class="clr1 bld">Q.</span> AutoRun fails to start the archive.<br />
-					<span class="clr1 bld">A.</span> Click on the file 'Jivan_Vikas' in the DVD drive.
+					<span class="clr1 bld">A.</span> Click on the file 'Vedanta_Kesari' in the DVD drive.
 				</p>
 				<p>
 					<span class="clr1 bld">Q.</span> A runtime error is encountered.<br />
-					<span class="clr1 bld">A.</span> Copy the entire folder 'FirefoxPortable' situated in the DVD drive to C:\ drive of your computer. Then click on the file 'jvk' in the DVD drive.
+					<span class="clr1 bld">A.</span> Copy the entire folder 'FirefoxPortable' situated in the DVD drive to C:\ drive of your computer. Then click on the file 'vk' in the DVD drive.
 				</p>
 				<p>
 					<span class="clr1 bld">Q.</span> I am able to browse through the Author-Article pages but I am unable to open any page of the archive(DjVu file).<br />

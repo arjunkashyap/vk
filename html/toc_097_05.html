@@ -8,6 +8,7 @@
 	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
 	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
 	<link rel="stylesheet" href="css/jquery-ui.css" /> <!-- jQuery UI style -->
+	<link rel="shortcut icon" type="image/ico" href="img/favicon.ico" />
 
 	<link href="css/font-awesome-4.1.0/css/font-awesome.min.css" media="all" rel="stylesheet" type="text/css" /> <!-- Icon gallery (fontAwesome) style -->
 	<script src="js/modernizr.js"></script> <!-- Modernizr -->
