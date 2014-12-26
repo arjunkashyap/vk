@@ -792,6 +792,10 @@ Main components
   text-align: right !important;
 }
 
+.dot{
+  list-style-type: disc !important;
+  margin-left: 30px;
+}
 @media only screen and (min-width: 930px) {
   .cd-fixed-bg {
     background-attachment: fixed;

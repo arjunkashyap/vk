@@ -6,7 +6,7 @@
 				<p>
 					<span class="clr1">A short desription on how to use the DVD</span><br />This DVD provides high-resolution scans of the entire collection of <span class="clr">The Vedanta Kesari,</span> which can be accessed by clicking on <span class="clr1"><a href="volumes.html">Years</a></span> link.
 				</p>
-				<ul>
+				<ul class="dot">
 					<li>Table of Contents of each month (click on <span class="clr1"><a href="volumes.html">Years</a></span> link and select a month)</li>
 					<li>List of all Article titles sorted alphabetically (click on <span class="clr1"><a href="articles.html">Titles</a></span> link)</li>
 					<li>Articles of a particular author (click on <span class="clr1"><a href="authors.html">Authors</a></span> link)</li>
