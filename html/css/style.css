@@ -796,6 +796,25 @@ Main components
   list-style-type: disc !important;
   margin-left: 30px;
 }
+
+.prevNext{
+  width: 90%;
+  margin: 0 auto;
+  color: #be0709 !important;
+}
+
+.prevNext i{
+  font-weight: bold;
+ }
+
+.prevNext .prev{
+  text-align: left;
+}
+
+.prevNext .next{
+  text-align: right;
+}
+
 @media only screen and (min-width: 930px) {
   .cd-fixed-bg {
     background-attachment: fixed;

@@ -17,8 +17,6 @@ $dpart = preg_replace("/\-0/", "-", $dpart);
 $yearMonth = getYearMonth($volume, $part);
 
 echo '<h1 class="clr1 gapBelowSmall">Archive &gt; ' . getMonth($yearMonth['month']) . ' ' . $yearMonth['year'] . ' (Volume ' . intval($volume) . ', Issue ' . $dpart . ')</h1>';
-$val = array_search($volume . ';' . $part, $issue_array);
-printPrevNextIssues($issue_array[$val - 1], $issue_array[$val + 1]);
 
 if(!(isValidVolume($volume) && isValidPart($part)))
 {
@@ -69,6 +67,9 @@ if($num_rows > 0)
 		echo '</div>';
 	}
 }
+
+$val = array_search($volume . ';' . $part, $issue_array);
+printPrevNextIssues($issue_array[$val - 1], $issue_array[$val + 1]);
 
 if($result){$result->free();}
 $db->close();
