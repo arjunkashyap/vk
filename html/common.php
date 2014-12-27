@@ -186,8 +186,12 @@ function printPrevNextIssues($prev, $next)
 	echo '
 	<table class="prevNext">
 		<tr>
-			<td class="prev"><a href="toc_' . $prevVolume . '_' . $prevPart . '.html" title="Previous Issue"><i class="fa fa-angle-left"></i>&nbsp;' . getMonth($prevMonth) . ' ' . $prevYear . '</a></td>
-			<td class="next"><a href="toc_' . $nextVolume . '_' . $nextPart . '.html" title="Next Issue">' . getMonth($nextMonth) . ' ' . $nextYear . '&nbsp;<i class="fa fa-angle-right"></i></a></td>
+			<td class="prev">';
+				echo ($prevVolume != '000') ? '<a href="toc_' . $prevVolume . '_' . $prevPart . '.html" title="Previous Issue"><i class="fa fa-angle-left"></i>&nbsp;' . getMonth($prevMonth) . ' ' . $prevYear . '</a>' : '';
+	echo	'</td>
+			<td class="next">';
+				echo ($nextVolume != '000') ? '<a href="toc_' . $nextVolume . '_' . $nextPart . '.html" title="Next Issue">' . getMonth($nextMonth) . ' ' . $nextYear . '&nbsp;<i class="fa fa-angle-right"></i></a>' : '';
+	echo	'</td>
 		</tr>
 	</table>
 	';
