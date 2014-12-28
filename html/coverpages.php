@@ -7,7 +7,7 @@
 					<span class="">A gallery of some cover pages of The Vedanta Kesari magazine through the ages.</span>
 				</p>
 				<p>
-					<span class="clr2"><a href="coverpages.html">Click here to view a gallery of pictures.</a></span>
+					<span class="clr2"><a href="pictures.html">Click here to view a gallery of pictures.</a></span>
 				</p>
 
 				<div class="image_holder">
