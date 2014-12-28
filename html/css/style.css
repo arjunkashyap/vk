@@ -563,7 +563,7 @@ Main components
     height: auto;
     line-height: normal;
     background: transparent;
-    padding: .6em 1em;
+    padding: .6em 0.8em;
     border-top: none;
     color: #3d3536;
     text-transform: uppercase;

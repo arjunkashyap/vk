@@ -31,7 +31,8 @@
 				<li><a href="../index.html#about">About</a></li>
 				<li><a href="../index.html#editors">Editors</a></li>
 				<li><a href="../index.html#annualNumbers">Annual Numbers</a></li>
-				<li><a href="../index.html#archive">Archive</a> | <a href="volumes.html">Years</a></li>
+				<li><a href="../index.html#archive">Archive</a> | <a href="volumes.html">Years</a></li>				
+				<li><a href="help.html">Help</a></li>
 			</ul>
 		</nav> <!-- cd-main-nav -->
 
@@ -44,7 +45,7 @@
 					<li><a href="authors.html"><i class="fa fa-users"></i> Authors</a></li>
 					<li><a href="features.html"><i class="fa fa-tags"></i> Features</a></li>
 					<li><a href="search.php"><i class="fa fa-search"></i> Search</a></li>
-					<li><a href="help.html"><i class="fa fa-question"></i> Help</a></li>
+					<li><a href="pictures.html"><i class="fa fa-image"></i> Pictures</a></li>
 				</ul>
 			</nav> <!-- cd-sec-main-nav -->
 		</div>
