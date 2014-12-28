@@ -244,6 +244,12 @@ Modules - reusable parts of our design
   font-size: 0.9em;
 }
 
+.coverpages{
+  width: 100%;
+  text-align: right;
+  float: right;
+}
+
 .imgSample{
   width: 100px;
   border: 10px solid #ffffff;
