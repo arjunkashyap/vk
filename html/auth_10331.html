@@ -14,6 +14,9 @@
 	<script src="js/modernizr.js"></script> <!-- Modernizr -->
 	<script src="js/jquery-2.1.1.js"></script>
 	<script type="text/javascript" src="js/jquery-ui.js"></script>
+	<script type="text/javascript" src="js/prototype.js" charset="UTF-8"></script>
+	<script type="text/javascript" src="js/scriptaculous.js?load=effects,builder" charset="UTF-8"></script>
+	<script type="text/javascript" src="js/lightbox.js" charset="UTF-8"></script>
   	
 	<title>The Vedanta Kesari</title>
 </head>
